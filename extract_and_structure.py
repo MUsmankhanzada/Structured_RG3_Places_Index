@@ -5,7 +5,7 @@ extract_and_structure.py
 End-to-end extraction and structuring pipeline for Ortsverzeichnis Vol. 3:
   1. Parses raw headwords, bracketed name variants, dioceses, and sub-entries.
   2. Merges orphan parish ('par.') records into their respective institutions.
-  3. Applies structured anomaly overrides (e.g. Pisa, Conneux, Kurzelow, Toggenburg).
+  3. Applies structured anomaly overrides (e.g. Pisa, Conneux, Kurzelow, Toggenburg, Greifswald).
   4. Removes lone alphabet divider rows.
   5. Separates cross-reference entries from substantive entries.
   6. Audits and exports any records lacking column numbers.
@@ -53,6 +53,7 @@ def format_column_numbers(num_string):
 INSTITUTION_PREFIXES = (
     "eccl.",
     "par. eccl.",
+    "(par.) eccl.",
     "capel.",
     "nova capel.",
     "mon.",
@@ -243,6 +244,25 @@ def patch_special_raw_entries(text):
     # 20. Trailing period on place names followed by role descriptors
     text = re.sub(r"\b([A-ZÄÖÜ][a-zA-Zäöüß]+)\.\s+(com\b|comes\b)", r"\1 \2", text)
 
+    # 21. Dorpat missing full stop after 400 before eccl. and typo 'thesarar.'
+    if "Dorpat" in text:
+        if "400 eccl.:" in text:
+            text = text.replace("400 eccl.:", "400. eccl.:")
+        if "thesarar." in text:
+            text = text.replace("thesarar.", "thesaurar.")
+
+    # 22. Einsiedeln erroneous colon after column 79 instead of full stop
+    if "Einsiedeln" in text and "79: mon." in text:
+        text = text.replace("79: mon.", "79. mon.")
+
+    # 23. Greifswald missing colon on (par.) eccl. s. Nicolai before sub-offices
+    if "Greifswald" in text:
+        text = re.sub(
+            r"(\(par\.\)\s*eccl\.\s*s\.\s*Nicolai)\s+(\d+)\s*;\s*(prepos\.)",
+            r"\1: \2; \3",
+            text,
+        )
+
     return text
 
 
@@ -372,7 +392,7 @@ def parse_place_header(text):
 
 
 def split_into_structural_blocks(body_text):
-    raw_blocks = re.split(r"(?<=\d)\s*\.\s+(?=[a-z])", body_text.strip())
+    raw_blocks = re.split(r"(?<=\d)\s*\.\s+(?=[a-z\(])", body_text.strip())
     blocks = []
     for blk in raw_blocks:
         blk = blk.strip().rstrip(".")
@@ -658,6 +678,54 @@ def apply_structured_place_fixes(df):
                 df.loc[idx, "Place"] = m.group(1).strip().rstrip(".")
                 df.loc[idx, "Office"] = m.group(2).strip()
                 df.loc[idx, "Column_num"] = format_column_numbers(m.group(3).strip())
+
+    # 10. Greifswald structured fallback guarantee
+    greifswald_mask = (df["Place"].astype(str).str.strip() == "Greifswald") & (
+        df["Institution"].astype(str).str.contains(r"Nicolai", na=False)
+    )
+    if greifswald_mask.any():
+        rows_data = []
+        for _, r in df[df["Place"].astype(str).str.strip() == "Greifswald"].iterrows():
+            rows_data.append(r)
+        # Check if prepos is missing its institution or not split into 3 rows
+        insts = [str(r.get("Institution", "")) for r in rows_data]
+        if not any("Nicolai" in i and r.get("Office") == "prepos." for r, i in zip(rows_data, insts)):
+            print("Applying structural guarantee for Greifswald...")
+            g_idx = df[df["Place"].astype(str).str.strip() == "Greifswald"].index
+            clean_g_rows = [
+                {
+                    "Place": "Greifswald",
+                    "Name Variant": "Gripeswoldis",
+                    "Diocese": "Camin. dioc.",
+                    "Institution": "par. eccl. s. Marie",
+                    "Office": "",
+                    "Column_num": "85",
+                    "Reference": "",
+                },
+                {
+                    "Place": "Greifswald",
+                    "Name Variant": "Gripeswoldis",
+                    "Diocese": "Camin. dioc.",
+                    "Institution": "(par.) eccl. s. Nicolai",
+                    "Office": "",
+                    "Column_num": "85",
+                    "Reference": "",
+                },
+                {
+                    "Place": "Greifswald",
+                    "Name Variant": "Gripeswoldis",
+                    "Diocese": "Camin. dioc.",
+                    "Institution": "(par.) eccl. s. Nicolai",
+                    "Office": "prepos.",
+                    "Column_num": "137",
+                    "Reference": "",
+                },
+            ]
+            start_i = g_idx[0]
+            df_dropped = df.drop(index=g_idx)
+            df = pd.concat(
+                [df_dropped.iloc[:start_i], pd.DataFrame(clean_g_rows), df_dropped.iloc[start_i:]]
+            ).reset_index(drop=True)
 
     return df
 
