@@ -1,0 +1,1 @@
+# Structured_RG3_Places_Index
