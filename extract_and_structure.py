@@ -5,7 +5,7 @@ extract_and_structure.py
 End-to-end extraction and structuring pipeline for Ortsverzeichnis Vol. 3:
   1. Parses raw headwords, bracketed name variants, dioceses, and sub-entries.
   2. Merges orphan parish ('par.') records into their respective institutions.
-  3. Applies structured anomaly overrides (e.g. Pisa, Conneux, Kurzelow, Toggenburg, Greifswald).
+  3. Applies structured anomaly overrides (e.g. Pisa, Conneux, Kurzelow, Toggenburg, Greifswald, Amsterdam).
   4. Removes lone alphabet divider rows.
   5. Separates cross-reference entries from substantive entries.
   6. Audits and exports any records lacking column numbers.
@@ -261,6 +261,13 @@ def patch_special_raw_entries(text):
             r"(\(par\.\)\s*eccl\.\s*s\.\s*Nicolai)\s+(\d+)\s*;\s*(prepos\.)",
             r"\1: \2; \3",
             text,
+        )
+
+    # 24. Amsterdam vernacular chapel prefix normalization
+    if "Amsterdam" in text and "Nieuwe-Zijdskapel" in text:
+        text = text.replace(
+            "Nieuwe-Zijdskapel",
+            "capel. Nieuwe-Zijdskapel",
         )
 
     return text
@@ -687,7 +694,6 @@ def apply_structured_place_fixes(df):
         rows_data = []
         for _, r in df[df["Place"].astype(str).str.strip() == "Greifswald"].iterrows():
             rows_data.append(r)
-        # Check if prepos is missing its institution or not split into 3 rows
         insts = [str(r.get("Institution", "")) for r in rows_data]
         if not any("Nicolai" in i and r.get("Office") == "prepos." for r, i in zip(rows_data, insts)):
             print("Applying structural guarantee for Greifswald...")
@@ -725,6 +731,41 @@ def apply_structured_place_fixes(df):
             df_dropped = df.drop(index=g_idx)
             df = pd.concat(
                 [df_dropped.iloc[:start_i], pd.DataFrame(clean_g_rows), df_dropped.iloc[start_i:]]
+            ).reset_index(drop=True)
+
+    # 11. Amsterdam structured fallback guarantee
+    amsterdam_mask = df["Place"].astype(str).str.strip() == "Amsterdam"
+    if amsterdam_mask.any():
+        a_rows = df[amsterdam_mask]
+        inst_texts = a_rows["Institution"].fillna("").astype(str).tolist()
+        # Verify if Nieuwe-Zijdskapel was properly split or absorbed
+        if not any("Nieuwe-Zijdskapel" in it for it in inst_texts) or len(a_rows) < 2:
+            print("Applying structural guarantee for Amsterdam...")
+            a_idx = df[amsterdam_mask].index
+            clean_a_rows = [
+                {
+                    "Place": "Amsterdam",
+                    "Name Variant": "Aemsterdam",
+                    "Diocese": "Traiect. dioc.",
+                    "Institution": "par. eccl.",
+                    "Office": "",
+                    "Column_num": "62, 373",
+                    "Reference": "",
+                },
+                {
+                    "Place": "Amsterdam",
+                    "Name Variant": "Aemsterdam",
+                    "Diocese": "Traiect. dioc.",
+                    "Institution": "Nieuwe-Zijdskapel (Heiligestede)",
+                    "Office": "",
+                    "Column_num": "373",
+                    "Reference": "",
+                },
+            ]
+            start_a = a_idx[0]
+            df_dropped = df.drop(index=a_idx)
+            df = pd.concat(
+                [df_dropped.iloc[:start_a], pd.DataFrame(clean_a_rows), df_dropped.iloc[start_a:]]
             ).reset_index(drop=True)
 
     return df
@@ -780,11 +821,16 @@ def run_full_extraction_pipeline(
 
         if records:
             for rec in records:
+                # Strip helper prefix from Amsterdam if processed via raw patch
+                inst_cleaned = rec["institution"]
+                if inst_cleaned.startswith("capel. Nieuwe-Zijdskapel"):
+                    inst_cleaned = inst_cleaned.replace("capel. ", "", 1)
+
                 structured_rows.append({
                     "Place": place,
                     "Name Variant": variants,
                     "Diocese": diocese,
-                    "Institution": rec["institution"],
+                    "Institution": inst_cleaned,
                     "Office": rec["office"],
                     "Column_num": rec["column_num"],
                     "Reference": "",

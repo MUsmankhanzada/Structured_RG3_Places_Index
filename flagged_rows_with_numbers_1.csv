@@ -1,9 +1,8 @@
 ﻿,Place,Name Variant,Diocese,Institution,Office,Column_num,Reference,Flag_Reason
-72,Amsterdam,Aemsterdam,Traiect. dioc.,par. eccl. 62 373. Nieuwe-Zijdskapel (Heiligestede),,373,,Digit in Institution
-650,Cöln,Colonien.,,eccl. 1100 Virginum,abbat.,346,,Digit in Institution
-651,Cöln,Colonien.,,eccl. 1100 Virginum,can.,65,,Digit in Institution
-652,Cöln,Colonien.,,eccl. 1100 Virginum,capit.,346,,Digit in Institution
-653,Cöln,Colonien.,,eccl. 1100 Virginum,vic.,198,,Digit in Institution
-789,Duurstede,Du[e]rsteden,Traiect. dioc.,,s. a. Wijk,,,Missing Column_num
-933,Flandern,Flandria,Traiect. dioc.,,4 officia,291,,Digit in Office
-2347,Osnabrück,Osnaburgen.,,capel. 1100 Virginum e. m.,,157,,Digit in Institution
+651,Cöln,Colonien.,,eccl. 1100 Virginum,abbat.,346,,Digit in Institution
+652,Cöln,Colonien.,,eccl. 1100 Virginum,can.,65,,Digit in Institution
+653,Cöln,Colonien.,,eccl. 1100 Virginum,capit.,346,,Digit in Institution
+654,Cöln,Colonien.,,eccl. 1100 Virginum,vic.,198,,Digit in Institution
+790,Duurstede,Du[e]rsteden,Traiect. dioc.,,s. a. Wijk,,,Missing Column_num
+934,Flandern,Flandria,Traiect. dioc.,,4 officia,291,,Digit in Office
+2348,Osnabrück,Osnaburgen.,,capel. 1100 Virginum e. m.,,157,,Digit in Institution
