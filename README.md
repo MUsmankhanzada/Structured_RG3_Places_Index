@@ -147,5 +147,31 @@ Performs final quality control on the substantive file (`ortsverzeichnis_vol3_no
 ```bash
 python audit_pipeline.py
 ```
-- **Input:** `ortsverzeichnis_vol3_no_references.csv`
-- **Output:** `flagged_rows_with_numbers_1.csv`
+
+### Step 6: Headword Alignment & Spelling Normalization
+
+To benchmark our extracted dataset against authority gazetteer records, we cross-referenced `ortsverzeichnis_vol3_no_references.csv` against digital place index XML files (`orte_rg3_<letter>.xml`, sections A–Z, excluding J) created by an external authority project.
+
+First, we executed the initial XML mapping audit script to scan all letter sections and surface headword mismatches between the datasets:
+
+```bash
+python xml_mapping.py
+```
+Running this preliminary string matching revealed that minor OCR/LLM spelling variations prevented matching against canonical XML headwords. Every mismatch was cross-checked directly against the physical hard-copy volume (Repertorium Germanicum, Vol. 3) to verify historical accuracy and determine whether the CSV or the XML retained the true spelling.
+
+Identified instances where OCR/LLM extraction misread historical characters or spellings, including:
+
+- `Crailheim` → `Crailsheim`
+- `Patschau` → `Patschkau`
+- `Belley` → `Bellelay`
+- `Katzenelnbogen` → `Katzenellnbogen`
+
+Once the true historical spellings were established, the verified headword alignments were applied directly to the substantive CSV using:
+```bash
+python fix_spellings.py
+```
+Finally, we re-ran the XML mapping pipeline to produce the completed, verified dataset with all aligned authority IDs populated:
+```bash
+python xml_mapping.py
+```
+
