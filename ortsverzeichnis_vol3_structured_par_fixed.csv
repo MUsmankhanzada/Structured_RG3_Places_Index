@@ -37,7 +37,7 @@ Agauen.,,,,,,St. Moritz
 Agde,Agaten.,,eccl.,prepos.,300,
 St. Ägyden bei Steinbrück,Raczach,Aquil. dioc.,par. eccl.,,313,
 Ägina,Egninen.,,,ep.,363,
-Agneyum,,? Meten. dioc.,,priorat. o. s. B.,312,
+Agneyum,,? Meten. dioc.,priorat. o. s. B.,,312,
 Agram,Zagabien.,,,ep.,284,
 Agram,Zagabien.,,eccl.,can.,284,
 Agram,Zagabien.,,,dioc.,247,
@@ -64,7 +64,7 @@ Alkmaar,Alcmaria,Traiect. dioc.,par. eccl.,,"136, 137",
 Allerheiligen,Omniusanctorum,Wratisl. dioc.,par. eccl. Omniusanctorum,,"284, 29",
 Almkerk,Almkerc,Traiect. dioc.,par. eccl.,,372,
 Alsleben,,,,,,Groß-Alsleben
-Altaich (Altach),,,,,,Ober- resp. Nieder-Altaich
+Altaich (Altach),,,,,,Oberresp. Nieder-Altaich
 Altdamm,? Damnis,Camin. dioc.,par. eccl. s. Nicolai,,147,
 Altdorf,,Argent. dioc.,mon. o. s. B.,monach.,220,
 Altdorf,Altdorff al. Engenpach,Ratisp. dioc.,par. eccl.,,91,
@@ -727,7 +727,7 @@ Ciczen.,,,,,,Zeitz
 Cilli,Cilia,,,comes,"53, 118, 170, 227, 278, 321",
 Citrum,Citren.,,,ep.,17,
 Cividale,Ciuitasaustrie,Aquil. dioc.,eccl. b. Marie,can.,228,
-Città di Castello,Ciuitascastelli,,,. ep.,63,
+Città di Castello,Ciuitascastelli,,,ep.,63,
 Clarauallis,,,,,,Georgenthal
 Clarendal,,,,,,Klarenthal
 Cleve,Cliuen.,Colon. dioc.,,com.,"79, 130",
@@ -888,7 +888,7 @@ Dalheim,Dalen,Magunt. dioc.,mon. Cist. ord.,vic. (capel.) in eccl.,"75, 367",
 Damm,Damis,Misn. dioc.,par. eccl. b. Marie,,282,
 Dammis,,,,,,"Altdamm, Damm"
 Danczk,,,,,,Danzig
-Dänemark,Dacia,,,. rex,8,
+Dänemark,Dacia,,,rex,8,
 Dänemark,Dacia,,,regina,336,
 Dänemark,Dacia,,,regnum,"21, 267",
 St. Daniel,de Sanctodaniele,Aquil. dioc.,par. eccl. s. Michaelis,,53,
@@ -925,7 +925,7 @@ Diczisow,,,,,,Deizisau
 St. Dié,de Sanctodeodato,Tullen. dioc.,eccl. s. Deodati,prepos.,85,
 St. Dié,de Sanctodeodato,Tullen. dioc.,eccl. s. Deodati,can.,"85, 215, 315, 336",
 Dieburg,"Dieppurg, Dyppurg",Magunt. dioc.,par. eccl.,,"96, 192",
-Diedenhofen,"Theonisuilla, Thimonis- uilla",Meten. dioc.,par. eccl.,,"234, 235, 342",
+Diedenhofen,"Theonisuilla, Thimonisuilla",Meten. dioc.,par. eccl.,,"234, 235, 342",
 Diembach,,,,,,Dimbach
 Dietkirchen,"Dietkerken, Dyetkerken, Dytkirchen e. m. Bnnen.",Colon. dioc.,mon. o. s. B.,subdiacon.,169,
 Dietkirchen,"Dietkerken, Dyetkerken, Dytkirchen e. m. Bnnen.",Colon. dioc.,mon. o. s. B.,can.,"104, 232",
@@ -987,7 +987,7 @@ Düsseldorf,Dusseldorpen.,Colon. dioc.,eccl. b. Marie,prepos.,45,
 Düsseldorf,Dusseldorpen.,Colon. dioc.,eccl. b. Marie,vic.,20,
 Duurstede,Du[e]rsteden,Traiect. dioc.,,dominus,368,
 Duurstede,Du[e]rsteden,Traiect. dioc.,,civit.,357,
-Duurstede,Du[e]rsteden,Traiect. dioc.,,s. a. Wijk,,
+Duurstede,Du[e]rsteden,Traiect. dioc.,,,,Wijk
 Duuelandia,,,,,,Duiveland
 Dyckennighen,,,,,,Dikninge
 "Dyetkerken, Dytkirchen",,,,,,Dietkirchen
@@ -1149,7 +1149,7 @@ Eysteten.,,,,,,Eichstädt
 Faenza,Faventin.,,,ep.,25,
 Fahr,Varemonasterium,Const. dioc.,mon. o. s. B.,prepos.,363,
 Famenne,,Leod. dioc.,,archidiacon.,173,
-Fano,Fani,,,. civit.,399,
+Fano,Fani,,,civit.,399,
 Farrnbach,Farenbach,Bamberg. dioc.,par. eccl.,,93,
 Faventin.,,,,,,Faenza
 Feistritz,Fewstritz,Salzb. dioc.,par. eccl.,,291,
@@ -1581,10 +1581,10 @@ Hartkilich,,,,,,St. Georgen
 "Hasbengau, Hasbain",Hasuan.,Leod. dioc.,,archidiacon.,29,
 Haselau,Hazelow,Bremen. dioc.,par. eccl.,,207,
 Haselünne,Haselunne,Osnab. dioc.,par. eccl.,,"214, 253",
-Haslach,"Haselacen., Hasselowe",Ar-gent. dioc.,eccl. s. Florentii (Florini),decan.,73,
-Haslach,"Haselacen., Hasselowe",Ar-gent. dioc.,eccl. s. Florentii (Florini),celeraria,73,
-Haslach,"Haselacen., Hasselowe",Ar-gent. dioc.,eccl. s. Florentii (Florini),can.,"73, 189, 215",
-Haslach,"Haselacen., Hasselowe",Ar-gent. dioc.,eccl. s. Florentii (Florini),capit.,73,
+Haslach,"Haselacen., Hasselowe",Argent. dioc.,eccl. s. Florentii (Florini),decan.,73,
+Haslach,"Haselacen., Hasselowe",Argent. dioc.,eccl. s. Florentii (Florini),celeraria,73,
+Haslach,"Haselacen., Hasselowe",Argent. dioc.,eccl. s. Florentii (Florini),can.,"73, 189, 215",
+Haslach,"Haselacen., Hasselowe",Argent. dioc.,eccl. s. Florentii (Florini),capit.,73,
 Hasselburg,Asselburg,Halberst. dioc.,capel. b. Marie,,217,
 Hasselt,,Leod. dioc.,par. eccl.,,135,
 Hassia,,,,,,Hessen
@@ -1609,7 +1609,7 @@ Hazelow,,,,,,Haselau
 Hebron,Ebronen.,,,ep.,80,
 Hedwangen,,,,,,Herdwangen
 Heelsprunna,,,,,,Heilbronn
-s’Heerhendrikskinderen,Therheynrix- kinder,Traiect. dioc.,par. eccl.,,311,
+s’Heerhendrikskinderen,Therheynrixkinder,Traiect. dioc.,par. eccl.,,311,
 Heesbeen,Haesbeen,Traiect. dioc.,capel. b. Marie super Aggere in parochia H.,,133,
 Heflein,,,,,,Höflein
 Heideck,Haydeck,Eystet. dioc.,,baron.,213,
@@ -1637,7 +1637,7 @@ Hemelum,Hemele,Traiect. dioc.,mon. s. Nicolai o. s. B.,monach.,177,
 Hemmersbach,Hemersbach,Colon. dioc.,par. eccl.,,182,
 Hemmingstedt,Hemmegstede,Bremen. dioc.,par. eccl.,,"203, 322",
 Henneberg,Hennenberg,Herbipol. dioc.,,comes,154,
-Hennegau,Hannonia,,,. com.,"31, 60, 114, 271, 279",
+Hennegau,Hannonia,,,com.,"31, 60, 114, 271, 279",
 Henrichow,,,,,,Heinrichau
 Hentern,Emptre,Trev. dioc.,par. eccl.,,258,
 Herberchtingen,,,,,,Herbrechtingen
@@ -1798,7 +1798,7 @@ Inferior-Steinach,,,,,,(Unter-)Steinach
 Inferior Trebere,,,,,,Nieder-Trebra
 Ingeleben,Jegheleue,Verden. dioc.,par. eccl. b. Marie,,122,
 Ingelheimerhausen,Ingelheimershusen,Magunt. dioc.,mon. o. s. A.,vic. in eccl.,318,
-Ingelnheim,,,,,,Ober- u. Nieder-I
+Ingelnheim,,,,,,Oberu. Nieder-I
 Inn,Enus,,,flumen,302,
 Innichen,"Indicen., Inticen.",Brixin. dioc.,eccl. s. Candidi,prepos.,170,
 Innichen,"Indicen., Inticen.",Brixin. dioc.,eccl. s. Candidi,can.,"129, 181, 279, 330, 354",
@@ -1866,7 +1866,7 @@ Keeken,"Keken, Kelken",Colon. dioc.,par. eccl.,,"135, 232",
 Kehl,Kenle,Argent. dioc.,par. eccl.,,203,
 Kelcze,,,,,,Kielce
 Kelheim,Kelham,Ratisp. dioc.,par. eccl.,,266,
-Kelheim,Kelham,Ratisp. dioc.,,libera capel. s. Johannis,102,
+Kelheim,Kelham,Ratisp. dioc.,libera capel. s. Johannis,,102,
 Kempen,,Colon. dioc.,par. eccl.,,241,
 Kempen,,Colon. dioc.,hosp. paup. et capel.,,197,
 Kempen,,Colon. dioc.,,magistercivium etc.,197,
@@ -1976,7 +1976,7 @@ Krakau,Cracov.,,ecl.,alt.,"127, 288, 302, 308",
 Krakau,Cracov.,,ecl. s. Barbare,alt.,310,
 Krakau,Cracov.,,ecl. s. Floriani e. m.,prepos.,102,
 Krakau,Cracov.,,ecl. s. Floriani e. m.,decan.,102,
-Krakau,Cracov.,,,par. ecl. s. Martini,285,
+Krakau,Cracov.,,par. ecl. s. Martini,,285,
 Krakau,Cracov.,,studium,,"289, 304",
 Krakau,Cracov.,,,presb.,302,
 Krakau,Cracov.,,,cler.,322,
@@ -1985,20 +1985,20 @@ Krakau,Cracov.,,,collector,399,
 Krakau,Cracov.,,,subcollect.,43,
 Krakau,Cracov.,,,opid.,280,
 Krakau,Cracov.,,,laici,285,
-Kralowitz,Cralouiez,Prag. dioc.,,par. ecl. s. Stephani,117,
+Kralowitz,Cralouiez,Prag. dioc.,par. ecl. s. Stephani,,117,
 Kreitz,,,,,,Gross-Kreutz
-Krems,Chrems,Patav. dioc.,,par ecl.,"273, 392",
+Krems,Chrems,Patav. dioc.,par ecl.,,"273, 392",
 Kremsmünster,Chremsmunster,Patav. dioc.,mon. o. s. B.,abb. et conv.,"50, 290",
-Kreussen,Kreusen,Bamberg. dioc.,,par. ecl.,103,
+Kreussen,Kreusen,Bamberg. dioc.,par. ecl.,,103,
 Kreuzlingen,,,,,,Konstanz
-Kreuznach,Cruczenacum,Magunt. dioc.,,par. ecl.,95,
+Kreuznach,Cruczenacum,Magunt. dioc.,par. ecl.,,95,
 Krewelsheim,,,,,,Crailsheim
 Krolip,,,,,,Crölpa
-Kronenberg,Cronenberg,Magunt. dioc.,,par. ecl.,28,
-Kronmetz,Medeziumcorone,Trident. dioc.,,par. ecl.,279,
-Kröpelin,Cropelen,Rzeb. dioc.,,par. ecl.,285,
+Kronenberg,Cronenberg,Magunt. dioc.,par. ecl.,,28,
+Kronmetz,Medeziumcorone,Trident. dioc.,par. ecl.,,279,
+Kröpelin,Cropelen,Rzeb. dioc.,par. ecl.,,285,
 Kruschwitz,"Cruszwicien., Cruschuic.",Wladisl. dioc.,ecl. s. Petri,can.,"200, 290",
-Krut,Gawbatsch al. Chrut,Patav. dioc.,,par. ecl.,401,
+Krut,Gawbatsch al. Chrut,Patav. dioc.,par. ecl.,,401,
 Kübach,Kubach,August. dioc.,mon. s. Magni o. s. B.,,10,
 Kulm,Rauhen et Schlechtin Kulm.,Ratisp. dioc.,,castra,111,
 Kulmbach,Culm[u]ach,Bamberg. dioc.,par. eccl.,,235,
@@ -2036,7 +2036,7 @@ Langres,Lingon.,,eccl.,can.,180,
 Langres,Lingon.,,,cler.,229,
 Langres,Lingon.,,,dioc.,336,
 Lanstein superior,,,,,,Oberlahnstein
-Lanthenans,,Bisuntin. dioc.,,priorat. o. s. A.,193,
+Lanthenans,,Bisuntin. dioc.,priorat. o. s. A.,,193,
 Laon,Laudunen.,,,dioc.,335,
 Latinne,Latines,Leod. dioc.,eccl.,alt.,167,
 Lathcoch,,? Const. dioc.,par. eccl.,,21,
@@ -2050,7 +2050,7 @@ Lauterbach,Luterbach,Misn. dioc.,par. eccl.,,28,
 Lautern,Lutrin,August. dioc.,par. eccl.,,124,
 Lavant,Lavantin.,,,armig.,269,
 Lavour,Vauren.,,eccl.,prepos.,228,
-Leberau,Lebraha,Argent. dioc.,,priorat. o. s. B.,275,
+Leberau,Lebraha,Argent. dioc.,priorat. o. s. B.,,275,
 Lebus,Lubucen.,,,ep.,"17, 48, 174, 190",
 Lebus,Lubucen.,,eccl.,prepos.,324,
 Lebus,Lubucen.,,eccl.,cantor.,48,
@@ -2498,12 +2498,12 @@ Metz,Meten.,,ecc. s. Saluatoris,can.,"314, 336",
 Metz,Meten.,,ecc. s. Theobaldi e. m.,can.,46,
 Metz,Meten.,,ecc. s. Theobaldi e. m.,capel.,199,
 Metz,Meten.,,ecc. s. Elamsdis (?),can.,208,
-Metz,Meten.,,,par. ecc. s. Gangulphi,"41, 46",
-Metz,Meten.,,,par. ecc. s. Gorgonii,331,
-Metz,Meten.,,,par. ecc. s. Hilarii,219,
-Metz,Meten.,,,par. ecc. s. Maximini,212,
-Metz,Meten.,,,par. ecc. s. Simplicii,"23, 101",
-Metz,Meten.,,,par. ecc. s. Victoris,"179, 229",
+Metz,Meten.,,par. ecc. s. Gangulphi,,"41, 46",
+Metz,Meten.,,par. ecc. s. Gorgonii,,331,
+Metz,Meten.,,par. ecc. s. Hilarii,,219,
+Metz,Meten.,,par. ecc. s. Maximini,,212,
+Metz,Meten.,,par. ecc. s. Simplicii,,"23, 101",
+Metz,Meten.,,par. ecc. s. Victoris,,"179, 229",
 Metz,Meten.,,capel. s. Galli,,229,
 Metz,Meten.,,capel. noue ecc. s. Johannis,,184,
 Metz,Meten.,,capel. b. Marie in domo Petri de Pairgin resp. Johannis de Velonia,,"184, 212",
@@ -2556,7 +2556,7 @@ Minorfreschelingen,,,,,,Klein-Fischlingen
 Minor Lafferde,,,,,,Klein-Lafferde
 Mintzenberg,,,,,,Drais
 Mirisdorf,Miresmestorpe,Raseb. dioc.,par. eccl.,,177,
-Miserach b. Pruntrut,Miserez b. Porrentruy; Miserium prope Pourramtrum (Pourramtin),Basil. dioc.,,priorat. o. s. A.,"194, 370",
+Miserach b. Pruntrut,Miserez b. Porrentruy; Miserium prope Pourramtrum (Pourramtin),Basil. dioc.,priorat. o. s. A.,,"194, 370",
 Misnen.,,,,,,Meissen
 Missanen,,,,ep.,195,
 Mittelbuchen,Mitlilbuchen,Magunt. dioc.,par. eccl.,,327,
@@ -2680,8 +2680,8 @@ Naumburg,Nuembergen.,,par. eccl. s. Odmari e. m.,,288,
 Naumburg,Nuembergen.,,,presb.,221,
 Naumburg,Nuembergen.,,,cler.,"202, 272, 288, 346",
 Naumburg,Nuembergen.,,,armig.,"139, 345",
-Neapel,Neapoli,,,. dom. hosp. s. Johannis Jerosol.,101,
-Nebbio,Nebien,,,. ep.,317,
+Neapel,Neapoli,,dom. hosp. s. Johannis Jerosol.,,101,
+Nebbio,Nebien,,,ep.,317,
 Negau,Negaw,Salzb. dioc.,par. eccl. b. Marie,,280,
 Neisse,Nyssa,Wratisl. dioc.,par. eccl. s. Jacobi,,"50, 113, 295",
 Neisse,Nyssa,Wratisl. dioc.,,fraternitas b. Marie,295,
@@ -3167,7 +3167,7 @@ Rambach,Vfderambach,Magunt. dioc.,capel. s. Alexii,,68,
 Ramelsoh,Ramesloen.,Bremen. dioc.,eccl.,prep. et capit.,"322, 323",
 Ramelsoh,Ramesloen.,Bremen. dioc.,eccl.,can.,236,
 Ramelsoh,Ramesloen.,Bremen. dioc.,eccl.,alt.,286,
-Ramersdorf,Ramelstorff,Frising. dioc.,,filial. eccl. b. Marie Virg.,323,
+Ramersdorf,Ramelstorff,Frising. dioc.,filial. eccl. b. Marie Virg.,,323,
 Ramsau,Romsow,Frising. dioc.,dom. ord. Herem.,,125,
 Randena,,,,,,S. Vigilio
 Rangleibin,,,,,,Ringleben
@@ -3322,7 +3322,7 @@ Rom,"Roma, Vrbs",,eccl. s. Marie maioris,can.,336,
 Rom,"Roma, Vrbs",,eccl. ss. Petri et Pauli,,305,
 Rom,"Roma, Vrbs",,mon. s. Pauli e. m.,,306,
 Rom,"Roma, Vrbs",,mon. s. Pauli e. m.,monach.,299,
-Rom,"Roma, Vrbs",,,priorat. s. Johannes Ierosol.,53,
+Rom,"Roma, Vrbs",,priorat. s. Johannes Ierosol.,,53,
 Rom,"Roma, Vrbs",,hosp. paup. b. Marie de Anima Theutonicorum,,362,
 Rom,"Roma, Vrbs",,hosp. paup. in Arenula,,212,
 Rom,"Roma, Vrbs",,,domus,25,
@@ -3954,7 +3954,7 @@ Ungarn,Hungaria,,,regnum,"17, 47, 53, 63, 69, 70, 324, 335",
 Uniejów,"Vnieuien., Vneyouien., Vnegen.",Gnezn. dioc.,eccl. (s. Floriani),prepos.,30,
 Uniejów,"Vnieuien., Vneyouien., Vnegen.",Gnezn. dioc.,eccl. (s. Floriani),can.,"200, 339",
 Uniejów,"Vnieuien., Vneyouien., Vnegen.",Gnezn. dioc.,,archidiacon.,358,
-Unter-Reitnau,"Niderratenow, Nidder- raitenow",Const. dioc.,par. eccl.,,257,
+Unter-Reitnau,"Niderratenow, Nidderraitenow",Const. dioc.,par. eccl.,,257,
 Vpdengrauen,,,,,,Bislich
 St. Urban,,Const. dioc.,mon. s. Urbani Cist. ord.,abb. et conv.,203,
 Vrbs,,,,,,Rom
@@ -4041,7 +4041,7 @@ Vallissanctemarie,,,,,,Marienstern
 "Vallisolis, Valsunna",,,,,,Sulzberg
 Vanstorff,,,,,,Fonsdorf
 Vapincen.,,,,,,Gap
-Varangéville,Warengueilla,Tullen. dioc.,,priorat. de Portu o. s. B.,159,
+Varangéville,Warengueilla,Tullen. dioc.,priorat. de Portu o. s. B.,,159,
 Varemonasterium,,,,,,Fahr
 Varnen,,,,ep.,295,
 Vauren.,,,,,,Lavour
@@ -4461,7 +4461,7 @@ Zutphen,Zutphanen.,Traiect. dioc.,eccl. s. Walburgis,vic.,"185, 241, 278",
 Zutphen,Zutphanen.,Traiect. dioc.,,cometa,"145, 188",
 Zwarzach,,,,,,Schwarzach
 Zwena,,,,,,Znin
-Zwentendorf,Czwentendorff,Patav. dioc.,,par eccl.,316,
+Zwentendorf,Czwentendorff,Patav. dioc.,par eccl.,,316,
 Zwerin.,,,,,,Schwerin
 Zwettl,Czwetel,Patav. dioc.,par. eccl.,,"339, 340",
 Zwetzko,,,,,,Schwetz

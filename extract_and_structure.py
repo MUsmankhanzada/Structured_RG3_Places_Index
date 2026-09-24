@@ -63,6 +63,21 @@ INSTITUTION_PREFIXES = (
     "studium",
     "abbatia",
     "dominus terre",
+    # --- OCR variants of "eccl." seen in the scans -------------------
+    # 'ecc.' (30x), 'ecl.' (20x) and bare 'eccl' (3x) were falling
+    # through to the Office column, leaving Institution empty for 22
+    # rows (Krakau, Metz x6, Kreussen, Kreuznach, Kronenberg, ...).
+    "ecc.",
+    "ecl.",
+    "eccl",
+    "par. ecc.",
+    "par. ecl.",
+    "par ecl.",
+    "par eccl.",
+    "secul. eccl.",
+    "filial. eccl.",
+    "libera capel.",
+    "priorat.",
 )
 
 PERSON_OR_ROLE_PREFIXES = (
@@ -131,7 +146,32 @@ PERSON_OR_ROLE_PREFIXES = (
 # 3. RAW-LEVEL PATCHES
 # ==============================================================================
 
+def rejoin_ocr_linebreaks(text):
+    """
+    Rejoin words split across a printed line break:
+
+        'Thimonis- uilla'    -> 'Thimonisuilla'
+        'Therheynrix- kinder'-> 'Therheynrixkinder'
+        'Nidder- raitenow'   -> 'Nidderraitenow'
+
+    Restricted to lowercase-to-lowercase with nothing in between, so real
+    German compound ellipses are left alone:
+
+        'Grafen- oder Holz-Tr.? Trawpach'   (unchanged - 'oder' follows)
+    """
+    return re.sub(
+        r"(?<=[a-z\u00e4\u00f6\u00fc\u00df])-\s+"
+        r"(?!(?:oder|und|bzw|od)\b)"          # keep German compound ellipses
+        r"(?=[a-z\u00e4\u00f6\u00fc\u00df])",
+        "",
+        text,
+    )
+
+
 def patch_special_raw_entries(text):
+    # 0. Rejoin OCR line-break hyphens before any other patch runs
+    text = rejoin_ocr_linebreaks(text)
+
     # 1. Zürich inverted provost/dedication patch
     if "Zürich" in text and "prepos. ss. Felicis et Regule:" in text:
         text = text.replace(
@@ -299,6 +339,20 @@ def parse_place_header(text):
         ref = cross_match.group(2).strip().rstrip(".")
         return place, "", "", "", ref
 
+    # Rule 1b: trailing "s. a. <Target>" (siehe auch / see also).
+    # Without this the clause was parsed as an office, e.g. Duurstede
+    # ended up with Office "s. a. Wijk" and no column number at all.
+    # It is stripped here and returned as a reference; the body in front
+    # of it is still parsed normally by the rules below.
+    see_also = re.search(r"[.;,]?\s*\bs\.\s*a\.\s+(.+?)\.?\s*$", text)
+    if see_also:
+        see_also_ref = see_also.group(1).strip().rstrip(".")
+        remaining = text[: see_also.start()].strip()
+        if remaining:
+            place, variants, diocese, body, _ = parse_place_header(remaining)
+            return place, variants, diocese, body, see_also_ref
+        return text.strip().rstrip("."), "", "", "", see_also_ref
+
     all_descriptors = sorted(
         list(INSTITUTION_PREFIXES) + list(PERSON_OR_ROLE_PREFIXES),
         key=len,
@@ -348,7 +402,7 @@ def parse_place_header(text):
             bracket_content = text[
                 first_paren_idx + 1 : matching_close_idx
             ].strip()
-            body = text[matching_close_idx + 1 :].strip()
+            body = text[matching_close_idx + 1 :].lstrip(". ").strip()
         else:
             bracket_content = text[first_paren_idx + 1 :].strip()
             body = ""
@@ -806,6 +860,22 @@ def run_full_extraction_pipeline(
         place, variants, diocese, body, cross_ref = parse_place_header(raw_text)
 
         if cross_ref:
+            # A pure "Place v. Target." entry has no body. A trailing
+            # "s. a. <Target>" does: Duurstede carries 'dominus 368' and
+            # 'civit. 357' in front of its see-also. Emit those substantive
+            # rows first, then one row holding the reference, so neither is
+            # lost when the two output files are split on Reference.
+            for rec in parse_body_institutions_and_offices(body):
+                structured_rows.append({
+                    "Place": place,
+                    "Name Variant": variants,
+                    "Diocese": diocese,
+                    "Institution": rec["institution"],
+                    "Office": rec["office"],
+                    "Column_num": rec["column_num"],
+                    "Reference": "",
+                })
+
             structured_rows.append({
                 "Place": place,
                 "Name Variant": variants,
