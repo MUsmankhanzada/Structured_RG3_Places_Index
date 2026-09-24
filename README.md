@@ -246,15 +246,3 @@ python xml_mapping.py
 > **Ordering matters.** `fix_spellings.py` must run *between* the two `xml_mapping.py` passes. Skipping it costs roughly 40 alignments, because unnormalized headwords — `Belley`, `Crailheim`, `Bönsell`, `Berghem`, `Cittá di Castello` — no longer match their authority entries. The symptom is a sudden drop in populated `ort_id` with no change in row count.
 
 ---
-
-## 3) Expected Final Counts
-
-| Metric | Value |
-|---|---|
-| Substantive rows (`no_references`) | 3,543 |
-| Rows aligned to an authority `ort_id` | 3,516 |
-| Rows with `Institution` populated | 2,590 |
-| Rows with `Office` populated | 2,313 |
-| Rows with `Diocese` populated | 2,073 |
-
-Before the Audit Round 2 patches these stood at 3,544 / 3,517 / 2,565 / 2,339. The net change of one row is the *Duurstede* see-also record correctly relocating to `references_only`; the shift between `Institution` and `Office` is the `par. ecl.` reassignment.
