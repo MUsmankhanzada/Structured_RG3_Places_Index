@@ -1,0 +1,931 @@
+﻿ort_id,Place,Name Variant,Diocese,Institution,Office,Column_num,Reference
+10300007,Aczmanstorff,,,,,,Azmannsdorf
+10300009,Adewoert,,,,,,Adwert
+10300010,Adlefsen,,,,,,Azum
+10300015,Aemps,,,,,,Ems
+10300017,Agauen.,,,,,,St. Moritz
+10300027,Alamannia,,,,,,Deutschland
+10300028,Alba,,,,,,Herrenalb
+10300033,Alcmaria,,,,,,Alkmaar
+10300034,Aldenburg,,,,,,Altenburg
+10300035,Aldensalen. (Aldenzalen),,,,,,Oldenzaal
+10300043,Alsleben,,,,,,Groß-Alsleben
+10300044,Altaich (Altach),,,,,,Oberresp. Nieder-Altaich
+10300050,Altenromhilt,,,,,,Römhild
+10300060,Anania,,,,,,Nonsberg
+10300061,Anasum,,,,,,Enns
+10300062,Andegauien.,,,,,,Angers
+10300063,Andelac.,,,,,,Andlau
+10300064,Andenoys,,,,,,Adensen
+10300066,Andgardaw,,,,,,Stams
+10300068,Angarien.,,,,,,Enger
+10300071,Anglia,,,,,,England
+10300076,Antiqua Vlissinghen,,,,,,Vlissinghen
+10300080,Aquen.,,,,,,"Aachen, Aix"
+10300082,Aquisgran.,,,,,,Aachen
+10300086,Aresdorf,,,,,,Arsdorf
+10300088,Argentin.,,,,,,Strassburg
+10300091,Arimin.,,,,,,Rimini
+10300095,Arnoldshof,,,,,,Rottweil
+10300104,Asselburg,,,,,,Hasselburg
+10300105,Assinden.,,,,,,Essen
+10300107,Athesis,,,,,,Etsch
+10300112,Attersdorf,,,,,,Ottersdorf
+10300116,Au,,,,,,St. Maria in Au
+10300121,Augea,,,,,,Aub
+10300122,Augia,,,,,,Breisach
+10300123,Augia maior,,,,,,Reichenau
+10300125,Augusten.,,,,,,"Aosta, Augsburg"
+10300126,Aulon,,,,,,Aalen
+10300127,Austria,,,,,,Österreich
+10300129,Auwe,,,,,,Aub
+10300130,Aueld,,,,,,Alfeld
+10300132,Aw,,,,,,Au
+10300133,Awgia,,,,,,Gries
+10300134,Awrbach,,,,,,Auerbach
+10300135,Aych,,,,,,Aich
+10300136,Aycurien.,,,,,,Incourt
+10300143,Baiocen.,,,,,,Bayeux
+10300147,Barcholte,,,,,,Borgholz
+10300158,Beben.,,,,,,Hilvarenbeek
+10300160,Becerie,,,,,,Bessières
+10300168,Behringen,,,,,,Gross-Behringen
+10300170,Beken,,,,,,Beckum
+10300172,"Belheem, Belheim",,,,,,Beelhem
+10300173,Belle,,,,,,Buschbell
+10300176,Belrebeke,,,,,,Billerbeck
+10300177,Beluacen.,,,,,,Beauvais
+10300178,Benhusen,,,,,,Beenhausen
+10300180,Bercgungin,,,,,,Birkungen
+10300181,Berchlande,,,,,,Ferchland
+10300187,"Bergem, Bergen, Berghen",,,,,,Waldberghem
+10300189,Berghe superior,,,,,,Oberberge
+10300202,Bersabea,,,,,,Bir Seba
+10300207,Besekow,,,,,,Beeskow
+10300209,Bethlehem,,,,,,Beelhem
+10300211,Beydbur,,,,,,Bedburg
+10300212,Beydburreyfercheyt,,,,,,Bedburg
+10300222,Bintbuch,,,,,,Vimbuch
+10300225,Birtirkilch,,,,,,Mengen
+10300232,Bisuntin.,,,,,,Besançon
+10300233,Biterren.,,,,,,Béziers
+10300240,Blidersdorff,,,,,,Plittersdorf
+10300241,Blisien.,,,,,,Münsterbilsen
+10300242,Blittersdorf,,,,,,Plittersdorf
+10300245,Bochout,,,,,,Bouchout
+10300248,Bodicz,,,,,,Poditz
+10300251,Boffisheim,,,,,,Boofzheim
+10300254,"Bolsanum, Bolza",,,,,,Bozen
+10300258,Bononien.,,,,,,Bologna
+10300259,Bonsidel,,,,,,Wunsiedel
+10300263,Borgestad,,,,,,Bürgstadt
+10300269,Bortschetum,,,,,,Burtscheid
+10300271,Bos,,,,,,Boos
+10300275,Boydinghen,,,,,,Bodingen
+10300282,Brambach,,,,,,Brombach
+10300286,Brankenheim,,,,,,Blankenheim
+10300289,Bredenes,,,,,,Bröns
+10300290,Bregen,,,,,,Brieg
+10300291,Bregenzer Wald,,,,,,Schwarzenberg
+10300301,Bretzen,,,,,,Treuenbrietzen
+10300302,Breusch,,,,,,Strassburg
+10300305,Brisac.,,,,,,Breisach
+10300306,Briseke,,,,,,Breisig
+10300307,Brisgaudia,,,,,,Breisgau
+10300310,Brixien,,,,,,Brescia
+10300311,Broke,,,,,,zum Bruche
+10300316,Bruberg,,,,,,Brenberg
+10300321,Brunbach,,,,,,Brunnbach
+10300322,Brunenwiler,,,,,,Braunenweiler
+10300323,Brunswicen.,,,,,,Braunschweig
+10300324,Brusca,,,,,,Strassburg
+10300333,Buczowen.,,,,,,Bützow
+10300334,Budeken,,,,,,Böddeken
+10300336,Budissin,,,,,,Bautzen
+10300339,Bunnen.,,,,,,Bonn
+10300340,Buochow,,,,,,Buchau
+10300346,Burgund (Burgundia),,,,,,"Bauaria, dux, ducissa"
+10300349,Buscoducis,,,,,,Herzogenbusch
+10300355,Cabilonen.,,,,,,Châlons s. S
+10300356,Caldarium,,,,,,Kaltern
+10300357,Caluusmons,,,,,,Kahlberg
+10300358,Cambia,,,,,,Cham
+10300363,Campen.,,,,,,Kampen
+10300364,Campidona,,,,,,Kempten
+10300365,Campinia,,,,,,Kempen
+10300366,Capella,,,,,,Kappel
+10300367,Cappirnick,,,,,,Köppernig
+10300369,Caputferrarum,,,,,,Thierhaupten
+10300370,Carelburg,,,,,,Karlb urg
+10300371,Carelstad,,,,,,Karlstadt
+10300373,Carnoten.,,,,,,Chartres
+10300374,Casiacum,,,,,,Chézy-sur-Marne
+10300376,Cathalaun.,,,,,,Châlons s. M
+10300378,Cellabernhardi,,,,,,Bernhardszell
+10300379,Celle,,,,,,Zell
+10300381,Cempniczen.,,,,,,Chemnitz
+10300382,Cernay,,,,,,Vaux-de-Cernay
+10300383,Cerpen.,,,,,,Kerpen
+10300384,Cesarea,,,,,,Kaisheim
+10300393,Chiems,,,,,,Kiens
+10300395,Chochem,,,,,,Kochem
+10300396,Chocz,,,,,,Kötsch
+10300397,Chodwicum,,,,,,Göttweih
+10300398,Chrems,,,,,,Krems
+10300399,Chremsmunster,,,,,,Kremsmiünster
+10300401,Chrut,,,,,,Krut
+10300403,Chulich,,,,,,Kilb
+10300405,Cicz,,,,,,Seitsch
+10300406,Ciczen.,,,,,,Zeitz
+10300411,Clarauallis,,,,,,Georgenthal
+10300412,Clarendal,,,,,,Klarenthal
+10300415,Clingenberg,,,,,,Klingenberg
+10300416,"Clodawa, Clodobea",,,,,,Klodawa
+10300417,Cloppe,,,,,,Klopp
+10300424,Colocen.,,,,,,Kalocsa
+10300425,Columbarien.,,,,,,Colmar
+10300426,Concheyum,,,,,,Conneux
+10300428,Confluentia,,,,,,Coblenz
+10300429,Congestorp,,,,,,Groß-Königsdorf
+10300432,Constantien.,,,,,,Konstanz
+10300433,Corbien.,,,,,,Korvey
+10300437,Cracovien.,,,,,,Krakau
+10300439,Cralouiez,,,,,,Kralowitz
+10300441,Crempschicz,,,,,,Chrzumczütz
+10300443,Cristinopolitan.,,,,,,Christianopolis
+10300445,Cronenberg,,,,,,Kronenberg
+10300446,Cropelen,,,,,,Kröpelin
+10300448,Cruczeborchis,,,,,,Creuzburg
+10300449,Cruczenacum,,,,,,Kreuznach
+10300450,"Cruszwicien., Cruschuicen.",,,,,,Kruschwitz
+10300451,Crutzlingen,,,,,,Konstanz
+10300452,Cuba,,,,,,Caub
+10300454,Culm(u)ach,,,,,,Kulmbach
+10300456,Curien.,,,,,,Chur
+10300458,Curten,,,,,,Kürten
+10300459,Curzelouien.,,,,,,Kurzelow
+10300460,Cycen.,,,,,,Zeitz
+10300461,Cymbria,,,,,,Cembra
+10300462,Czabelstein,,,,,,Zabelstein
+10300463,Czaken,,,,,,(Kl.) Zacken
+10300464,Czarnotzin,,,,,,Schwarzhof
+10300465,Czegenhals,,,,,,Ziegenhals
+10300466,Czel,,,,,,Ried
+10300467,Czelking,,,,,,Zelking
+10300468,Czeolfinghen,,,,,,Zeholfing
+10300469,Czicen.,,,,,,Zeitz
+10300470,Czolrn,,,,,,Zollern
+10300471,Czwentendorff,,,,,,Zwentendorf
+10300472,Czwetel,,,,,,Zwettl
+10300473,Czwickow,,,,,,Zwickau
+10300474,Czwifaltingen,,,,,,Zwiefalten
+10300479,Dammis,,,,,,"Altdamm, Damm"
+10300480,Danczk,,,,,,Danzig
+10300483,Dankirichen,,,,,,Thannkirchen
+10300487,Dauentrien.,,,,,,Deventer
+10300488,Deck,,,,,,Teck
+10300490,Dellingen,,,,,,Dillingen
+10300494,Derdessen(m),,,,,,Dardesheim
+10300499,Diczisow,,,,,,Deizisau
+10300503,Diembach,,,,,,Dimbach
+10300515,Dobberlawen.,,,,,,Dobrilugk
+10300520,Dognen.,,,,,,Dagne
+10300526,Donyn,,,,,,Dohna
+10300533,Doueren,,,,,,Doeeren
+10300538,Dreyse,,,,,,Drais
+10300541,Drybilsheim,,,,,,Büdisheim
+10300543,Duersteden,,,,,,Duurstede
+10300551,Dursten,,,,,,Dorsten
+10300552,Durstede,,,,,,Duurstede
+10300555,Duuelandia,,,,,,Duiveland
+10300556,Dyckennighen,,,,,,Dikninge
+10300557,"Dyetkerken, Dytkirchen",,,,,,Dietkirchen
+10300558,Dyppurg,,,,,,Dieburg
+10300559,Dyttramczell,,,,,,Dietramszell
+10300568,Ebettingen,,,,,,Ewattingen
+10300571,Ebronen.,,,,,,Hebron
+10300576,Eckchirchen,,,,,,Ehekirchen
+10300578,Eduen.,,,,,,Autun
+10300582,Egninen,,,,,,Ägina
+10300585,Ehenheim,,,,,,Nieder-Ehnheim
+10300592,Ekk,,,,,,Eck
+10300593,Eknach,,,,,,Ecknach
+10300596,Electen.,,,,,,Alet
+10300604,Embricen.,,,,,,Emmerich
+10300608,Emmeracen.,,,,,,Embrach
+10300611,Emptre,,,,,,Hentern
+10300615,Engenpach,,,,,,Altdorf
+10300621,Enus,,,,,,Inn
+10300622,Enybergs,,,,,,Enneberg
+10300623,Enzersdorff,,,,,,Groß-Enzersdorff
+10300624,Episcopaliscella,,,,,,Bischofszell
+10300627,Epternac.,,,,,,Echternach
+10300628,Erclens,,,,,,Erkelenz
+10300630,Ergoye,,,,,,Aargau
+10300632,Erich,,,,,,Groß-Erich
+10300642,Escow,,,,,,Eschau
+10300651,Eycbergh,,,,,,Eibergen
+10300652,Eyfflie,,,,,,Münstereifel
+10300653,Eysteten.,,,,,,Eichstädt
+10300659,Faventin.,,,,,,Faenza
+10300661,Feitzhochheim,,,,,,Veitshöchheim
+10300662,Feltren.,,,,,,Belluno
+10300665,Fewstritz,,,,,,Feistritz
+10300669,Fischlingen,,,,,,Klein-Fischlingen
+10300678,Fonssalutis,,,,,,Heilsbronn
+10300682,Forstenwalde,,,,,,Fürstenwalde
+10300685,Francia,,,,,,Frankreich
+10300688,Frankenuorde,,,,,,Frankfurt a. O
+10300701,Frequentin.,,,,,,Frigento
+10300702,Fresha,,,,,,Friesland
+10300703,Freynstat,,,,,,Freistadt
+10300704,Fribergh,,,,,,Freiberg
+10300705,"Friborch, Friburgh, Friburgum",,,,,,Freiburg i. Br
+10300710,Frisacen.,,,,,,Friesach
+10300711,Frisenhouen,,,,,,Friesenhofen
+10300712,Frisia,,,,,,Friesland
+10300715,Fryburg,,,,,,Freiburg i. Br
+10300723,Gabene,,,,,,Gavnö
+10300730,Gallepaltental,,,,,,Paltental
+10300731,Gamundien.,,,,,,Gmünd
+10300734,Ganden.,,,,,,Gmünd
+10300740,Gassaw,,,,,,Gossau
+10300742,Gaudiacum,,,,,,Jouy sur Morin
+10300744,Gawbatsch,,,,,,Krut
+10300752,Geispisheim,,,,,,Gabsheim
+10300757,Gensen,,,,,,Jeinsen
+10300765,Gerwelingherode,,,,,,Gerblingerode
+10300771,Geych,,,,,,Geich
+10300772,Geynsen,,,,,,Jeinsen
+10300773,Geyrn,,,,,,Geiern
+10300774,Geysmar,,,,,,Hofgeismar
+10300775,Ghan,,,,,,Gand
+10300776,Gheeruliet,,,,,,Geervliet
+10300777,Gheismaer,,,,,,"Geismar, Hofgeismar"
+10300778,Gherenrode,,,,,,Gernrode
+10300779,Gheruliet,,,,,,Geervliet
+10300780,Gheske,,,,,,Geseke
+10300781,Gheueldehusen,,,,,,Gieboldehausen
+10300782,Gheyspolsheim,,,,,,Geispolsheim
+10300783,Ghisenkirchen,,,,,,Giesenkirchen
+10300784,Ghrebukesrode,,,,,,Gräfenroda
+10300791,Gila,,,,,,Gail
+10300793,Gisenhein,,,,,,Giesenhain
+10300801,Glossenberg,,,,,,Neuenstadt
+10300808,Goele,,,,,,Geul
+10300827,Graedwein,,,,,,Gratwein
+10300830,Grafentraubach,,,,,,Traubach
+10300834,Gratianopolis,,,,,,Grenoble
+10300839,Gremthartsteten,,,,,,Grammastetten
+10300841,Grenszen,,,,,,Grzendzin
+10300847,Grifenstein,,,,,,Greiffenstein
+10300848,Gripeswoldis,,,,,,Greifswald
+10300849,Grissaw,,,,,,Grüssau
+10300862,Gruden,,,,,,Groden
+10300867,"Grussen., Gruszen.",,,,,,Greussen
+10300871,Gudesberg,,,,,,Godesberg
+10300872,Gugenheim,,,,,,Jugenheim
+10300885,Gyegoizewo,,,,,,Grzegorzewo
+10300886,Gymunghen,,,,,,Gimingen
+10300891,Haenau,,,,,,Hanau
+10300892,Haesbeen,,,,,,Heesbeen
+10300893,Hag,,,,,,Haag
+10300897,Hagha,,,,,,Haag
+10300900,Haimertingen,,,,,,Heimertingen
+10300904,Haldelene,,,,,,Hadeln
+10300908,Halle,,,,,,Schwäbisch-Hall
+10300913,Halsprunn,,,,,,Heilsbronn
+10300920,Hannonia,,,,,,Hennegau
+10300922,Harbeysen,,,,,,Herbitzheim
+10300924,Harggerswiler,,,,,,Hergensweiler
+10300928,Hartkilich,,,,,,St. Georgen
+10300935,Hassia,,,,,,Hessen
+10300937,Hasuan.,,,,,,Hasbengau
+10300939,Haug,,,,,,Würzburg
+10300943,de Hayaualteri,,,,,,Altenmünster
+10300944,Haydeck,,,,,,Heideck
+10300945,Haydolffing,,,,,,Haidelfing
+10300946,Hazelow,,,,,,Haselau
+10300948,Hedwangen,,,,,,Herdwangen
+10300949,Heelsprunna,,,,,,Heilbronn
+10300952,Heflein,,,,,,Höflein
+10300956,Heilgarten,,,,,,Hallgarten
+10300959,Heilighestede,,,,,,Amsterdam
+10300972,Henrichow,,,,,,Heinrichau
+10300974,Herberchtingen,,,,,,Herbrechtingen
+10300976,Herbipolen.,,,,,,Würzburg
+10300983,Heremitarum,,,,,,Einsiedeln
+10300986,Hergesheim,,,,,,Herchesheim
+10300988,Herisien.,,,,,,Neuen-Heerse
+10300991,Heroldisdorf,,,,,,Herischdorf
+10300996,Hersfelde,,,,,,Harsefeld
+10300997,Herswideshusen,,,,,,Hardehausen
+10301000,Herwolczheim,,,,,,Herbolzheim
+10301004,Hesterkirch,,,,,,Heisterkirch
+10301005,Heylprun,,,,,,Heilbronn
+10301007,Hilbersheni,,,,,,Waldhilbersheim
+10301008,Hilda,,,,,,Eldena
+10301010,Hilghendal,,,,,,Heilgenthal
+10301029,Holztraubach,,,,,,Traubach
+10301031,Homsber,,,,,,Ansperg
+10301038,Houhem,,,,,,Hofheim
+10301041,Hoyen.,,,,,,Huy
+10301043,Hugard,,,,,,Hougaerde
+10301047,Hungaria,,,,,,Ungarn
+10301049,Huxarien.,,,,,,Höxter
+10301053,Ibbs,,,,,,Ybbs
+10301054,Ibsa,,,,,,Ips
+10301056,Jegheleue,,,,,,Ingeleben
+10301059,Jeropolitan.,,,,,,Hieropolis
+10301061,Jhene,,,,,,Jena
+10301065,Imbr(i)ac,,,,,,Embrach
+10301069,Inden.,,,,,,Cornelimünster
+10301070,Indicen.,,,,,,Innichen
+10301071,Inferioraltha,,,,,,Niederaltaich
+10301072,Inferior Bauaria,,,,,,Bayern
+10301073,Inferior Ingelnheim,,,,,,Nieder-Ingelheim
+10301074,Inferior-Steinach,,,,,,(Unter-)Steinach
+10301075,Inferior Trebere,,,,,,Nieder-Trebra
+10301078,Ingelnheim,,,,,,Oberu. Nieder-I
+10301082,Insa,,,,,,Ybbs
+10301083,Insula b. Marie,,,,,,Marienwaard
+10301084,Inticen.,,,,,,Innichen
+10301090,Iselsteyn,,,,,,Isselstein
+10301092,Isenac.,,,,,,Eisenach
+10301096,Iserleue,,,,,,Eisleben
+10301098,Isleyben,,,,,,Eisleben
+10301117,Kalyc,,,,,,Kaliess
+10301118,Kamenecen.,,,,,,Caminiecz
+10301123,Karlow,,,,,,Carlow
+10301126,Kaspaldshouen,,,,,,Gaspoltzhoven
+10301132,Kelcze,,,,,,Kielce
+10301136,Kempnicz,,,,,,Chemnitz
+10301138,Kenle,,,,,,Kehl
+10301153,Kiritz,,,,,,Kyritz
+10301176,Kothebus,,,,,,Cottbus
+10301180,Kreitz,,,,,,Gross-Kreutz
+10301184,Kreuzlingen,,,,,,Konstanz
+10301186,Krewelsheim,,,,,,Crailsheim
+10301187,Krolip,,,,,,Crölpa
+10301196,Kungsdorff,,,,,,Königsdorf
+10301197,Kungsuelt,,,,,,Königsfelden
+10301198,Kungzbrunnen,,,,,,Königsbrunn
+10301199,Kunigsperg,,,,,,Königsberg
+10301204,Kyppenhusen,,,,,,Kippenhausen
+10301208,Lacus s. Marie,,,,,,Filehne
+10301209,Lafferde,,,,,,Klein-Lafferde
+10301211,Lakchirchen,,,,,,Laakirchen
+10301213,Lancicia,,,,,,Lentschitz
+10301219,Langherke,,,,,,Lengerich
+10301221,Lanstein superior,,,,,,Oberlahnstein
+10301226,Laudunen.,,,,,,Laon
+10301238,Ledro,,,,,,Valle di Ledro
+10301239,Legnicen.,,,,,,Liegnitz
+10301247,Leodien.,,,,,,"Lüttich, Pont-à-Mousson"
+10301248,Leodri,,,,,,Valle di Ledro
+10301252,Leuczenprunn,,,,,,Leuzenbronn
+10301258,Lewben,,,,,,Leoben
+10301259,Lewbensdorff,,,,,,Leobendorf
+10301260,Lewbs,,,,,,Leubs
+10301261,Lewenberg,,,,,,Löwenberg
+10301262,Lewkental,,,,,,Leukenthal
+10301264,Lexouien.,,,,,,Lisieux
+10301271,Liden.,,,,,,Lydda
+10301274,Liechtenberd,,,,,,Lichtenwerden
+10301277,Liiche,,,,,,Lich
+10301278,Linach,,,,,,Leinach
+10301283,"Lipczen., Lipczk",,,,,,Leipzig
+10301288,Lisko,,,,,,Lieskow
+10301292,Lo,,,,,,Lohe
+10301298,Longawola,,,,,,Wola
+10301300,Lopham,,,,,,Laupheim
+10301304,Loss,,,,,,Grath
+10301308,Lowfen,,,,,,Laufen
+10301313,Lubens,,,,,,Leubus
+10301315,Lubicen.,,,,,,Lübeck
+10301317,Lubucen.,,,,,,Lebus
+10301319,Lucenburg,,,,,,Luxemburg
+10301320,Lucidauallis,,,,,,Lichtenthal
+10301321,Luczenbrunn,,,,,,Leuzenbronn
+10301322,Ludenbac,,,,,,Lautenbach
+10301324,Lugdunen.,,,,,,Lyon
+10301331,Luterbach,,,,,,Lauterbach
+10301332,Lutkirch,,,,,,Leutkirch
+10301333,Lutrin,,,,,,Lautern
+10301338,Lyncz,,,,,,Linz
+10301344,Maersen,,,,,,Maarsen
+10301346,Magnaalsleuen,,,,,,Gross-Alsleben
+10301347,Magnamana,,,,,,Gross-Mohnau
+10301348,Magna Radomirz,,,,,,Radomierz
+10301349,Magnasahna,,,,,,Gross-Salze
+10301350,Maguntin.,,,,,,Mainz
+10301353,Maiorberingen,,,,,,Gross-Behringen
+10301354,Maior Enczesdorff,,,,,,Gross-Enzersdorf
+10301355,Maior Jene,,,,,,Jena
+10301356,Maiormanre,,,,,,Grossenmohnra
+10301357,Maior Somerde,,,,,,Sömmerda
+10301358,Maiortenstede,,,,,,Tennstedt
+10301359,Maior Wyler (Viller),,,,,,Weiler
+10301365,Mannsee,,,,,,Mondsee
+10301366,Manre,,,,,,Grossenmohnra
+10301372,Marcedum,,,,,,Merzig a. S
+10301373,Marcgrussen,,,,,,Greussen
+10301374,Marchdorf,,,,,,Markdorf
+10301376,Marclo,,,,,,Markelo
+10301379,St. Maria in Au,,,,,,Gries
+10301388,Marienwerder,,,,,,Pomesanien
+10301395,Marpach,,,,,,Marbach
+10301403,Maternbach,,,,,,Katernbach
+10301404,Matra,,,,,,Moder
+10301411,Mawrkirchen,,,,,,Buchkirchen
+10301412,Mayder,,,,,,Meder
+10301416,Medeziumcorone,,,,,,Kronmetz
+10301417,Medialu,,,,,,Mittelkirchen
+10301418,Mediolanum,,,,,,Mailand
+10301419,Medling,,,,,,Mödling
+10301421,Mehringen,,,,,,Möhringen
+10301433,Merczenich,,,,,,Merzenich
+10301434,Mergenstat,,,,,,Marienstadt
+10301435,Mergenstern,,,,,,Marienstern
+10301436,Merighen,,,,,,Möhringen
+10301440,Mersen,,,,,,Meersen
+10301447,Messenberg,,,,,,Massenberg
+10301449,Meysseldeck,,,,,,Meiselding
+10301456,Miltenberg,,,,,,Bürgstadt
+10301457,Minchroth,,,,,,Roth
+10301459,Minorfreschelingen,,,,,,Klein-Fischlingen
+10301460,Minor Lafferde,,,,,,Klein-Lafferde
+10301461,Mintzenberg,,,,,,Drais
+10301464,Misnen.,,,,,,Meissen
+10301473,Moguntin.,,,,,,Mainz
+10301474,Mohnau,,,,,,Gross-Mohnau
+10301475,Mohnra,,,,,,Grossen Mohnra
+10301476,Molhusen,,,,,,Mühlhausen
+10301477,Monacen.,,,,,,München
+10301481,Monasterien.,,,,,,Münster
+10301482,Monasteriumclericorum,,,,,,Pfaffmünster
+10301483,Monasteriumeyfflie,,,,,,Münstereiffel
+10301484,Monasteriummeynfelt,,,,,,Münstermaifeld
+10301487,Monsboldensberg,,,,,,Boltesberg
+10301488,Mons Jouis,,,,,,St. Bernhard
+10301489,Monsmadran.,,,,,,Madron
+10301490,Monssanctipetri,,,,,,Petersberg
+10301491,Monsterkirken,,,,,,Münsterkirchen
+10301492,Monten.,,,,,,Berg
+10301493,Montisburgum,,,,,,Marienberg
+10301496,Morinen.,,,,,,Terouane
+10301498,Morschheim,,,,,,Sion
+10301499,Mosacen.,,,,,,Moos
+10301501,Mospurg,,,,,,Moosburg
+10301502,Moxstad,,,,,,Mockstadt
+10301505,Mulbron,,,,,,Maulbronn
+10301506,Mulsenheim,,,,,,Mölsenheim
+10301507,Munasterien.,,,,,,Münster
+10301513,Munichroet,,,,,,Roth
+10301516,Munster,,,,,,Münchsmünster
+10301522,Munuchwiler,,,,,,Münchweiler
+10301523,Münzenberg,,,,,,Drais
+10301526,Murse,,,,,,Moers
+10301527,Musberg,,,,,,Ansperg
+10301528,Musdorff,,,,,,Mausdorf
+10301532,Naturen.,,,,,,Athyra
+10301538,Nemzin,,,,,,Nimbschen
+10301543,Neuburg,,,,,,Klosterneuburg
+10301552,Neumburgh,,,,,,Neuenburg
+10301561,Newhus,,,,,,Neuhaus
+10301562,"Newnburg, Newnburgaclaustralis",,,,,,Klosterneuburg
+10301563,Newnkirchen,,,,,,Neunkirchen
+10301565,Nidrosien.,,,,,,Drontheim
+,"Niderratenaw, Nidderraitenow",,,,,,Unter-Reitnau
+10301568,Nieder-Bayern,,,,,,Bayern
+10301576,Nieuwe-Zijdskapel,,,,,,Amsterdam
+10301577,Nigenstat,,,,,,Neustadt
+10301578,Nigrasilua,,,,,,St. Blasien
+10301587,Nortich,,,,,,Noorddyk
+10301589,Noua Berlin,,,,,,Berlinichen
+10301590,Nouacella,,,,,,Neustift
+10301591,Nouaciuitas,,,,,,Neustadt
+10301592,Noualandesberghe,,,,,,Landsberg
+10301593,Nouaterra,,,,,,Bislich
+10301594,Noua Treptow,,,,,,Treptow
+10301595,Nouauilla,,,,,,Neuenstadt
+10301596,Nouillaren.,,,,,,Neuweiler
+10301597,Nouimagen.,,,,,,Neumagen
+10301598,Nouiomen.,,,,,,Noyon
+10301599,Nouumbrandeborgh,,,,,,Neubrandenburg
+10301600,Nouumcastrum,,,,,,Neuenburg
+10301601,Nouumstargard,,,,,,Stargard
+10301603,Nuemburg.,,,,,,"Naumburg, Neuburg"
+10301604,Nuendorf,,,,,,Neuendorf
+10301605,Nuhusen,,,,,,Worms
+10301606,Nunkirchen,,,,,,Neunkirchen
+10301607,Nunnenberd,,,,,,Fraunchiemsee
+10301609,Nussien,,,,,,Neuss
+10301610,Nuwekirche,,,,,,Ottenheim
+10301611,Nydenburg,,,,,,Passau
+10301612,Nyenkerken,,,,,,Neukirchen
+10301613,Nyewerue,,,,,,Nienwerve
+10301614,Nygenstad,,,,,,Neustadt
+10301616,Nympcz,,,,,,Nimptsch
+10301617,Nyssa,,,,,,Neisse
+10301626,Obernburg,,,,,,Oberburg
+10301634,Odenstarp,,,,,,Oestorf
+10301636,Oestbrock,,,,,,Utrecht
+10301638,Oestworne,,,,,,Oostvoorne
+10301639,Ohalming,,,,,,Aholming
+10301648,"Olsna, Olsnicen.",,,,,,Oels
+10301651,Omniumsanctorum,,,,,,Allerheiligen
+10301652,"Omsberg, Onsperg",,,,,,Ansperg
+10301653,Onelspacen.,,,,,,Ansbach
+10301654,Oostbroek,,,,,,Utrecht
+10301658,Oringew,,,,,,Öhringen
+10301659,Ornstorff,,,,,,Olnstorff
+10301672,"Othmincow, Othmuchouien., Othomochaw",,,,,,Ottmachau
+10301677,Ottonien.,,,,,,Odense
+10301678,Oudeghiessen,,,,,,Giessen-Oudkerk
+10301681,Ouderscbiede,,,,,,Overschie
+10301682,Ouderulissinghen,,,,,,Vlissingen
+10301683,"Oudwika, Oudwijk",,,,,,Utrecht
+10301684,Oue,,,,,,Aue
+10301685,"Ousdorff, Oustorff",,,,,,Audorf
+10301687,Ouerwinterthure,,,,,,Oberwinterthur
+10301688,Ow,,,,,,Au
+10301691,Oytin,,,,,,Eutin
+10301696,Parchentin,,,,,,Parkentin
+10301701,Parleberghe,,,,,,Perleberg
+10301702,Parreya,,,,,,Parey
+10301715,"Perchen, Percheim",,,,,,Bergheim
+10301716,Perchim.,,,,,,Parchim
+10301717,Perdingesleibin,,,,,,Pferdingsleben
+10301718,Pereya,,,,,,Parey
+10301719,Periber,,,,,,Piber
+10301722,Pertersgaden,,,,,,Berchtesgaden
+10301724,Pesznig,,,,,,Pössneck
+10301726,Petershausen,,,,,,Konstanz
+10301727,S. Petri,,,,,,S. Pietro
+10301729,Peylenstayn,,,,,,Peilenstein
+10301730,Peyne,,,,,,Peine
+10301731,Peyerreut,,,,,,Bayreuth
+10301742,Phaffenhouen,,,,,,Pfaffenhofen
+10301743,Phaffenslag,,,,,,Pfaffenschlag
+10301744,Pharkirchen,,,,,,Pfarrkirchen
+10301745,Pheffing,,,,,,Pfäffing
+10301746,Phiin,,,,,,Pfin
+10301750,Pingwen.,,,,,,Bingen
+10301754,Pirimons,,,,,,Pyhrn
+10301756,Piseri,,,,,,Peisern
+10301759,Placentin.,,,,,,Piacenza
+10301760,Plaga,,,,,,Schlägl
+10301775,Porrentmy,Ponrramtin,,,,,Miseraoh
+10301776,Porta,,,,,,Pforta
+10301777,Portaceli,,,,,,Himmelsforte
+10301780,Posow,,,,,,Bosau
+10301782,Potzkow,,,,,,Patschkau
+10301783,Pourramtrum,,,,,,Miserach
+10301784,Poznan.,,,,,,Posen
+10301786,Pramberg,,,,,,Bramberg
+10301790,Prenestin.,,,,,,Palestrina
+10301792,Pretz,,,,,,Preetz
+10301795,Prigantina silua,,,,,,Schwarzenberg
+10301797,Prugk,,,,,,Bruck
+10301800,Prumheim,,,,,,Praunheim
+10301801,Pruntrut,,,,,,Miseras
+10301802,Prusia,,,,,,Preussen
+10301803,Przemanth,,,,,,Priment
+10301804,Pucchel,,,,,,Büchel
+10301805,Puch,,,,,,Buch
+10301806,Puchkirchen,,,,,,Buchkirchen
+10301807,Pucinaw,,,,,,Pinkau
+10301808,Purgstall,,,,,,Burgstall
+10301809,Pusendorff,,,,,,Busendorf
+10301811,Pyber,,,,,,Piber
+10301813,Pyzdry,,,,,,Peisern
+10301816,Queron.,,,,,,Curland
+10301817,Quinqueecclesien,,,,,,Fünfkirchen
+10301820,Raczach,,,,,,St. Ägyden b. Steinbrück
+10301829,Randena,,,,,,S. Vigilio
+10301830,Rangleibin,,,,,,Ringleben
+10301832,Rassacen.,,,,,,Rosazzo
+10301835,Ratisponen.,,,,,,Regensburg
+10301843,Regalislutter,,,,,,Königslutter
+10301858,Reinsdorp,,,,,,Rheindorf
+10301860,Reitnau,,,,,,Unter-Reitnau
+10301861,Rellinchusen,,,,,,Recklinghausen
+10301862,Remen.,,,,,,Reims
+10301864,Reminghem,,,,,,Egmond
+10301866,Rempsdorp,,,,,,Rengsdorf
+10301868,Rendena-Tal,,,,,,S. Vigilio
+10301869,Rene,,,,,,Rheine
+10301872,Renus,,,,,,Rhein
+10301873,Ret,,,,,,Ried
+10301874,Reussingen,,,,,,Reissing
+10301877,Reyferscheit,,,,,,Reifferscheid
+10301878,"Reynborch, Reynsburch",,,,,,Rijnsburg
+10301879,Reynebeke,,,,,,Reinbeck
+10301880,Reyneuelde,,,,,,Reinfeld
+10301881,Reyssen.,,,,,,Rees
+10301889,Richenbach,,,,,,Reichenbach
+10301896,Rinhem,,,,,,Rheinheim
+10301900,Rizessotharzow,,,,,,Rzerzotarzow
+10301901,Rochatz,,,,,,Rohitsch
+10301902,Roden.,,,,,,Odenrode
+10301904,Rodolfftorff,,,,,,Ruhldorf
+10301905,Rodus,,,,,,Rhodos
+10301912,de Romaricomonte,,,,,,Remiremont
+10301914,Romsow,,,,,,Ramsau
+10301915,"Rorbach, Rorenbach",,,,,,Rohrbach
+10301916,Rordorf,,,,,,Rohrdorf
+10301918,Roskild.,,,,,,Roeskilde
+10301920,"Rosseueld, Rosuelde",,,,,,Harsefeld
+10301929,Rubiacum,,,,,,Ruffach
+10301930,Ruboch,,,,,,Raubach
+10301933,Rudlingna,,,,,,Reutlingen
+10301938,Ruiti,,,,,,Rüti
+10301939,Runa,,,,,,Rein
+10301940,Runcoda,,,,,,Brixen
+10301943,Ruremunden.,,,,,,Roermund
+10301947,Rustorf,,,,,,Rossdorf
+10301949,Rutlingen,,,,,,Reutlingen
+10301950,Rutten,,,,,,Ruette
+10301952,Ruwenheim,,,,,,Raunheim
+10301953,Ryet,,,,,,Ried
+10301954,Ryneren,,,,,,Rhynern
+10301955,Ryual,,,,,,Reval
+10301964,Salina,,,,,,"Gross-Salze, Hallein"
+10301966,Salsz,,,,,,Selz
+10301969,Samerde,,,,,,Sömmerda
+10301971,de Sanctoamerino,,,,,,St. Amerin
+10301972,de Sanctoarnuale,,,,,,St. Arnual
+10301973,de Sanctoaudomaro,,,,,,St. Omer
+10301974,de Sanctodaniele,,,,,,St. Daniel
+10301975,de Sanctodeodato,,,,,,St. Dié
+10301976,de Sanctodionisio,,,,,,"St. Denis, St. Dionysen"
+10301977,de Sanctoermachore,,,,,,Hermagor
+10301978,de Sanctofloriano,,,,,,St. Florian
+,Sanctogallo,,,,,,St. Gallen
+10301980,de Sanctolamberto,,,,,,St. Lambert
+10301981,de Sanctomichaele,,,,,,St. Michel
+10301982,de Sancto Michaele,,,,,,St. Mihiel
+10301983,de Sanctonabore,,,,,,St. Avold
+10301988,Sarburgum,,,,,,Saarburg
+10301989,Sarentina,,,,,,Sarnthein
+10301991,Saresburgh,,,,,,Salzburg
+10301996,Saue,,,,,,St. Rupert
+10301997,Saxonia,,,,,,Sachsen
+10301998,Scarphout,,,,,,Blankenberghe
+10301999,Scerzheim,,,,,,Scherzheim
+10302004,Scherlempach,,,,,,Sarleinsbach
+10302024,Schudicz,,,,,,Schkeuditz
+10302025,Schulpforta,,,,,,Pforta
+10302036,Schwarzwald,,,,,,St. Blasien
+10302042,Sconingen,,,,,,Schönigen
+10302044,Seccow,,,,,,Sekkau
+10302045,"Seck, Seckbach",,,,,,Sonsbeck
+10302046,Sedunen.,,,,,,Sitten
+10302053,"Sekingen, Selkinghen",,,,,,Säckingen
+10302057,Senasburgh,,,,,,Sensburg
+10302058,Sendomir,,,,,,Sandomirz
+10302059,Senen.,,,,,,Siena
+10302064,Seuelden,,,,,,Seefelden
+10302066,Sewn,,,,,,Seeon
+10302068,Sgrauenraade,,,,,,Raede
+10302069,Sibergen.,,,,,,Siegberg
+10302076,Signen.,,,,,,Zengg
+10302078,Silesia,,,,,,Schlesien
+10302079,Siluaprigantina,,,,,,Schwarzenberg
+10302081,Sinna,,,,,,Schienen
+10302091,"Slesia, Slezia",,,,,,Schlesien
+10302092,Sleswicen.,,,,,,Schleswig
+10302093,Sletzstaden.,,,,,,Schlettstadt
+10302094,Sliers,,,,,,Schliersee
+10302095,Slose,,,,,,Schluchsee
+10302096,Slucht,,,,,,Schlicht
+10302098,Smedehusen,,,,,,Schmedehausen
+10302099,Snaitsee,,,,,,Schnaitsee
+10302100,Snerscheim,,,,,,Schnersheim
+10302101,Sneytach,,,,,,Schnaittach
+10302106,in Solio,,,,,,Maria Saal
+10302110,Sora,,,,,,Saar
+10302114,Spanheim,,,,,,Spohnheim
+10302125,Stain,,,,,,Stein
+10302125,Stain(a)kirchen,,,,,,Steinkirchen
+10302126,Stalburg,,,,,,Stolberg
+10302129,Stayn,,,,,,Stein
+10302132,Steiermark (Stiria),,,,,,Bruck
+10302139,Stellasanctemarie,,,,,,Marienstern
+10302140,Stenbeke,,,,,,Steimke
+10302142,Steten.,,,,,,Stedten
+10302144,Steynkerken,,,,,,Steenkerke
+10302145,Sthainakirchen,,,,,,Steinkirchen
+10302150,Strahouien.,,,,,,Prag
+10302158,Sunbronnen,,,,,,Siebenbronn
+10302159,Sunden.,,,,,,Stralsund
+10302160,Sunderhofen,,,,,,Sonderhofen
+10302161,Superior Berghe,,,,,,Oberberge
+10302162,Superior-Ingelnheim,,,,,,Ober-Ingelnheim
+10302163,Superiorlanstein,,,,,,Oberlahnstein
+10302165,"Susacien., Suzacien.",,,,,,Soest
+10302169,Suecia,,,,,,Schweden
+10302170,Swabenhusen,,,,,,Schwabhausen
+10302171,Swarczenberg,,,,,,Schwarzenberg
+10302172,Swauestede,,,,,,Schwabstedt
+10302173,Swartzach,,,,,,Schwarzach
+10302174,Swartzpurg,,,,,,Schwarzburg
+10302175,Swebriet,,,,,,Schwebenried
+10302176,Swerin.,,,,,,Schwerin
+10302177,Swidenicz,,,,,,Schweidnitz
+10302179,Swolle,,,,,,Zwolle
+10302180,Syberg.,,,,,,Siegberg
+10302182,Sydonien.,,,,,,Sidon
+10302183,Syernick,,,,,,Sierning
+10302184,Syon,,,,,,Sion
+10302185,Syprigehusen,,,,,,Sipperhausen
+10302186,Syradia,,,,,,Sieradz
+10302188,Taldorf,,,,,,Thaldorf
+10302189,"Talkerchen, Talkirchen",,,,,,Bergheim
+10302192,Tarbaten.,,,,,,Dorpat
+10302193,Tassulum,,,,,,Nonsberg
+10302200,Tengernheim,,,,,,Tegernheim
+10302202,Tenwangen,,,,,,Dewang
+10302203,Termopolen.,,,,,,Thermopyle
+10302208,"Teuerstadt, Tewrstat",,,,,,Bamberg
+10302213,Thekenneborch,,,,,,Tecklenburg
+10302214,"Themswig, Thengwig",,,,,,Tamsweg
+10302215,Thenuangen,,,,,,Dewang
+10302216,Theonisuilla,,,,,,Diedenhofen
+10302217,Therheynrixkinder,,,,,,s’Heerhendrikskinder
+10302221,Thimoni(s)uilla,,,,,,Diedenhofen
+10302226,Thurck,,,,,,Turck
+10302227,Thuricen.,,,,,,Zürich
+10302229,Tichern,,,,,,Tüchern
+10302230,Tierstein,,,,,,Thierstein
+10302231,Tietlingen,,,,,,Dietlingen
+10302232,Tiner,,,,,,Tyner
+10302236,Tolne,,,,,,Tholen
+10302237,Tolosan.,,,,,,Toulouse
+10302240,Tornacen.,,,,,,Tournay
+10302245,Traiecten.,,,,,,"Maastricht, Utrecht"
+10302251,Traysenmawr,,,,,,Traismauer
+10302252,Trealli,,,,,,Tirol
+10302253,"Trebere, Trebra",,,,,,Nieder-Trebra
+10302255,Tremonia,,,,,,Dortmund
+10302258,Treveren.,,,,,,Trier
+10302264,Tronstat,,,,,,Trunstadt
+10302269,Tuicien.,,,,,,Deutz
+10302271,Tumstorff,,,,,,Dunsdorf
+10302272,Tullen.,,,,,,Toul
+10302273,Tunauweschingen,,,,,,Donaueschingen
+10302275,Tungental,,,,,,Thüngenthal
+10302277,Turnten,,,,,,Dürnten
+10302278,Turonen.,,,,,,Tour
+10302279,Tusculan.,,,,,,Frascati
+10302282,"Tysens, Tysana",,,,,,Tisens
+10302283,Tzerstede,,,,,,Sarstedt
+10302284,Tzeuana,,,,,,Zeven
+10302287,Vezleuben,,,,,,Ützleben
+10302288,Vffderambach,,,,,,Rambach
+10302296,Vpdengrauen,,,,,,Bislich
+10302298,Vrbs,,,,,,Rom
+10302301,Vrs,,,,,,Irschen
+10302303,Vtinen.,,,,,,Udine
+10302306,Val di Non,,,,,,Nonsberg
+10302307,Val di Sole,,,,,,Sulzberg
+10302308,Val de Villè,,,,,,Weilerthal
+10302310,Valkinreid,,,,,,Walkenried
+10302312,Valleshausen,,,,,,Walleshausen
+10302313,Vallessarnar.,,,,,,Vaux-de-Cernay
+10302314,Valhs Ananie,,,,,,Nonsberg
+10302315,Vallisandelache,,,,,,Andlau
+10302316,Vallis Claronen.,,,,,,Glarus
+10302317,Valliscomitis,,,,,,Gräfenthal
+10302318,Vallis Dei,,,,,,Gottesthal
+10302319,Valhsleodri,,,,,,Valle di Ledro
+10302320,Valhsmasonis,,,,,,Masmünster
+10302321,Valhssanctigeorgii,,,,,,Georgenthal
+10302322,VaUissanctemarie,,,,,,Marienstern
+10302323,"Valhssolis, Valsunna",,,,,,Sulzberg
+10302324,Vanstorff,,,,,,Fonsdorf
+10302325,Vapincen.,,,,,,Gap
+10302327,Varemonasterium,,,,,,Fahr
+10302329,Vauren.,,,,,,Lavour
+10302337,Vekingen,,,,,,Vechingen
+10302338,Velen,,,,,,Filehne
+10302339,Vels,,,,,,Weutsch
+10302342,Verchetin.,,,,,,Virchenzin
+10302346,Vesprimen.,,,,,,Wesprim
+10302347,Vesterzuborch,,,,,,West-Zouburg
+10302348,Veylstorff,,,,,,Veilsdorf
+10302349,Vggeldorp,,,,,,Vogelsdorf
+10302354,Vilhaute,,,,,,Ville-Haute
+10302356,"Villacapelle, Villakeppel",,,,,,Kappel
+10302360,Viller,,,,,,Weiler
+10302362,Vilmeringhen,,,,,,Vollmaringen
+10302366,Virdunen.,,,,,,Verdun
+10302368,Vischpachaw,,,,,,Fischbachau
+10302369,Vischusen,,,,,,Fischhausen
+10302370,Vislicien.,,,,,,Wislica
+10302374,Vlechtorp,,,,,,Flechtdorf
+10302375,Vlensborch,,,,,,Flensburg
+10302378,Vochburg,,,,,,Vohburg
+10302380,Voerhaut,,,,,,Voorhout
+10302394,Vorcheim,,,,,,Forchheim
+10302395,Voring,,,,,,Föring
+10302396,Vorne,,,,,,Voorne
+10302397,Voyczperg,,,,,,Voitsberg
+10302398,Vralinchusen,,,,,,Frehlinghausen
+10302399,Vrannen,,,,,,Uri
+10302403,Vritzlarien.,,,,,,Fritzlar
+10302404,Vrunebec,,,,,,Grünberg
+10302406,Vulfelbotel,,,,,,Wolfenbüttel
+10302407,Vulterranen.,,,,,,Volterra
+10302408,Vunstorp,,,,,,Wunstorf
+10302409,Vyanen,,,,,,Vianen
+10302411,Wahingen,,,,,,Wehingen
+10302423,Wallacria,,,,,,Walchern
+10302428,Walsse,,,,,,Waldsee
+10302429,Waltbuht,,,,,,Waltfeucht
+10302433,Walthilbersheim,,,,,,Waldhilbersheim
+10302434,Walthusen,,,,,,Waldhausen
+10302435,Waltsachsen,,,,,,Waldsassen
+10302439,Warengeuilla,,,,,,Varangéville
+10302441,Warmien.,,,,,,Ermland
+10302444,"Wartberg, Wartemberg",,,,,,Warburg
+10302446,Waydehouen,,,,,,Waidhofen
+10302448,Weddingen,,,,,,Langen-Weddingen
+10302449,Wegklapruck,,,,,,Vöcklabruck
+10302450,Weglastorf,,,,,,Pfaffing
+10302464,Welmeldingen,,,,,,Wemeldingen
+10302468,Wengen,,,,,,Ulm
+10302469,Wenige Czaken,,,,,,(Kl.) Zacken
+10302472,Werinuillerium,,,,,,Werschweiler
+10302477,Wesalien.,,,,,,Oberwesel
+10302480,Westmunster,,,,,,Middelburg
+10302486,Weyden,,,,,,Neunkirchen
+10302487,Weypstad,,,,,,Waibstadt
+10302488,Weyr,,,,,,Weiarn
+10302491,Wichtmunden,,,,,,Wittmund
+10302492,Wickersheim,,,,,,Ill-Wickersheim
+10302499,Wigmerinchusen,,,,,,Wiemeringhausen
+10302502,Wiir,,,,,,Wiry
+10302505,Wileburg,,,,,,Weilburg
+10302507,Wilrtal,,,,,,Weilerthal
+10302508,Wilshofen,,,,,,Vilshofen
+10302513,Wingarten.,,,,,,Weingarten
+10302519,Wirtenberg,,,,,,Württemberg
+10302522,Wischow,,,,,,Treptow
+10302523,Wiselburg,,,,,,Wieselburg
+10302524,Wisenpfelt,,,,,,Wiesenfeld
+10302525,Wisenstaig,,,,,,Wiesensteig
+10302526,Wiskow,,,,,,Treptow
+10302529,Wissegraden,,,,,,Wischehrad
+10302530,Wissenhorn,,,,,,Weissenhorn
+10302531,Withmunden,,,,,,Wittmund
+10302537,Witzenheim,,,,,,Wintzenheim
+10302538,Wladislauien.,,,,,,"Leslau, Loslau"
+10302539,Wlfrastorf,,,,,,Wulfersdorf
+10302540,Wlinghusen,,,,,,Wülﬁnghusen
+10302542,Woghedeshagen,,,,,,Voigtshagen
+10302546,Woldenbrucge,,,,,,Wallenbrück
+10302552,Wolkenderode,,,,,,Volkerode
+10302559,Wormpach,,,,,,Formbach
+10302561,Worselden,,,,,,Wurselde
+10302562,Woyborcz,,,,,,Wolborz
+10302563,Wratislauien.,,,,,,Breslau
+10302566,Wunghesesz,,,,,,Wonsees
+10302567,Wunnaw,,,,,,Wynau
+10302575,Wydenburg,,,,,,Wiedenbrück
+10302576,Wyler,,,,,,Weiler
+10302577,Wynheym,,,,,,Weinheim
+10302578,Wynsem,,,,,,Winsen
+10302580,Wyr,,,,,,Wiry
+10302581,Wysenpfelt,,,,,,Wiesenfeld
+10302582,Wyskirchen,,,,,,Weisskirchen
+10302583,Wytchenaw,,,,,,Wittichenau
+10302587,Ylergoye,,,,,,Illergau
+10302588,Ymestat,,,,,,Immenstaad
+10302589,Ymmenhusen,,,,,,Immenhusen
+10302590,Yogkrim.,,,,,,Stolpe
+10302591,Yponen.,,,,,,Hippo
+10302592,Ysen,,,,,,Isen
+10302593,Yselsteyn,,,,,,Isselstein
+10302594,Ysenhem,,,,,,Isenheim
+10302595,YsonTIUS,,,,,,ISONZO
+10302597,Yuodien.,,,,,,Ivoix-Carignan
+10302600,Zabulum,,,,,,Brüssel
+10302602,Zagrabien.,,,,,,Agram
+10302603,Zallandia,,,,,,Seeland
+10302605,Zarow,,,,,,Sarau
+10302606,Zeflicen.,,,,,,Zyfflich
+10302609,Zelandia,,,,,,Seeland
+10302610,Zelente,,,,,,Selent
+10302616,Zimbria,,,,,,Cembra
+10302617,Zinnich,,,,,,Sinnich
+10302619,Zitterden.,,,,,,Sittard
+10302623,Zollaer,,,,,,Mecheln
+10302625,Zosserim,,,,,,Sossmar
+10302628,Zusandmarein,,,,,,St. Marein
+10302630,Zwarzach,,,,,,Schwarzach
+10302631,Zwena,,,,,,Znin
+10302633,Zwerin.,,,,,,Schwerin
+10302635,Zwetzko,,,,,,Schwetz
+10302640,Zynsich,,,,,,Sinzig

@@ -1,0 +1,4 @@
+﻿Discrepancy,CSV Place,XML Alias,XML Raw Name,XML ort_id,Normalized Key
+Missing in CSV,,de Sanctogallo,de Sanctogallo v. St. Gallen.,10301979,de sanctogallo
+Missing in XML,"Niderratenaw, Nidderraitenow",,,,niderratenaw nidderraitenow
+Missing in XML,Sanctogallo,,,,sanctogallo

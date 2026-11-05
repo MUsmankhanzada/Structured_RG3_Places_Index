@@ -1,0 +1,11 @@
+﻿Discrepancy,CSV Place,XML Alias,XML Raw Name,XML ort_id,Normalized Key
+Missing in CSV,,Culm,Culm<ka/>u<kz/>ach v. Kulmbach.,10300454,culm
+Missing in XML,Culm(u)ach,,,,culmach
+Missing in CSV,,de Sanctogallo,de Sanctogallo v. St. Gallen.,10301979,de sanctogallo
+Missing in CSV,,Imbr,Imbr<ka/>i<kz/>ac. v. Embrach.,10301065,imbr
+Missing in XML,Imbr(i)ac,,,,imbrac
+Missing in XML,"Niderratenaw, Nidderraitenow",,,,niderratenaw nidderraitenow
+Missing in XML,Sanctogallo,,,,sanctogallo
+Missing in XML,Stain(a)kirchen,,,,stainkirchen
+Missing in CSV,,Thimoni,Thimoni<ka/>s<kz/>uilla v. Diedenhofen.,10302221,thimoni
+Missing in XML,Thimoni(s)uilla,,,,thimoniuilla

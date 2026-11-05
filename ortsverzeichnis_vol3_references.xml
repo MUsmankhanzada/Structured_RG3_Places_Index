@@ -1,0 +1,3818 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ortsverzeichnis volume="3">
+	<index type="orte" char="a">
+		<ort id="10300007-1">
+			<place>Aczmanstorff</place>
+			<reference>Azmannsdorf</reference>
+		</ort>
+		<ort id="10300009-1">
+			<place>Adewoert</place>
+			<reference>Adwert</reference>
+		</ort>
+		<ort id="10300010-1">
+			<place>Adlefsen</place>
+			<reference>Azum</reference>
+		</ort>
+		<ort id="10300015-1">
+			<place>Aemps</place>
+			<reference>Ems</reference>
+		</ort>
+		<ort id="10300017-1">
+			<place>Agauen.</place>
+			<reference>St. Moritz</reference>
+		</ort>
+		<ort id="10300027-1">
+			<place>Alamannia</place>
+			<reference>Deutschland</reference>
+		</ort>
+		<ort id="10300028-1">
+			<place>Alba</place>
+			<reference>Herrenalb</reference>
+		</ort>
+		<ort id="10300033-1">
+			<place>Alcmaria</place>
+			<reference>Alkmaar</reference>
+		</ort>
+		<ort id="10300034-1">
+			<place>Aldenburg</place>
+			<reference>Altenburg</reference>
+		</ort>
+		<ort id="10300035-1">
+			<place>Aldensalen. (Aldenzalen)</place>
+			<reference>Oldenzaal</reference>
+		</ort>
+		<ort id="10300043-1">
+			<place>Alsleben</place>
+			<reference>Groß-Alsleben</reference>
+		</ort>
+		<ort id="10300044-1">
+			<place>Altaich (Altach)</place>
+			<reference>Oberresp. Nieder-Altaich</reference>
+		</ort>
+		<ort id="10300050-1">
+			<place>Altenromhilt</place>
+			<reference>Römhild</reference>
+		</ort>
+		<ort id="10300060-1">
+			<place>Anania</place>
+			<reference>Nonsberg</reference>
+		</ort>
+		<ort id="10300061-1">
+			<place>Anasum</place>
+			<reference>Enns</reference>
+		</ort>
+		<ort id="10300062-1">
+			<place>Andegauien.</place>
+			<reference>Angers</reference>
+		</ort>
+		<ort id="10300063-1">
+			<place>Andelac.</place>
+			<reference>Andlau</reference>
+		</ort>
+		<ort id="10300064-1">
+			<place>Andenoys</place>
+			<reference>Adensen</reference>
+		</ort>
+		<ort id="10300066-1">
+			<place>Andgardaw</place>
+			<reference>Stams</reference>
+		</ort>
+		<ort id="10300068-1">
+			<place>Angarien.</place>
+			<reference>Enger</reference>
+		</ort>
+		<ort id="10300071-1">
+			<place>Anglia</place>
+			<reference>England</reference>
+		</ort>
+		<ort id="10300076-1">
+			<place>Antiqua Vlissinghen</place>
+			<reference>Vlissinghen</reference>
+		</ort>
+		<ort id="10300080-1">
+			<place>Aquen.</place>
+			<reference>Aachen</reference>
+			<reference>Aix</reference>
+		</ort>
+		<ort id="10300082-1">
+			<place>Aquisgran.</place>
+			<reference>Aachen</reference>
+		</ort>
+		<ort id="10300086-1">
+			<place>Aresdorf</place>
+			<reference>Arsdorf</reference>
+		</ort>
+		<ort id="10300088-1">
+			<place>Argentin.</place>
+			<reference>Strassburg</reference>
+		</ort>
+		<ort id="10300091-1">
+			<place>Arimin.</place>
+			<reference>Rimini</reference>
+		</ort>
+		<ort id="10300095-1">
+			<place>Arnoldshof</place>
+			<reference>Rottweil</reference>
+		</ort>
+		<ort id="10300104-1">
+			<place>Asselburg</place>
+			<reference>Hasselburg</reference>
+		</ort>
+		<ort id="10300105-1">
+			<place>Assinden.</place>
+			<reference>Essen</reference>
+		</ort>
+		<ort id="10300107-1">
+			<place>Athesis</place>
+			<reference>Etsch</reference>
+		</ort>
+		<ort id="10300112-1">
+			<place>Attersdorf</place>
+			<reference>Ottersdorf</reference>
+		</ort>
+		<ort id="10300116-1">
+			<place>Au</place>
+			<reference>St. Maria in Au</reference>
+		</ort>
+		<ort id="10300121-1">
+			<place>Augea</place>
+			<reference>Aub</reference>
+		</ort>
+		<ort id="10300122-1">
+			<place>Augia</place>
+			<reference>Breisach</reference>
+		</ort>
+		<ort id="10300123-1">
+			<place>Augia maior</place>
+			<reference>Reichenau</reference>
+		</ort>
+		<ort id="10300125-1">
+			<place>Augusten.</place>
+			<reference>Aosta</reference>
+			<reference>Augsburg</reference>
+		</ort>
+		<ort id="10300126-1">
+			<place>Aulon</place>
+			<reference>Aalen</reference>
+		</ort>
+		<ort id="10300127-1">
+			<place>Austria</place>
+			<reference>Österreich</reference>
+		</ort>
+		<ort id="10300129-1">
+			<place>Auwe</place>
+			<reference>Aub</reference>
+		</ort>
+		<ort id="10300130-1">
+			<place>Aueld</place>
+			<reference>Alfeld</reference>
+		</ort>
+		<ort id="10300132-1">
+			<place>Aw</place>
+			<reference>Au</reference>
+		</ort>
+		<ort id="10300133-1">
+			<place>Awgia</place>
+			<reference>Gries</reference>
+		</ort>
+		<ort id="10300134-1">
+			<place>Awrbach</place>
+			<reference>Auerbach</reference>
+		</ort>
+		<ort id="10300135-1">
+			<place>Aych</place>
+			<reference>Aich</reference>
+		</ort>
+		<ort id="10300136-1">
+			<place>Aycurien.</place>
+			<reference>Incourt</reference>
+		</ort>
+	</index>
+	<index type="orte" char="b">
+		<ort id="10300143-1">
+			<place>Baiocen.</place>
+			<reference>Bayeux</reference>
+		</ort>
+		<ort id="10300147-1">
+			<place>Barcholte</place>
+			<reference>Borgholz</reference>
+		</ort>
+		<ort id="10300158-1">
+			<place>Beben.</place>
+			<reference>Hilvarenbeek</reference>
+		</ort>
+		<ort id="10300160-1">
+			<place>Becerie</place>
+			<reference>Bessières</reference>
+		</ort>
+		<ort id="10300168-1">
+			<place>Behringen</place>
+			<reference>Gross-Behringen</reference>
+		</ort>
+		<ort id="10300170-1">
+			<place>Beken</place>
+			<reference>Beckum</reference>
+		</ort>
+		<ort id="10300172-1">
+			<place>Belheem</place>
+			<place>Belheim</place>
+			<reference>Beelhem</reference>
+		</ort>
+		<ort id="10300173-1">
+			<place>Belle</place>
+			<reference>Buschbell</reference>
+		</ort>
+		<ort id="10300176-1">
+			<place>Belrebeke</place>
+			<reference>Billerbeck</reference>
+		</ort>
+		<ort id="10300177-1">
+			<place>Beluacen.</place>
+			<reference>Beauvais</reference>
+		</ort>
+		<ort id="10300178-1">
+			<place>Benhusen</place>
+			<reference>Beenhausen</reference>
+		</ort>
+		<ort id="10300180-1">
+			<place>Bercgungin</place>
+			<reference>Birkungen</reference>
+		</ort>
+		<ort id="10300181-1">
+			<place>Berchlande</place>
+			<reference>Ferchland</reference>
+		</ort>
+		<ort id="10300187-1">
+			<place>Bergem</place>
+			<place>Bergen</place>
+			<place>Berghen</place>
+			<reference>Waldberghem</reference>
+		</ort>
+		<ort id="10300189-1">
+			<place>Berghe superior</place>
+			<reference>Oberberge</reference>
+		</ort>
+		<ort id="10300202-1">
+			<place>Bersabea</place>
+			<reference>Bir Seba</reference>
+		</ort>
+		<ort id="10300207-1">
+			<place>Besekow</place>
+			<reference>Beeskow</reference>
+		</ort>
+		<ort id="10300209-1">
+			<place>Bethlehem</place>
+			<reference>Beelhem</reference>
+		</ort>
+		<ort id="10300211-1">
+			<place>Beydbur</place>
+			<reference>Bedburg</reference>
+		</ort>
+		<ort id="10300212-1">
+			<place>Beydburreyfercheyt</place>
+			<reference>Bedburg</reference>
+		</ort>
+		<ort id="10300222-1">
+			<place>Bintbuch</place>
+			<reference>Vimbuch</reference>
+		</ort>
+		<ort id="10300225-1">
+			<place>Birtirkilch</place>
+			<reference>Mengen</reference>
+		</ort>
+		<ort id="10300232-1">
+			<place>Bisuntin.</place>
+			<reference>Besançon</reference>
+		</ort>
+		<ort id="10300233-1">
+			<place>Biterren.</place>
+			<reference>Béziers</reference>
+		</ort>
+		<ort id="10300240-1">
+			<place>Blidersdorff</place>
+			<reference>Plittersdorf</reference>
+		</ort>
+		<ort id="10300241-1">
+			<place>Blisien.</place>
+			<reference>Münsterbilsen</reference>
+		</ort>
+		<ort id="10300242-1">
+			<place>Blittersdorf</place>
+			<reference>Plittersdorf</reference>
+		</ort>
+		<ort id="10300245-1">
+			<place>Bochout</place>
+			<reference>Bouchout</reference>
+		</ort>
+		<ort id="10300248-1">
+			<place>Bodicz</place>
+			<reference>Poditz</reference>
+		</ort>
+		<ort id="10300251-1">
+			<place>Boffisheim</place>
+			<reference>Boofzheim</reference>
+		</ort>
+		<ort id="10300254-1">
+			<place>Bolsanum</place>
+			<place>Bolza</place>
+			<reference>Bozen</reference>
+		</ort>
+		<ort id="10300258-1">
+			<place>Bononien.</place>
+			<reference>Bologna</reference>
+		</ort>
+		<ort id="10300259-1">
+			<place>Bonsidel</place>
+			<reference>Wunsiedel</reference>
+		</ort>
+		<ort id="10300263-1">
+			<place>Borgestad</place>
+			<reference>Bürgstadt</reference>
+		</ort>
+		<ort id="10300269-1">
+			<place>Bortschetum</place>
+			<reference>Burtscheid</reference>
+		</ort>
+		<ort id="10300271-1">
+			<place>Bos</place>
+			<reference>Boos</reference>
+		</ort>
+		<ort id="10300275-1">
+			<place>Boydinghen</place>
+			<reference>Bodingen</reference>
+		</ort>
+		<ort id="10300282-1">
+			<place>Brambach</place>
+			<reference>Brombach</reference>
+		</ort>
+		<ort id="10300286-1">
+			<place>Brankenheim</place>
+			<reference>Blankenheim</reference>
+		</ort>
+		<ort id="10300289-1">
+			<place>Bredenes</place>
+			<reference>Bröns</reference>
+		</ort>
+		<ort id="10300290-1">
+			<place>Bregen</place>
+			<reference>Brieg</reference>
+		</ort>
+		<ort id="10300291-1">
+			<place>Bregenzer Wald</place>
+			<reference>Schwarzenberg</reference>
+		</ort>
+		<ort id="10300301-1">
+			<place>Bretzen</place>
+			<reference>Treuenbrietzen</reference>
+		</ort>
+		<ort id="10300302-1">
+			<place>Breusch</place>
+			<reference>Strassburg</reference>
+		</ort>
+		<ort id="10300305-1">
+			<place>Brisac.</place>
+			<reference>Breisach</reference>
+		</ort>
+		<ort id="10300306-1">
+			<place>Briseke</place>
+			<reference>Breisig</reference>
+		</ort>
+		<ort id="10300307-1">
+			<place>Brisgaudia</place>
+			<reference>Breisgau</reference>
+		</ort>
+		<ort id="10300310-1">
+			<place>Brixien</place>
+			<reference>Brescia</reference>
+		</ort>
+		<ort id="10300311-1">
+			<place>Broke</place>
+			<reference>zum Bruche</reference>
+		</ort>
+		<ort id="10300316-1">
+			<place>Bruberg</place>
+			<reference>Brenberg</reference>
+		</ort>
+		<ort id="10300321-1">
+			<place>Brunbach</place>
+			<reference>Brunnbach</reference>
+		</ort>
+		<ort id="10300322-1">
+			<place>Brunenwiler</place>
+			<reference>Braunenweiler</reference>
+		</ort>
+		<ort id="10300323-1">
+			<place>Brunswicen.</place>
+			<reference>Braunschweig</reference>
+		</ort>
+		<ort id="10300324-1">
+			<place>Brusca</place>
+			<reference>Strassburg</reference>
+		</ort>
+		<ort id="10300333-1">
+			<place>Buczowen.</place>
+			<reference>Bützow</reference>
+		</ort>
+		<ort id="10300334-1">
+			<place>Budeken</place>
+			<reference>Böddeken</reference>
+		</ort>
+		<ort id="10300336-1">
+			<place>Budissin</place>
+			<reference>Bautzen</reference>
+		</ort>
+		<ort id="10300339-1">
+			<place>Bunnen.</place>
+			<reference>Bonn</reference>
+		</ort>
+		<ort id="10300340-1">
+			<place>Buochow</place>
+			<reference>Buchau</reference>
+		</ort>
+		<ort id="10300346-1">
+			<place>Burgund (Burgundia)</place>
+			<reference>Bauaria</reference>
+			<reference>dux</reference>
+			<reference>ducissa</reference>
+		</ort>
+		<ort id="10300349-1">
+			<place>Buscoducis</place>
+			<reference>Herzogenbusch</reference>
+		</ort>
+	</index>
+	<index type="orte" char="c">
+		<ort id="10300355-1">
+			<place>Cabilonen.</place>
+			<reference>Châlons s. S</reference>
+		</ort>
+		<ort id="10300356-1">
+			<place>Caldarium</place>
+			<reference>Kaltern</reference>
+		</ort>
+		<ort id="10300357-1">
+			<place>Caluusmons</place>
+			<reference>Kahlberg</reference>
+		</ort>
+		<ort id="10300358-1">
+			<place>Cambia</place>
+			<reference>Cham</reference>
+		</ort>
+		<ort id="10300363-1">
+			<place>Campen.</place>
+			<reference>Kampen</reference>
+		</ort>
+		<ort id="10300364-1">
+			<place>Campidona</place>
+			<reference>Kempten</reference>
+		</ort>
+		<ort id="10300365-1">
+			<place>Campinia</place>
+			<reference>Kempen</reference>
+		</ort>
+		<ort id="10300366-1">
+			<place>Capella</place>
+			<reference>Kappel</reference>
+		</ort>
+		<ort id="10300367-1">
+			<place>Cappirnick</place>
+			<reference>Köppernig</reference>
+		</ort>
+		<ort id="10300369-1">
+			<place>Caputferrarum</place>
+			<reference>Thierhaupten</reference>
+		</ort>
+		<ort id="10300370-1">
+			<place>Carelburg</place>
+			<reference>Karlb urg</reference>
+		</ort>
+		<ort id="10300371-1">
+			<place>Carelstad</place>
+			<reference>Karlstadt</reference>
+		</ort>
+		<ort id="10300373-1">
+			<place>Carnoten.</place>
+			<reference>Chartres</reference>
+		</ort>
+		<ort id="10300374-1">
+			<place>Casiacum</place>
+			<reference>Chézy-sur-Marne</reference>
+		</ort>
+		<ort id="10300376-1">
+			<place>Cathalaun.</place>
+			<reference>Châlons s. M</reference>
+		</ort>
+		<ort id="10300378-1">
+			<place>Cellabernhardi</place>
+			<reference>Bernhardszell</reference>
+		</ort>
+		<ort id="10300379-1">
+			<place>Celle</place>
+			<reference>Zell</reference>
+		</ort>
+		<ort id="10300381-1">
+			<place>Cempniczen.</place>
+			<reference>Chemnitz</reference>
+		</ort>
+		<ort id="10300382-1">
+			<place>Cernay</place>
+			<reference>Vaux-de-Cernay</reference>
+		</ort>
+		<ort id="10300383-1">
+			<place>Cerpen.</place>
+			<reference>Kerpen</reference>
+		</ort>
+		<ort id="10300384-1">
+			<place>Cesarea</place>
+			<reference>Kaisheim</reference>
+		</ort>
+		<ort id="10300393-1">
+			<place>Chiems</place>
+			<reference>Kiens</reference>
+		</ort>
+		<ort id="10300395-1">
+			<place>Chochem</place>
+			<reference>Kochem</reference>
+		</ort>
+		<ort id="10300396-1">
+			<place>Chocz</place>
+			<reference>Kötsch</reference>
+		</ort>
+		<ort id="10300397-1">
+			<place>Chodwicum</place>
+			<reference>Göttweih</reference>
+		</ort>
+		<ort id="10300398-1">
+			<place>Chrems</place>
+			<reference>Krems</reference>
+		</ort>
+		<ort id="10300399-1">
+			<place>Chremsmunster</place>
+			<reference>Kremsmiünster</reference>
+		</ort>
+		<ort id="10300401-1">
+			<place>Chrut</place>
+			<reference>Krut</reference>
+		</ort>
+		<ort id="10300403-1">
+			<place>Chulich</place>
+			<reference>Kilb</reference>
+		</ort>
+		<ort id="10300405-1">
+			<place>Cicz</place>
+			<reference>Seitsch</reference>
+		</ort>
+		<ort id="10300406-1">
+			<place>Ciczen.</place>
+			<reference>Zeitz</reference>
+		</ort>
+		<ort id="10300411-1">
+			<place>Clarauallis</place>
+			<reference>Georgenthal</reference>
+		</ort>
+		<ort id="10300412-1">
+			<place>Clarendal</place>
+			<reference>Klarenthal</reference>
+		</ort>
+		<ort id="10300415-1">
+			<place>Clingenberg</place>
+			<reference>Klingenberg</reference>
+		</ort>
+		<ort id="10300416-1">
+			<place>Clodawa</place>
+			<place>Clodobea</place>
+			<reference>Klodawa</reference>
+		</ort>
+		<ort id="10300417-1">
+			<place>Cloppe</place>
+			<reference>Klopp</reference>
+		</ort>
+		<ort id="10300424-1">
+			<place>Colocen.</place>
+			<reference>Kalocsa</reference>
+		</ort>
+		<ort id="10300425-1">
+			<place>Columbarien.</place>
+			<reference>Colmar</reference>
+		</ort>
+		<ort id="10300426-1">
+			<place>Concheyum</place>
+			<reference>Conneux</reference>
+		</ort>
+		<ort id="10300428-1">
+			<place>Confluentia</place>
+			<reference>Coblenz</reference>
+		</ort>
+		<ort id="10300429-1">
+			<place>Congestorp</place>
+			<reference>Groß-Königsdorf</reference>
+		</ort>
+		<ort id="10300432-1">
+			<place>Constantien.</place>
+			<reference>Konstanz</reference>
+		</ort>
+		<ort id="10300433-1">
+			<place>Corbien.</place>
+			<reference>Korvey</reference>
+		</ort>
+		<ort id="10300437-1">
+			<place>Cracovien.</place>
+			<reference>Krakau</reference>
+		</ort>
+		<ort id="10300439-1">
+			<place>Cralouiez</place>
+			<reference>Kralowitz</reference>
+		</ort>
+		<ort id="10300441-1">
+			<place>Crempschicz</place>
+			<reference>Chrzumczütz</reference>
+		</ort>
+		<ort id="10300443-1">
+			<place>Cristinopolitan.</place>
+			<reference>Christianopolis</reference>
+		</ort>
+		<ort id="10300445-1">
+			<place>Cronenberg</place>
+			<reference>Kronenberg</reference>
+		</ort>
+		<ort id="10300446-1">
+			<place>Cropelen</place>
+			<reference>Kröpelin</reference>
+		</ort>
+		<ort id="10300448-1">
+			<place>Cruczeborchis</place>
+			<reference>Creuzburg</reference>
+		</ort>
+		<ort id="10300449-1">
+			<place>Cruczenacum</place>
+			<reference>Kreuznach</reference>
+		</ort>
+		<ort id="10300450-1">
+			<place>Cruszwicien.</place>
+			<place>Cruschuicen.</place>
+			<reference>Kruschwitz</reference>
+		</ort>
+		<ort id="10300451-1">
+			<place>Crutzlingen</place>
+			<reference>Konstanz</reference>
+		</ort>
+		<ort id="10300452-1">
+			<place>Cuba</place>
+			<reference>Caub</reference>
+		</ort>
+		<ort id="10300454-1">
+			<place>Culm(u)ach</place>
+			<reference>Kulmbach</reference>
+		</ort>
+		<ort id="10300456-1">
+			<place>Curien.</place>
+			<reference>Chur</reference>
+		</ort>
+		<ort id="10300458-1">
+			<place>Curten</place>
+			<reference>Kürten</reference>
+		</ort>
+		<ort id="10300459-1">
+			<place>Curzelouien.</place>
+			<reference>Kurzelow</reference>
+		</ort>
+		<ort id="10300460-1">
+			<place>Cycen.</place>
+			<reference>Zeitz</reference>
+		</ort>
+		<ort id="10300461-1">
+			<place>Cymbria</place>
+			<reference>Cembra</reference>
+		</ort>
+		<ort id="10300462-1">
+			<place>Czabelstein</place>
+			<reference>Zabelstein</reference>
+		</ort>
+		<ort id="10300463-1">
+			<place>Czaken</place>
+			<reference>(Kl.) Zacken</reference>
+		</ort>
+		<ort id="10300464-1">
+			<place>Czarnotzin</place>
+			<reference>Schwarzhof</reference>
+		</ort>
+		<ort id="10300465-1">
+			<place>Czegenhals</place>
+			<reference>Ziegenhals</reference>
+		</ort>
+		<ort id="10300466-1">
+			<place>Czel</place>
+			<reference>Ried</reference>
+		</ort>
+		<ort id="10300467-1">
+			<place>Czelking</place>
+			<reference>Zelking</reference>
+		</ort>
+		<ort id="10300468-1">
+			<place>Czeolfinghen</place>
+			<reference>Zeholfing</reference>
+		</ort>
+		<ort id="10300469-1">
+			<place>Czicen.</place>
+			<reference>Zeitz</reference>
+		</ort>
+		<ort id="10300470-1">
+			<place>Czolrn</place>
+			<reference>Zollern</reference>
+		</ort>
+		<ort id="10300471-1">
+			<place>Czwentendorff</place>
+			<reference>Zwentendorf</reference>
+		</ort>
+		<ort id="10300472-1">
+			<place>Czwetel</place>
+			<reference>Zwettl</reference>
+		</ort>
+		<ort id="10300473-1">
+			<place>Czwickow</place>
+			<reference>Zwickau</reference>
+		</ort>
+		<ort id="10300474-1">
+			<place>Czwifaltingen</place>
+			<reference>Zwiefalten</reference>
+		</ort>
+	</index>
+	<index type="orte" char="d">
+		<ort id="10300479-1">
+			<place>Dammis</place>
+			<reference>Altdamm</reference>
+			<reference>Damm</reference>
+		</ort>
+		<ort id="10300480-1">
+			<place>Danczk</place>
+			<reference>Danzig</reference>
+		</ort>
+		<ort id="10300483-1">
+			<place>Dankirichen</place>
+			<reference>Thannkirchen</reference>
+		</ort>
+		<ort id="10300487-1">
+			<place>Dauentrien.</place>
+			<reference>Deventer</reference>
+		</ort>
+		<ort id="10300488-1">
+			<place>Deck</place>
+			<reference>Teck</reference>
+		</ort>
+		<ort id="10300490-1">
+			<place>Dellingen</place>
+			<reference>Dillingen</reference>
+		</ort>
+		<ort id="10300494-1">
+			<place>Derdessen(m)</place>
+			<reference>Dardesheim</reference>
+		</ort>
+		<ort id="10300499-1">
+			<place>Diczisow</place>
+			<reference>Deizisau</reference>
+		</ort>
+		<ort id="10300503-1">
+			<place>Diembach</place>
+			<reference>Dimbach</reference>
+		</ort>
+		<ort id="10300515-1">
+			<place>Dobberlawen.</place>
+			<reference>Dobrilugk</reference>
+		</ort>
+		<ort id="10300520-1">
+			<place>Dognen.</place>
+			<reference>Dagne</reference>
+		</ort>
+		<ort id="10300526-1">
+			<place>Donyn</place>
+			<reference>Dohna</reference>
+		</ort>
+		<ort id="10300533-1">
+			<place>Doueren</place>
+			<reference>Doeeren</reference>
+		</ort>
+		<ort id="10300538-1">
+			<place>Dreyse</place>
+			<reference>Drais</reference>
+		</ort>
+		<ort id="10300541-1">
+			<place>Drybilsheim</place>
+			<reference>Büdisheim</reference>
+		</ort>
+		<ort id="10300543-1">
+			<place>Duersteden</place>
+			<reference>Duurstede</reference>
+		</ort>
+		<ort id="10300551-1">
+			<place>Dursten</place>
+			<reference>Dorsten</reference>
+		</ort>
+		<ort id="10300552-1">
+			<place>Durstede</place>
+			<reference>Duurstede</reference>
+		</ort>
+		<ort id="10300555-1">
+			<place>Duuelandia</place>
+			<reference>Duiveland</reference>
+		</ort>
+		<ort id="10300556-1">
+			<place>Dyckennighen</place>
+			<reference>Dikninge</reference>
+		</ort>
+		<ort id="10300557-1">
+			<place>Dyetkerken</place>
+			<place>Dytkirchen</place>
+			<reference>Dietkirchen</reference>
+		</ort>
+		<ort id="10300558-1">
+			<place>Dyppurg</place>
+			<reference>Dieburg</reference>
+		</ort>
+		<ort id="10300559-1">
+			<place>Dyttramczell</place>
+			<reference>Dietramszell</reference>
+		</ort>
+		<ort id="10300943-1">
+			<place>de Hayaualteri</place>
+			<reference>Altenmünster</reference>
+		</ort>
+		<ort id="10301912-1">
+			<place>de Romaricomonte</place>
+			<reference>Remiremont</reference>
+		</ort>
+		<ort id="10301971-1">
+			<place>de Sanctoamerino</place>
+			<reference>St. Amerin</reference>
+		</ort>
+		<ort id="10301972-1">
+			<place>de Sanctoarnuale</place>
+			<reference>St. Arnual</reference>
+		</ort>
+		<ort id="10301973-1">
+			<place>de Sanctoaudomaro</place>
+			<reference>St. Omer</reference>
+		</ort>
+		<ort id="10301974-1">
+			<place>de Sanctodaniele</place>
+			<reference>St. Daniel</reference>
+		</ort>
+		<ort id="10301975-1">
+			<place>de Sanctodeodato</place>
+			<reference>St. Dié</reference>
+		</ort>
+		<ort id="10301976-1">
+			<place>de Sanctodionisio</place>
+			<reference>St. Denis</reference>
+			<reference>St. Dionysen</reference>
+		</ort>
+		<ort id="10301977-1">
+			<place>de Sanctoermachore</place>
+			<reference>Hermagor</reference>
+		</ort>
+		<ort id="10301978-1">
+			<place>de Sanctofloriano</place>
+			<reference>St. Florian</reference>
+		</ort>
+		<ort id="10301980-1">
+			<place>de Sanctolamberto</place>
+			<reference>St. Lambert</reference>
+		</ort>
+		<ort id="10301981-1">
+			<place>de Sanctomichaele</place>
+			<reference>St. Michel</reference>
+		</ort>
+		<ort id="10301982-1">
+			<place>de Sancto Michaele</place>
+			<reference>St. Mihiel</reference>
+		</ort>
+		<ort id="10301983-1">
+			<place>de Sanctonabore</place>
+			<reference>St. Avold</reference>
+		</ort>
+	</index>
+	<index type="orte" char="e">
+		<ort id="10300568-1">
+			<place>Ebettingen</place>
+			<reference>Ewattingen</reference>
+		</ort>
+		<ort id="10300571-1">
+			<place>Ebronen.</place>
+			<reference>Hebron</reference>
+		</ort>
+		<ort id="10300576-1">
+			<place>Eckchirchen</place>
+			<reference>Ehekirchen</reference>
+		</ort>
+		<ort id="10300578-1">
+			<place>Eduen.</place>
+			<reference>Autun</reference>
+		</ort>
+		<ort id="10300582-1">
+			<place>Egninen</place>
+			<reference>Ägina</reference>
+		</ort>
+		<ort id="10300585-1">
+			<place>Ehenheim</place>
+			<reference>Nieder-Ehnheim</reference>
+		</ort>
+		<ort id="10300592-1">
+			<place>Ekk</place>
+			<reference>Eck</reference>
+		</ort>
+		<ort id="10300593-1">
+			<place>Eknach</place>
+			<reference>Ecknach</reference>
+		</ort>
+		<ort id="10300596-1">
+			<place>Electen.</place>
+			<reference>Alet</reference>
+		</ort>
+		<ort id="10300604-1">
+			<place>Embricen.</place>
+			<reference>Emmerich</reference>
+		</ort>
+		<ort id="10300608-1">
+			<place>Emmeracen.</place>
+			<reference>Embrach</reference>
+		</ort>
+		<ort id="10300611-1">
+			<place>Emptre</place>
+			<reference>Hentern</reference>
+		</ort>
+		<ort id="10300615-1">
+			<place>Engenpach</place>
+			<reference>Altdorf</reference>
+		</ort>
+		<ort id="10300621-1">
+			<place>Enus</place>
+			<reference>Inn</reference>
+		</ort>
+		<ort id="10300622-1">
+			<place>Enybergs</place>
+			<reference>Enneberg</reference>
+		</ort>
+		<ort id="10300623-1">
+			<place>Enzersdorff</place>
+			<reference>Groß-Enzersdorff</reference>
+		</ort>
+		<ort id="10300624-1">
+			<place>Episcopaliscella</place>
+			<reference>Bischofszell</reference>
+		</ort>
+		<ort id="10300627-1">
+			<place>Epternac.</place>
+			<reference>Echternach</reference>
+		</ort>
+		<ort id="10300628-1">
+			<place>Erclens</place>
+			<reference>Erkelenz</reference>
+		</ort>
+		<ort id="10300630-1">
+			<place>Ergoye</place>
+			<reference>Aargau</reference>
+		</ort>
+		<ort id="10300632-1">
+			<place>Erich</place>
+			<reference>Groß-Erich</reference>
+		</ort>
+		<ort id="10300642-1">
+			<place>Escow</place>
+			<reference>Eschau</reference>
+		</ort>
+		<ort id="10300651-1">
+			<place>Eycbergh</place>
+			<reference>Eibergen</reference>
+		</ort>
+		<ort id="10300652-1">
+			<place>Eyfflie</place>
+			<reference>Münstereifel</reference>
+		</ort>
+		<ort id="10300653-1">
+			<place>Eysteten.</place>
+			<reference>Eichstädt</reference>
+		</ort>
+	</index>
+	<index type="orte" char="f">
+		<ort id="10300659-1">
+			<place>Faventin.</place>
+			<reference>Faenza</reference>
+		</ort>
+		<ort id="10300661-1">
+			<place>Feitzhochheim</place>
+			<reference>Veitshöchheim</reference>
+		</ort>
+		<ort id="10300662-1">
+			<place>Feltren.</place>
+			<reference>Belluno</reference>
+		</ort>
+		<ort id="10300665-1">
+			<place>Fewstritz</place>
+			<reference>Feistritz</reference>
+		</ort>
+		<ort id="10300669-1">
+			<place>Fischlingen</place>
+			<reference>Klein-Fischlingen</reference>
+		</ort>
+		<ort id="10300678-1">
+			<place>Fonssalutis</place>
+			<reference>Heilsbronn</reference>
+		</ort>
+		<ort id="10300682-1">
+			<place>Forstenwalde</place>
+			<reference>Fürstenwalde</reference>
+		</ort>
+		<ort id="10300685-1">
+			<place>Francia</place>
+			<reference>Frankreich</reference>
+		</ort>
+		<ort id="10300688-1">
+			<place>Frankenuorde</place>
+			<reference>Frankfurt a. O</reference>
+		</ort>
+		<ort id="10300701-1">
+			<place>Frequentin.</place>
+			<reference>Frigento</reference>
+		</ort>
+		<ort id="10300702-1">
+			<place>Fresha</place>
+			<reference>Friesland</reference>
+		</ort>
+		<ort id="10300703-1">
+			<place>Freynstat</place>
+			<reference>Freistadt</reference>
+		</ort>
+		<ort id="10300704-1">
+			<place>Fribergh</place>
+			<reference>Freiberg</reference>
+		</ort>
+		<ort id="10300705-1">
+			<place>Friborch</place>
+			<place>Friburgh</place>
+			<place>Friburgum</place>
+			<reference>Freiburg i. Br</reference>
+		</ort>
+		<ort id="10300710-1">
+			<place>Frisacen.</place>
+			<reference>Friesach</reference>
+		</ort>
+		<ort id="10300711-1">
+			<place>Frisenhouen</place>
+			<reference>Friesenhofen</reference>
+		</ort>
+		<ort id="10300712-1">
+			<place>Frisia</place>
+			<reference>Friesland</reference>
+		</ort>
+		<ort id="10300715-1">
+			<place>Fryburg</place>
+			<reference>Freiburg i. Br</reference>
+		</ort>
+	</index>
+	<index type="orte" char="g">
+		<ort id="10300723-1">
+			<place>Gabene</place>
+			<reference>Gavnö</reference>
+		</ort>
+		<ort id="10300730-1">
+			<place>Gallepaltental</place>
+			<reference>Paltental</reference>
+		</ort>
+		<ort id="10300731-1">
+			<place>Gamundien.</place>
+			<reference>Gmünd</reference>
+		</ort>
+		<ort id="10300734-1">
+			<place>Ganden.</place>
+			<reference>Gmünd</reference>
+		</ort>
+		<ort id="10300740-1">
+			<place>Gassaw</place>
+			<reference>Gossau</reference>
+		</ort>
+		<ort id="10300742-1">
+			<place>Gaudiacum</place>
+			<reference>Jouy sur Morin</reference>
+		</ort>
+		<ort id="10300744-1">
+			<place>Gawbatsch</place>
+			<reference>Krut</reference>
+		</ort>
+		<ort id="10300752-1">
+			<place>Geispisheim</place>
+			<reference>Gabsheim</reference>
+		</ort>
+		<ort id="10300757-1">
+			<place>Gensen</place>
+			<reference>Jeinsen</reference>
+		</ort>
+		<ort id="10300765-1">
+			<place>Gerwelingherode</place>
+			<reference>Gerblingerode</reference>
+		</ort>
+		<ort id="10300771-1">
+			<place>Geych</place>
+			<reference>Geich</reference>
+		</ort>
+		<ort id="10300772-1">
+			<place>Geynsen</place>
+			<reference>Jeinsen</reference>
+		</ort>
+		<ort id="10300773-1">
+			<place>Geyrn</place>
+			<reference>Geiern</reference>
+		</ort>
+		<ort id="10300774-1">
+			<place>Geysmar</place>
+			<reference>Hofgeismar</reference>
+		</ort>
+		<ort id="10300775-1">
+			<place>Ghan</place>
+			<reference>Gand</reference>
+		</ort>
+		<ort id="10300776-1">
+			<place>Gheeruliet</place>
+			<reference>Geervliet</reference>
+		</ort>
+		<ort id="10300777-1">
+			<place>Gheismaer</place>
+			<reference>Geismar</reference>
+			<reference>Hofgeismar</reference>
+		</ort>
+		<ort id="10300778-1">
+			<place>Gherenrode</place>
+			<reference>Gernrode</reference>
+		</ort>
+		<ort id="10300779-1">
+			<place>Gheruliet</place>
+			<reference>Geervliet</reference>
+		</ort>
+		<ort id="10300780-1">
+			<place>Gheske</place>
+			<reference>Geseke</reference>
+		</ort>
+		<ort id="10300781-1">
+			<place>Gheueldehusen</place>
+			<reference>Gieboldehausen</reference>
+		</ort>
+		<ort id="10300782-1">
+			<place>Gheyspolsheim</place>
+			<reference>Geispolsheim</reference>
+		</ort>
+		<ort id="10300783-1">
+			<place>Ghisenkirchen</place>
+			<reference>Giesenkirchen</reference>
+		</ort>
+		<ort id="10300784-1">
+			<place>Ghrebukesrode</place>
+			<reference>Gräfenroda</reference>
+		</ort>
+		<ort id="10300791-1">
+			<place>Gila</place>
+			<reference>Gail</reference>
+		</ort>
+		<ort id="10300793-1">
+			<place>Gisenhein</place>
+			<reference>Giesenhain</reference>
+		</ort>
+		<ort id="10300801-1">
+			<place>Glossenberg</place>
+			<reference>Neuenstadt</reference>
+		</ort>
+		<ort id="10300808-1">
+			<place>Goele</place>
+			<reference>Geul</reference>
+		</ort>
+		<ort id="10300827-1">
+			<place>Graedwein</place>
+			<reference>Gratwein</reference>
+		</ort>
+		<ort id="10300830-1">
+			<place>Grafentraubach</place>
+			<reference>Traubach</reference>
+		</ort>
+		<ort id="10300834-1">
+			<place>Gratianopolis</place>
+			<reference>Grenoble</reference>
+		</ort>
+		<ort id="10300839-1">
+			<place>Gremthartsteten</place>
+			<reference>Grammastetten</reference>
+		</ort>
+		<ort id="10300841-1">
+			<place>Grenszen</place>
+			<reference>Grzendzin</reference>
+		</ort>
+		<ort id="10300847-1">
+			<place>Grifenstein</place>
+			<reference>Greiffenstein</reference>
+		</ort>
+		<ort id="10300848-1">
+			<place>Gripeswoldis</place>
+			<reference>Greifswald</reference>
+		</ort>
+		<ort id="10300849-1">
+			<place>Grissaw</place>
+			<reference>Grüssau</reference>
+		</ort>
+		<ort id="10300862-1">
+			<place>Gruden</place>
+			<reference>Groden</reference>
+		</ort>
+		<ort id="10300867-1">
+			<place>Grussen.</place>
+			<place>Gruszen.</place>
+			<reference>Greussen</reference>
+		</ort>
+		<ort id="10300871-1">
+			<place>Gudesberg</place>
+			<reference>Godesberg</reference>
+		</ort>
+		<ort id="10300872-1">
+			<place>Gugenheim</place>
+			<reference>Jugenheim</reference>
+		</ort>
+		<ort id="10300885-1">
+			<place>Gyegoizewo</place>
+			<reference>Grzegorzewo</reference>
+		</ort>
+		<ort id="10300886-1">
+			<place>Gymunghen</place>
+			<reference>Gimingen</reference>
+		</ort>
+	</index>
+	<index type="orte" char="h">
+		<ort id="10300891-1">
+			<place>Haenau</place>
+			<reference>Hanau</reference>
+		</ort>
+		<ort id="10300892-1">
+			<place>Haesbeen</place>
+			<reference>Heesbeen</reference>
+		</ort>
+		<ort id="10300893-1">
+			<place>Hag</place>
+			<reference>Haag</reference>
+		</ort>
+		<ort id="10300897-1">
+			<place>Hagha</place>
+			<reference>Haag</reference>
+		</ort>
+		<ort id="10300900-1">
+			<place>Haimertingen</place>
+			<reference>Heimertingen</reference>
+		</ort>
+		<ort id="10300904-1">
+			<place>Haldelene</place>
+			<reference>Hadeln</reference>
+		</ort>
+		<ort id="10300908-1">
+			<place>Halle</place>
+			<reference>Schwäbisch-Hall</reference>
+		</ort>
+		<ort id="10300913-1">
+			<place>Halsprunn</place>
+			<reference>Heilsbronn</reference>
+		</ort>
+		<ort id="10300920-1">
+			<place>Hannonia</place>
+			<reference>Hennegau</reference>
+		</ort>
+		<ort id="10300922-1">
+			<place>Harbeysen</place>
+			<reference>Herbitzheim</reference>
+		</ort>
+		<ort id="10300924-1">
+			<place>Harggerswiler</place>
+			<reference>Hergensweiler</reference>
+		</ort>
+		<ort id="10300928-1">
+			<place>Hartkilich</place>
+			<reference>St. Georgen</reference>
+		</ort>
+		<ort id="10300935-1">
+			<place>Hassia</place>
+			<reference>Hessen</reference>
+		</ort>
+		<ort id="10300937-1">
+			<place>Hasuan.</place>
+			<reference>Hasbengau</reference>
+		</ort>
+		<ort id="10300939-1">
+			<place>Haug</place>
+			<reference>Würzburg</reference>
+		</ort>
+		<ort id="10300944-1">
+			<place>Haydeck</place>
+			<reference>Heideck</reference>
+		</ort>
+		<ort id="10300945-1">
+			<place>Haydolffing</place>
+			<reference>Haidelfing</reference>
+		</ort>
+		<ort id="10300946-1">
+			<place>Hazelow</place>
+			<reference>Haselau</reference>
+		</ort>
+		<ort id="10300948-1">
+			<place>Hedwangen</place>
+			<reference>Herdwangen</reference>
+		</ort>
+		<ort id="10300949-1">
+			<place>Heelsprunna</place>
+			<reference>Heilbronn</reference>
+		</ort>
+		<ort id="10300952-1">
+			<place>Heflein</place>
+			<reference>Höflein</reference>
+		</ort>
+		<ort id="10300956-1">
+			<place>Heilgarten</place>
+			<reference>Hallgarten</reference>
+		</ort>
+		<ort id="10300959-1">
+			<place>Heilighestede</place>
+			<reference>Amsterdam</reference>
+		</ort>
+		<ort id="10300972-1">
+			<place>Henrichow</place>
+			<reference>Heinrichau</reference>
+		</ort>
+		<ort id="10300974-1">
+			<place>Herberchtingen</place>
+			<reference>Herbrechtingen</reference>
+		</ort>
+		<ort id="10300976-1">
+			<place>Herbipolen.</place>
+			<reference>Würzburg</reference>
+		</ort>
+		<ort id="10300983-1">
+			<place>Heremitarum</place>
+			<reference>Einsiedeln</reference>
+		</ort>
+		<ort id="10300986-1">
+			<place>Hergesheim</place>
+			<reference>Herchesheim</reference>
+		</ort>
+		<ort id="10300988-1">
+			<place>Herisien.</place>
+			<reference>Neuen-Heerse</reference>
+		</ort>
+		<ort id="10300991-1">
+			<place>Heroldisdorf</place>
+			<reference>Herischdorf</reference>
+		</ort>
+		<ort id="10300996-1">
+			<place>Hersfelde</place>
+			<reference>Harsefeld</reference>
+		</ort>
+		<ort id="10300997-1">
+			<place>Herswideshusen</place>
+			<reference>Hardehausen</reference>
+		</ort>
+		<ort id="10301000-1">
+			<place>Herwolczheim</place>
+			<reference>Herbolzheim</reference>
+		</ort>
+		<ort id="10301004-1">
+			<place>Hesterkirch</place>
+			<reference>Heisterkirch</reference>
+		</ort>
+		<ort id="10301005-1">
+			<place>Heylprun</place>
+			<reference>Heilbronn</reference>
+		</ort>
+		<ort id="10301007-1">
+			<place>Hilbersheni</place>
+			<reference>Waldhilbersheim</reference>
+		</ort>
+		<ort id="10301008-1">
+			<place>Hilda</place>
+			<reference>Eldena</reference>
+		</ort>
+		<ort id="10301010-1">
+			<place>Hilghendal</place>
+			<reference>Heilgenthal</reference>
+		</ort>
+		<ort id="10301029-1">
+			<place>Holztraubach</place>
+			<reference>Traubach</reference>
+		</ort>
+		<ort id="10301031-1">
+			<place>Homsber</place>
+			<reference>Ansperg</reference>
+		</ort>
+		<ort id="10301038-1">
+			<place>Houhem</place>
+			<reference>Hofheim</reference>
+		</ort>
+		<ort id="10301041-1">
+			<place>Hoyen.</place>
+			<reference>Huy</reference>
+		</ort>
+		<ort id="10301043-1">
+			<place>Hugard</place>
+			<reference>Hougaerde</reference>
+		</ort>
+		<ort id="10301047-1">
+			<place>Hungaria</place>
+			<reference>Ungarn</reference>
+		</ort>
+		<ort id="10301049-1">
+			<place>Huxarien.</place>
+			<reference>Höxter</reference>
+		</ort>
+	</index>
+	<index type="orte" char="i">
+		<ort id="10301053-1">
+			<place>Ibbs</place>
+			<reference>Ybbs</reference>
+		</ort>
+		<ort id="10301054-1">
+			<place>Ibsa</place>
+			<reference>Ips</reference>
+		</ort>
+		<ort id="10301065-1">
+			<place>Imbr(i)ac</place>
+			<reference>Embrach</reference>
+		</ort>
+		<ort id="10301069-1">
+			<place>Inden.</place>
+			<reference>Cornelimünster</reference>
+		</ort>
+		<ort id="10301070-1">
+			<place>Indicen.</place>
+			<reference>Innichen</reference>
+		</ort>
+		<ort id="10301071-1">
+			<place>Inferioraltha</place>
+			<reference>Niederaltaich</reference>
+		</ort>
+		<ort id="10301072-1">
+			<place>Inferior Bauaria</place>
+			<reference>Bayern</reference>
+		</ort>
+		<ort id="10301073-1">
+			<place>Inferior Ingelnheim</place>
+			<reference>Nieder-Ingelheim</reference>
+		</ort>
+		<ort id="10301074-1">
+			<place>Inferior-Steinach</place>
+			<reference>(Unter-)Steinach</reference>
+		</ort>
+		<ort id="10301075-1">
+			<place>Inferior Trebere</place>
+			<reference>Nieder-Trebra</reference>
+		</ort>
+		<ort id="10301078-1">
+			<place>Ingelnheim</place>
+			<reference>Oberu. Nieder-I</reference>
+		</ort>
+		<ort id="10301082-1">
+			<place>Insa</place>
+			<reference>Ybbs</reference>
+		</ort>
+		<ort id="10301083-1">
+			<place>Insula b. Marie</place>
+			<reference>Marienwaard</reference>
+		</ort>
+		<ort id="10301084-1">
+			<place>Inticen.</place>
+			<reference>Innichen</reference>
+		</ort>
+		<ort id="10301090-1">
+			<place>Iselsteyn</place>
+			<reference>Isselstein</reference>
+		</ort>
+		<ort id="10301092-1">
+			<place>Isenac.</place>
+			<reference>Eisenach</reference>
+		</ort>
+		<ort id="10301096-1">
+			<place>Iserleue</place>
+			<reference>Eisleben</reference>
+		</ort>
+		<ort id="10301098-1">
+			<place>Isleyben</place>
+			<reference>Eisleben</reference>
+		</ort>
+		<ort id="10302106-1">
+			<place>in Solio</place>
+			<reference>Maria Saal</reference>
+		</ort>
+	</index>
+	<index type="orte" char="j">
+		<ort id="10301056-1">
+			<place>Jegheleue</place>
+			<reference>Ingeleben</reference>
+		</ort>
+		<ort id="10301059-1">
+			<place>Jeropolitan.</place>
+			<reference>Hieropolis</reference>
+		</ort>
+		<ort id="10301061-1">
+			<place>Jhene</place>
+			<reference>Jena</reference>
+		</ort>
+	</index>
+	<index type="orte" char="k">
+		<ort id="10301117-1">
+			<place>Kalyc</place>
+			<reference>Kaliess</reference>
+		</ort>
+		<ort id="10301118-1">
+			<place>Kamenecen.</place>
+			<reference>Caminiecz</reference>
+		</ort>
+		<ort id="10301123-1">
+			<place>Karlow</place>
+			<reference>Carlow</reference>
+		</ort>
+		<ort id="10301126-1">
+			<place>Kaspaldshouen</place>
+			<reference>Gaspoltzhoven</reference>
+		</ort>
+		<ort id="10301132-1">
+			<place>Kelcze</place>
+			<reference>Kielce</reference>
+		</ort>
+		<ort id="10301136-1">
+			<place>Kempnicz</place>
+			<reference>Chemnitz</reference>
+		</ort>
+		<ort id="10301138-1">
+			<place>Kenle</place>
+			<reference>Kehl</reference>
+		</ort>
+		<ort id="10301153-1">
+			<place>Kiritz</place>
+			<reference>Kyritz</reference>
+		</ort>
+		<ort id="10301176-1">
+			<place>Kothebus</place>
+			<reference>Cottbus</reference>
+		</ort>
+		<ort id="10301180-1">
+			<place>Kreitz</place>
+			<reference>Gross-Kreutz</reference>
+		</ort>
+		<ort id="10301184-1">
+			<place>Kreuzlingen</place>
+			<reference>Konstanz</reference>
+		</ort>
+		<ort id="10301186-1">
+			<place>Krewelsheim</place>
+			<reference>Crailsheim</reference>
+		</ort>
+		<ort id="10301187-1">
+			<place>Krolip</place>
+			<reference>Crölpa</reference>
+		</ort>
+		<ort id="10301196-1">
+			<place>Kungsdorff</place>
+			<reference>Königsdorf</reference>
+		</ort>
+		<ort id="10301197-1">
+			<place>Kungsuelt</place>
+			<reference>Königsfelden</reference>
+		</ort>
+		<ort id="10301198-1">
+			<place>Kungzbrunnen</place>
+			<reference>Königsbrunn</reference>
+		</ort>
+		<ort id="10301199-1">
+			<place>Kunigsperg</place>
+			<reference>Königsberg</reference>
+		</ort>
+		<ort id="10301204-1">
+			<place>Kyppenhusen</place>
+			<reference>Kippenhausen</reference>
+		</ort>
+	</index>
+	<index type="orte" char="l">
+		<ort id="10301208-1">
+			<place>Lacus s. Marie</place>
+			<reference>Filehne</reference>
+		</ort>
+		<ort id="10301209-1">
+			<place>Lafferde</place>
+			<reference>Klein-Lafferde</reference>
+		</ort>
+		<ort id="10301211-1">
+			<place>Lakchirchen</place>
+			<reference>Laakirchen</reference>
+		</ort>
+		<ort id="10301213-1">
+			<place>Lancicia</place>
+			<reference>Lentschitz</reference>
+		</ort>
+		<ort id="10301219-1">
+			<place>Langherke</place>
+			<reference>Lengerich</reference>
+		</ort>
+		<ort id="10301221-1">
+			<place>Lanstein superior</place>
+			<reference>Oberlahnstein</reference>
+		</ort>
+		<ort id="10301226-1">
+			<place>Laudunen.</place>
+			<reference>Laon</reference>
+		</ort>
+		<ort id="10301238-1">
+			<place>Ledro</place>
+			<reference>Valle di Ledro</reference>
+		</ort>
+		<ort id="10301239-1">
+			<place>Legnicen.</place>
+			<reference>Liegnitz</reference>
+		</ort>
+		<ort id="10301247-1">
+			<place>Leodien.</place>
+			<reference>Lüttich</reference>
+			<reference>Pont-à-Mousson</reference>
+		</ort>
+		<ort id="10301248-1">
+			<place>Leodri</place>
+			<reference>Valle di Ledro</reference>
+		</ort>
+		<ort id="10301252-1">
+			<place>Leuczenprunn</place>
+			<reference>Leuzenbronn</reference>
+		</ort>
+		<ort id="10301258-1">
+			<place>Lewben</place>
+			<reference>Leoben</reference>
+		</ort>
+		<ort id="10301259-1">
+			<place>Lewbensdorff</place>
+			<reference>Leobendorf</reference>
+		</ort>
+		<ort id="10301260-1">
+			<place>Lewbs</place>
+			<reference>Leubs</reference>
+		</ort>
+		<ort id="10301261-1">
+			<place>Lewenberg</place>
+			<reference>Löwenberg</reference>
+		</ort>
+		<ort id="10301262-1">
+			<place>Lewkental</place>
+			<reference>Leukenthal</reference>
+		</ort>
+		<ort id="10301264-1">
+			<place>Lexouien.</place>
+			<reference>Lisieux</reference>
+		</ort>
+		<ort id="10301271-1">
+			<place>Liden.</place>
+			<reference>Lydda</reference>
+		</ort>
+		<ort id="10301274-1">
+			<place>Liechtenberd</place>
+			<reference>Lichtenwerden</reference>
+		</ort>
+		<ort id="10301277-1">
+			<place>Liiche</place>
+			<reference>Lich</reference>
+		</ort>
+		<ort id="10301278-1">
+			<place>Linach</place>
+			<reference>Leinach</reference>
+		</ort>
+		<ort id="10301283-1">
+			<place>Lipczen.</place>
+			<place>Lipczk</place>
+			<reference>Leipzig</reference>
+		</ort>
+		<ort id="10301288-1">
+			<place>Lisko</place>
+			<reference>Lieskow</reference>
+		</ort>
+		<ort id="10301292-1">
+			<place>Lo</place>
+			<reference>Lohe</reference>
+		</ort>
+		<ort id="10301298-1">
+			<place>Longawola</place>
+			<reference>Wola</reference>
+		</ort>
+		<ort id="10301300-1">
+			<place>Lopham</place>
+			<reference>Laupheim</reference>
+		</ort>
+		<ort id="10301304-1">
+			<place>Loss</place>
+			<reference>Grath</reference>
+		</ort>
+		<ort id="10301308-1">
+			<place>Lowfen</place>
+			<reference>Laufen</reference>
+		</ort>
+		<ort id="10301313-1">
+			<place>Lubens</place>
+			<reference>Leubus</reference>
+		</ort>
+		<ort id="10301315-1">
+			<place>Lubicen.</place>
+			<reference>Lübeck</reference>
+		</ort>
+		<ort id="10301317-1">
+			<place>Lubucen.</place>
+			<reference>Lebus</reference>
+		</ort>
+		<ort id="10301319-1">
+			<place>Lucenburg</place>
+			<reference>Luxemburg</reference>
+		</ort>
+		<ort id="10301320-1">
+			<place>Lucidauallis</place>
+			<reference>Lichtenthal</reference>
+		</ort>
+		<ort id="10301321-1">
+			<place>Luczenbrunn</place>
+			<reference>Leuzenbronn</reference>
+		</ort>
+		<ort id="10301322-1">
+			<place>Ludenbac</place>
+			<reference>Lautenbach</reference>
+		</ort>
+		<ort id="10301324-1">
+			<place>Lugdunen.</place>
+			<reference>Lyon</reference>
+		</ort>
+		<ort id="10301331-1">
+			<place>Luterbach</place>
+			<reference>Lauterbach</reference>
+		</ort>
+		<ort id="10301332-1">
+			<place>Lutkirch</place>
+			<reference>Leutkirch</reference>
+		</ort>
+		<ort id="10301333-1">
+			<place>Lutrin</place>
+			<reference>Lautern</reference>
+		</ort>
+		<ort id="10301338-1">
+			<place>Lyncz</place>
+			<reference>Linz</reference>
+		</ort>
+	</index>
+	<index type="orte" char="m">
+		<ort id="10301344-1">
+			<place>Maersen</place>
+			<reference>Maarsen</reference>
+		</ort>
+		<ort id="10301346-1">
+			<place>Magnaalsleuen</place>
+			<reference>Gross-Alsleben</reference>
+		</ort>
+		<ort id="10301347-1">
+			<place>Magnamana</place>
+			<reference>Gross-Mohnau</reference>
+		</ort>
+		<ort id="10301348-1">
+			<place>Magna Radomirz</place>
+			<reference>Radomierz</reference>
+		</ort>
+		<ort id="10301349-1">
+			<place>Magnasahna</place>
+			<reference>Gross-Salze</reference>
+		</ort>
+		<ort id="10301350-1">
+			<place>Maguntin.</place>
+			<reference>Mainz</reference>
+		</ort>
+		<ort id="10301353-1">
+			<place>Maiorberingen</place>
+			<reference>Gross-Behringen</reference>
+		</ort>
+		<ort id="10301354-1">
+			<place>Maior Enczesdorff</place>
+			<reference>Gross-Enzersdorf</reference>
+		</ort>
+		<ort id="10301355-1">
+			<place>Maior Jene</place>
+			<reference>Jena</reference>
+		</ort>
+		<ort id="10301356-1">
+			<place>Maiormanre</place>
+			<reference>Grossenmohnra</reference>
+		</ort>
+		<ort id="10301357-1">
+			<place>Maior Somerde</place>
+			<reference>Sömmerda</reference>
+		</ort>
+		<ort id="10301358-1">
+			<place>Maiortenstede</place>
+			<reference>Tennstedt</reference>
+		</ort>
+		<ort id="10301359-1">
+			<place>Maior Wyler (Viller)</place>
+			<reference>Weiler</reference>
+		</ort>
+		<ort id="10301365-1">
+			<place>Mannsee</place>
+			<reference>Mondsee</reference>
+		</ort>
+		<ort id="10301366-1">
+			<place>Manre</place>
+			<reference>Grossenmohnra</reference>
+		</ort>
+		<ort id="10301372-1">
+			<place>Marcedum</place>
+			<reference>Merzig a. S</reference>
+		</ort>
+		<ort id="10301373-1">
+			<place>Marcgrussen</place>
+			<reference>Greussen</reference>
+		</ort>
+		<ort id="10301374-1">
+			<place>Marchdorf</place>
+			<reference>Markdorf</reference>
+		</ort>
+		<ort id="10301376-1">
+			<place>Marclo</place>
+			<reference>Markelo</reference>
+		</ort>
+		<ort id="10301388-1">
+			<place>Marienwerder</place>
+			<reference>Pomesanien</reference>
+		</ort>
+		<ort id="10301395-1">
+			<place>Marpach</place>
+			<reference>Marbach</reference>
+		</ort>
+		<ort id="10301403-1">
+			<place>Maternbach</place>
+			<reference>Katernbach</reference>
+		</ort>
+		<ort id="10301404-1">
+			<place>Matra</place>
+			<reference>Moder</reference>
+		</ort>
+		<ort id="10301411-1">
+			<place>Mawrkirchen</place>
+			<reference>Buchkirchen</reference>
+		</ort>
+		<ort id="10301412-1">
+			<place>Mayder</place>
+			<reference>Meder</reference>
+		</ort>
+		<ort id="10301416-1">
+			<place>Medeziumcorone</place>
+			<reference>Kronmetz</reference>
+		</ort>
+		<ort id="10301417-1">
+			<place>Medialu</place>
+			<reference>Mittelkirchen</reference>
+		</ort>
+		<ort id="10301418-1">
+			<place>Mediolanum</place>
+			<reference>Mailand</reference>
+		</ort>
+		<ort id="10301419-1">
+			<place>Medling</place>
+			<reference>Mödling</reference>
+		</ort>
+		<ort id="10301421-1">
+			<place>Mehringen</place>
+			<reference>Möhringen</reference>
+		</ort>
+		<ort id="10301433-1">
+			<place>Merczenich</place>
+			<reference>Merzenich</reference>
+		</ort>
+		<ort id="10301434-1">
+			<place>Mergenstat</place>
+			<reference>Marienstadt</reference>
+		</ort>
+		<ort id="10301435-1">
+			<place>Mergenstern</place>
+			<reference>Marienstern</reference>
+		</ort>
+		<ort id="10301436-1">
+			<place>Merighen</place>
+			<reference>Möhringen</reference>
+		</ort>
+		<ort id="10301440-1">
+			<place>Mersen</place>
+			<reference>Meersen</reference>
+		</ort>
+		<ort id="10301447-1">
+			<place>Messenberg</place>
+			<reference>Massenberg</reference>
+		</ort>
+		<ort id="10301449-1">
+			<place>Meysseldeck</place>
+			<reference>Meiselding</reference>
+		</ort>
+		<ort id="10301456-1">
+			<place>Miltenberg</place>
+			<reference>Bürgstadt</reference>
+		</ort>
+		<ort id="10301457-1">
+			<place>Minchroth</place>
+			<reference>Roth</reference>
+		</ort>
+		<ort id="10301459-1">
+			<place>Minorfreschelingen</place>
+			<reference>Klein-Fischlingen</reference>
+		</ort>
+		<ort id="10301460-1">
+			<place>Minor Lafferde</place>
+			<reference>Klein-Lafferde</reference>
+		</ort>
+		<ort id="10301461-1">
+			<place>Mintzenberg</place>
+			<reference>Drais</reference>
+		</ort>
+		<ort id="10301464-1">
+			<place>Misnen.</place>
+			<reference>Meissen</reference>
+		</ort>
+		<ort id="10301473-1">
+			<place>Moguntin.</place>
+			<reference>Mainz</reference>
+		</ort>
+		<ort id="10301474-1">
+			<place>Mohnau</place>
+			<reference>Gross-Mohnau</reference>
+		</ort>
+		<ort id="10301475-1">
+			<place>Mohnra</place>
+			<reference>Grossen Mohnra</reference>
+		</ort>
+		<ort id="10301476-1">
+			<place>Molhusen</place>
+			<reference>Mühlhausen</reference>
+		</ort>
+		<ort id="10301477-1">
+			<place>Monacen.</place>
+			<reference>München</reference>
+		</ort>
+		<ort id="10301481-1">
+			<place>Monasterien.</place>
+			<reference>Münster</reference>
+		</ort>
+		<ort id="10301482-1">
+			<place>Monasteriumclericorum</place>
+			<reference>Pfaffmünster</reference>
+		</ort>
+		<ort id="10301483-1">
+			<place>Monasteriumeyfflie</place>
+			<reference>Münstereiffel</reference>
+		</ort>
+		<ort id="10301484-1">
+			<place>Monasteriummeynfelt</place>
+			<reference>Münstermaifeld</reference>
+		</ort>
+		<ort id="10301487-1">
+			<place>Monsboldensberg</place>
+			<reference>Boltesberg</reference>
+		</ort>
+		<ort id="10301488-1">
+			<place>Mons Jouis</place>
+			<reference>St. Bernhard</reference>
+		</ort>
+		<ort id="10301489-1">
+			<place>Monsmadran.</place>
+			<reference>Madron</reference>
+		</ort>
+		<ort id="10301490-1">
+			<place>Monssanctipetri</place>
+			<reference>Petersberg</reference>
+		</ort>
+		<ort id="10301491-1">
+			<place>Monsterkirken</place>
+			<reference>Münsterkirchen</reference>
+		</ort>
+		<ort id="10301492-1">
+			<place>Monten.</place>
+			<reference>Berg</reference>
+		</ort>
+		<ort id="10301493-1">
+			<place>Montisburgum</place>
+			<reference>Marienberg</reference>
+		</ort>
+		<ort id="10301496-1">
+			<place>Morinen.</place>
+			<reference>Terouane</reference>
+		</ort>
+		<ort id="10301498-1">
+			<place>Morschheim</place>
+			<reference>Sion</reference>
+		</ort>
+		<ort id="10301499-1">
+			<place>Mosacen.</place>
+			<reference>Moos</reference>
+		</ort>
+		<ort id="10301501-1">
+			<place>Mospurg</place>
+			<reference>Moosburg</reference>
+		</ort>
+		<ort id="10301502-1">
+			<place>Moxstad</place>
+			<reference>Mockstadt</reference>
+		</ort>
+		<ort id="10301505-1">
+			<place>Mulbron</place>
+			<reference>Maulbronn</reference>
+		</ort>
+		<ort id="10301506-1">
+			<place>Mulsenheim</place>
+			<reference>Mölsenheim</reference>
+		</ort>
+		<ort id="10301507-1">
+			<place>Munasterien.</place>
+			<reference>Münster</reference>
+		</ort>
+		<ort id="10301513-1">
+			<place>Munichroet</place>
+			<reference>Roth</reference>
+		</ort>
+		<ort id="10301516-1">
+			<place>Munster</place>
+			<reference>Münchsmünster</reference>
+		</ort>
+		<ort id="10301522-1">
+			<place>Munuchwiler</place>
+			<reference>Münchweiler</reference>
+		</ort>
+		<ort id="10301523-1">
+			<place>Münzenberg</place>
+			<reference>Drais</reference>
+		</ort>
+		<ort id="10301526-1">
+			<place>Murse</place>
+			<reference>Moers</reference>
+		</ort>
+		<ort id="10301527-1">
+			<place>Musberg</place>
+			<reference>Ansperg</reference>
+		</ort>
+		<ort id="10301528-1">
+			<place>Musdorff</place>
+			<reference>Mausdorf</reference>
+		</ort>
+	</index>
+	<index type="orte" char="s">
+		<ort id="10301379-1">
+			<place>St. Maria in Au</place>
+			<reference>Gries</reference>
+		</ort>
+		<ort id="10301727-1">
+			<place>S. Petri</place>
+			<reference>S. Pietro</reference>
+		</ort>
+		<ort id="10301964-1">
+			<place>Salina</place>
+			<reference>Gross-Salze</reference>
+			<reference>Hallein</reference>
+		</ort>
+		<ort id="10301966-1">
+			<place>Salsz</place>
+			<reference>Selz</reference>
+		</ort>
+		<ort id="10301969-1">
+			<place>Samerde</place>
+			<reference>Sömmerda</reference>
+		</ort>
+		<ort id="10391002-1" id_source="assigned">
+			<place>Sanctogallo</place>
+			<reference>St. Gallen</reference>
+		</ort>
+		<ort id="10301988-1">
+			<place>Sarburgum</place>
+			<reference>Saarburg</reference>
+		</ort>
+		<ort id="10301989-1">
+			<place>Sarentina</place>
+			<reference>Sarnthein</reference>
+		</ort>
+		<ort id="10301991-1">
+			<place>Saresburgh</place>
+			<reference>Salzburg</reference>
+		</ort>
+		<ort id="10301996-1">
+			<place>Saue</place>
+			<reference>St. Rupert</reference>
+		</ort>
+		<ort id="10301997-1">
+			<place>Saxonia</place>
+			<reference>Sachsen</reference>
+		</ort>
+		<ort id="10301998-1">
+			<place>Scarphout</place>
+			<reference>Blankenberghe</reference>
+		</ort>
+		<ort id="10301999-1">
+			<place>Scerzheim</place>
+			<reference>Scherzheim</reference>
+		</ort>
+		<ort id="10302004-1">
+			<place>Scherlempach</place>
+			<reference>Sarleinsbach</reference>
+		</ort>
+		<ort id="10302024-1">
+			<place>Schudicz</place>
+			<reference>Schkeuditz</reference>
+		</ort>
+		<ort id="10302025-1">
+			<place>Schulpforta</place>
+			<reference>Pforta</reference>
+		</ort>
+		<ort id="10302036-1">
+			<place>Schwarzwald</place>
+			<reference>St. Blasien</reference>
+		</ort>
+		<ort id="10302042-1">
+			<place>Sconingen</place>
+			<reference>Schönigen</reference>
+		</ort>
+		<ort id="10302044-1">
+			<place>Seccow</place>
+			<reference>Sekkau</reference>
+		</ort>
+		<ort id="10302045-1">
+			<place>Seck</place>
+			<place>Seckbach</place>
+			<reference>Sonsbeck</reference>
+		</ort>
+		<ort id="10302046-1">
+			<place>Sedunen.</place>
+			<reference>Sitten</reference>
+		</ort>
+		<ort id="10302053-1">
+			<place>Sekingen</place>
+			<place>Selkinghen</place>
+			<reference>Säckingen</reference>
+		</ort>
+		<ort id="10302057-1">
+			<place>Senasburgh</place>
+			<reference>Sensburg</reference>
+		</ort>
+		<ort id="10302058-1">
+			<place>Sendomir</place>
+			<reference>Sandomirz</reference>
+		</ort>
+		<ort id="10302059-1">
+			<place>Senen.</place>
+			<reference>Siena</reference>
+		</ort>
+		<ort id="10302064-1">
+			<place>Seuelden</place>
+			<reference>Seefelden</reference>
+		</ort>
+		<ort id="10302066-1">
+			<place>Sewn</place>
+			<reference>Seeon</reference>
+		</ort>
+		<ort id="10302068-1">
+			<place>Sgrauenraade</place>
+			<reference>Raede</reference>
+		</ort>
+		<ort id="10302069-1">
+			<place>Sibergen.</place>
+			<reference>Siegberg</reference>
+		</ort>
+		<ort id="10302076-1">
+			<place>Signen.</place>
+			<reference>Zengg</reference>
+		</ort>
+		<ort id="10302078-1">
+			<place>Silesia</place>
+			<reference>Schlesien</reference>
+		</ort>
+		<ort id="10302079-1">
+			<place>Siluaprigantina</place>
+			<reference>Schwarzenberg</reference>
+		</ort>
+		<ort id="10302081-1">
+			<place>Sinna</place>
+			<reference>Schienen</reference>
+		</ort>
+		<ort id="10302091-1">
+			<place>Slesia</place>
+			<place>Slezia</place>
+			<reference>Schlesien</reference>
+		</ort>
+		<ort id="10302092-1">
+			<place>Sleswicen.</place>
+			<reference>Schleswig</reference>
+		</ort>
+		<ort id="10302093-1">
+			<place>Sletzstaden.</place>
+			<reference>Schlettstadt</reference>
+		</ort>
+		<ort id="10302094-1">
+			<place>Sliers</place>
+			<reference>Schliersee</reference>
+		</ort>
+		<ort id="10302095-1">
+			<place>Slose</place>
+			<reference>Schluchsee</reference>
+		</ort>
+		<ort id="10302096-1">
+			<place>Slucht</place>
+			<reference>Schlicht</reference>
+		</ort>
+		<ort id="10302098-1">
+			<place>Smedehusen</place>
+			<reference>Schmedehausen</reference>
+		</ort>
+		<ort id="10302099-1">
+			<place>Snaitsee</place>
+			<reference>Schnaitsee</reference>
+		</ort>
+		<ort id="10302100-1">
+			<place>Snerscheim</place>
+			<reference>Schnersheim</reference>
+		</ort>
+		<ort id="10302101-1">
+			<place>Sneytach</place>
+			<reference>Schnaittach</reference>
+		</ort>
+		<ort id="10302110-1">
+			<place>Sora</place>
+			<reference>Saar</reference>
+		</ort>
+		<ort id="10302114-1">
+			<place>Spanheim</place>
+			<reference>Spohnheim</reference>
+		</ort>
+		<ort id="10302125-1">
+			<place>Stain</place>
+			<reference>Stein</reference>
+		</ort>
+		<ort id="10391003-1" id_source="assigned">
+			<place>Stain(a)kirchen</place>
+			<reference>Steinkirchen</reference>
+		</ort>
+		<ort id="10302126-1">
+			<place>Stalburg</place>
+			<reference>Stolberg</reference>
+		</ort>
+		<ort id="10302129-1">
+			<place>Stayn</place>
+			<reference>Stein</reference>
+		</ort>
+		<ort id="10302132-1">
+			<place>Steiermark (Stiria)</place>
+			<reference>Bruck</reference>
+		</ort>
+		<ort id="10302139-1">
+			<place>Stellasanctemarie</place>
+			<reference>Marienstern</reference>
+		</ort>
+		<ort id="10302140-1">
+			<place>Stenbeke</place>
+			<reference>Steimke</reference>
+		</ort>
+		<ort id="10302142-1">
+			<place>Steten.</place>
+			<reference>Stedten</reference>
+		</ort>
+		<ort id="10302144-1">
+			<place>Steynkerken</place>
+			<reference>Steenkerke</reference>
+		</ort>
+		<ort id="10302145-1">
+			<place>Sthainakirchen</place>
+			<reference>Steinkirchen</reference>
+		</ort>
+		<ort id="10302150-1">
+			<place>Strahouien.</place>
+			<reference>Prag</reference>
+		</ort>
+		<ort id="10302158-1">
+			<place>Sunbronnen</place>
+			<reference>Siebenbronn</reference>
+		</ort>
+		<ort id="10302159-1">
+			<place>Sunden.</place>
+			<reference>Stralsund</reference>
+		</ort>
+		<ort id="10302160-1">
+			<place>Sunderhofen</place>
+			<reference>Sonderhofen</reference>
+		</ort>
+		<ort id="10302161-1">
+			<place>Superior Berghe</place>
+			<reference>Oberberge</reference>
+		</ort>
+		<ort id="10302162-1">
+			<place>Superior-Ingelnheim</place>
+			<reference>Ober-Ingelnheim</reference>
+		</ort>
+		<ort id="10302163-1">
+			<place>Superiorlanstein</place>
+			<reference>Oberlahnstein</reference>
+		</ort>
+		<ort id="10302165-1">
+			<place>Susacien.</place>
+			<place>Suzacien.</place>
+			<reference>Soest</reference>
+		</ort>
+		<ort id="10302169-1">
+			<place>Suecia</place>
+			<reference>Schweden</reference>
+		</ort>
+		<ort id="10302170-1">
+			<place>Swabenhusen</place>
+			<reference>Schwabhausen</reference>
+		</ort>
+		<ort id="10302171-1">
+			<place>Swarczenberg</place>
+			<reference>Schwarzenberg</reference>
+		</ort>
+		<ort id="10302172-1">
+			<place>Swauestede</place>
+			<reference>Schwabstedt</reference>
+		</ort>
+		<ort id="10302173-1">
+			<place>Swartzach</place>
+			<reference>Schwarzach</reference>
+		</ort>
+		<ort id="10302174-1">
+			<place>Swartzpurg</place>
+			<reference>Schwarzburg</reference>
+		</ort>
+		<ort id="10302175-1">
+			<place>Swebriet</place>
+			<reference>Schwebenried</reference>
+		</ort>
+		<ort id="10302176-1">
+			<place>Swerin.</place>
+			<reference>Schwerin</reference>
+		</ort>
+		<ort id="10302177-1">
+			<place>Swidenicz</place>
+			<reference>Schweidnitz</reference>
+		</ort>
+		<ort id="10302179-1">
+			<place>Swolle</place>
+			<reference>Zwolle</reference>
+		</ort>
+		<ort id="10302180-1">
+			<place>Syberg.</place>
+			<reference>Siegberg</reference>
+		</ort>
+		<ort id="10302182-1">
+			<place>Sydonien.</place>
+			<reference>Sidon</reference>
+		</ort>
+		<ort id="10302183-1">
+			<place>Syernick</place>
+			<reference>Sierning</reference>
+		</ort>
+		<ort id="10302184-1">
+			<place>Syon</place>
+			<reference>Sion</reference>
+		</ort>
+		<ort id="10302185-1">
+			<place>Syprigehusen</place>
+			<reference>Sipperhausen</reference>
+		</ort>
+		<ort id="10302186-1">
+			<place>Syradia</place>
+			<reference>Sieradz</reference>
+		</ort>
+	</index>
+	<index type="orte" char="n">
+		<ort id="10301532-1">
+			<place>Naturen.</place>
+			<reference>Athyra</reference>
+		</ort>
+		<ort id="10301538-1">
+			<place>Nemzin</place>
+			<reference>Nimbschen</reference>
+		</ort>
+		<ort id="10301543-1">
+			<place>Neuburg</place>
+			<reference>Klosterneuburg</reference>
+		</ort>
+		<ort id="10301552-1">
+			<place>Neumburgh</place>
+			<reference>Neuenburg</reference>
+		</ort>
+		<ort id="10301561-1">
+			<place>Newhus</place>
+			<reference>Neuhaus</reference>
+		</ort>
+		<ort id="10301562-1">
+			<place>Newnburg</place>
+			<place>Newnburgaclaustralis</place>
+			<reference>Klosterneuburg</reference>
+		</ort>
+		<ort id="10301563-1">
+			<place>Newnkirchen</place>
+			<reference>Neunkirchen</reference>
+		</ort>
+		<ort id="10301565-1">
+			<place>Nidrosien.</place>
+			<reference>Drontheim</reference>
+		</ort>
+		<ort id="10391001-1" id_source="assigned">
+			<place>Niderratenaw</place>
+			<place>Nidderraitenow</place>
+			<reference>Unter-Reitnau</reference>
+		</ort>
+		<ort id="10301568-1">
+			<place>Nieder-Bayern</place>
+			<reference>Bayern</reference>
+		</ort>
+		<ort id="10301576-1">
+			<place>Nieuwe-Zijdskapel</place>
+			<reference>Amsterdam</reference>
+		</ort>
+		<ort id="10301577-1">
+			<place>Nigenstat</place>
+			<reference>Neustadt</reference>
+		</ort>
+		<ort id="10301578-1">
+			<place>Nigrasilua</place>
+			<reference>St. Blasien</reference>
+		</ort>
+		<ort id="10301587-1">
+			<place>Nortich</place>
+			<reference>Noorddyk</reference>
+		</ort>
+		<ort id="10301589-1">
+			<place>Noua Berlin</place>
+			<reference>Berlinichen</reference>
+		</ort>
+		<ort id="10301590-1">
+			<place>Nouacella</place>
+			<reference>Neustift</reference>
+		</ort>
+		<ort id="10301591-1">
+			<place>Nouaciuitas</place>
+			<reference>Neustadt</reference>
+		</ort>
+		<ort id="10301592-1">
+			<place>Noualandesberghe</place>
+			<reference>Landsberg</reference>
+		</ort>
+		<ort id="10301593-1">
+			<place>Nouaterra</place>
+			<reference>Bislich</reference>
+		</ort>
+		<ort id="10301594-1">
+			<place>Noua Treptow</place>
+			<reference>Treptow</reference>
+		</ort>
+		<ort id="10301595-1">
+			<place>Nouauilla</place>
+			<reference>Neuenstadt</reference>
+		</ort>
+		<ort id="10301596-1">
+			<place>Nouillaren.</place>
+			<reference>Neuweiler</reference>
+		</ort>
+		<ort id="10301597-1">
+			<place>Nouimagen.</place>
+			<reference>Neumagen</reference>
+		</ort>
+		<ort id="10301598-1">
+			<place>Nouiomen.</place>
+			<reference>Noyon</reference>
+		</ort>
+		<ort id="10301599-1">
+			<place>Nouumbrandeborgh</place>
+			<reference>Neubrandenburg</reference>
+		</ort>
+		<ort id="10301600-1">
+			<place>Nouumcastrum</place>
+			<reference>Neuenburg</reference>
+		</ort>
+		<ort id="10301601-1">
+			<place>Nouumstargard</place>
+			<reference>Stargard</reference>
+		</ort>
+		<ort id="10301603-1">
+			<place>Nuemburg.</place>
+			<reference>Naumburg</reference>
+			<reference>Neuburg</reference>
+		</ort>
+		<ort id="10301604-1">
+			<place>Nuendorf</place>
+			<reference>Neuendorf</reference>
+		</ort>
+		<ort id="10301605-1">
+			<place>Nuhusen</place>
+			<reference>Worms</reference>
+		</ort>
+		<ort id="10301606-1">
+			<place>Nunkirchen</place>
+			<reference>Neunkirchen</reference>
+		</ort>
+		<ort id="10301607-1">
+			<place>Nunnenberd</place>
+			<reference>Fraunchiemsee</reference>
+		</ort>
+		<ort id="10301609-1">
+			<place>Nussien</place>
+			<reference>Neuss</reference>
+		</ort>
+		<ort id="10301610-1">
+			<place>Nuwekirche</place>
+			<reference>Ottenheim</reference>
+		</ort>
+		<ort id="10301611-1">
+			<place>Nydenburg</place>
+			<reference>Passau</reference>
+		</ort>
+		<ort id="10301612-1">
+			<place>Nyenkerken</place>
+			<reference>Neukirchen</reference>
+		</ort>
+		<ort id="10301613-1">
+			<place>Nyewerue</place>
+			<reference>Nienwerve</reference>
+		</ort>
+		<ort id="10301614-1">
+			<place>Nygenstad</place>
+			<reference>Neustadt</reference>
+		</ort>
+		<ort id="10301616-1">
+			<place>Nympcz</place>
+			<reference>Nimptsch</reference>
+		</ort>
+		<ort id="10301617-1">
+			<place>Nyssa</place>
+			<reference>Neisse</reference>
+		</ort>
+	</index>
+	<index type="orte" char="o">
+		<ort id="10301626-1">
+			<place>Obernburg</place>
+			<reference>Oberburg</reference>
+		</ort>
+		<ort id="10301634-1">
+			<place>Odenstarp</place>
+			<reference>Oestorf</reference>
+		</ort>
+		<ort id="10301636-1">
+			<place>Oestbrock</place>
+			<reference>Utrecht</reference>
+		</ort>
+		<ort id="10301638-1">
+			<place>Oestworne</place>
+			<reference>Oostvoorne</reference>
+		</ort>
+		<ort id="10301639-1">
+			<place>Ohalming</place>
+			<reference>Aholming</reference>
+		</ort>
+		<ort id="10301648-1">
+			<place>Olsna</place>
+			<place>Olsnicen.</place>
+			<reference>Oels</reference>
+		</ort>
+		<ort id="10301651-1">
+			<place>Omniumsanctorum</place>
+			<reference>Allerheiligen</reference>
+		</ort>
+		<ort id="10301652-1">
+			<place>Omsberg</place>
+			<place>Onsperg</place>
+			<reference>Ansperg</reference>
+		</ort>
+		<ort id="10301653-1">
+			<place>Onelspacen.</place>
+			<reference>Ansbach</reference>
+		</ort>
+		<ort id="10301654-1">
+			<place>Oostbroek</place>
+			<reference>Utrecht</reference>
+		</ort>
+		<ort id="10301658-1">
+			<place>Oringew</place>
+			<reference>Öhringen</reference>
+		</ort>
+		<ort id="10301659-1">
+			<place>Ornstorff</place>
+			<reference>Olnstorff</reference>
+		</ort>
+		<ort id="10301672-1">
+			<place>Othmincow</place>
+			<place>Othmuchouien.</place>
+			<place>Othomochaw</place>
+			<reference>Ottmachau</reference>
+		</ort>
+		<ort id="10301677-1">
+			<place>Ottonien.</place>
+			<reference>Odense</reference>
+		</ort>
+		<ort id="10301678-1">
+			<place>Oudeghiessen</place>
+			<reference>Giessen-Oudkerk</reference>
+		</ort>
+		<ort id="10301681-1">
+			<place>Ouderscbiede</place>
+			<reference>Overschie</reference>
+		</ort>
+		<ort id="10301682-1">
+			<place>Ouderulissinghen</place>
+			<reference>Vlissingen</reference>
+		</ort>
+		<ort id="10301683-1">
+			<place>Oudwika</place>
+			<place>Oudwijk</place>
+			<reference>Utrecht</reference>
+		</ort>
+		<ort id="10301684-1">
+			<place>Oue</place>
+			<reference>Aue</reference>
+		</ort>
+		<ort id="10301685-1">
+			<place>Ousdorff</place>
+			<place>Oustorff</place>
+			<reference>Audorf</reference>
+		</ort>
+		<ort id="10301687-1">
+			<place>Ouerwinterthure</place>
+			<reference>Oberwinterthur</reference>
+		</ort>
+		<ort id="10301688-1">
+			<place>Ow</place>
+			<reference>Au</reference>
+		</ort>
+		<ort id="10301691-1">
+			<place>Oytin</place>
+			<reference>Eutin</reference>
+		</ort>
+	</index>
+	<index type="orte" char="p">
+		<ort id="10301696-1">
+			<place>Parchentin</place>
+			<reference>Parkentin</reference>
+		</ort>
+		<ort id="10301701-1">
+			<place>Parleberghe</place>
+			<reference>Perleberg</reference>
+		</ort>
+		<ort id="10301702-1">
+			<place>Parreya</place>
+			<reference>Parey</reference>
+		</ort>
+		<ort id="10301715-1">
+			<place>Perchen</place>
+			<place>Percheim</place>
+			<reference>Bergheim</reference>
+		</ort>
+		<ort id="10301716-1">
+			<place>Perchim.</place>
+			<reference>Parchim</reference>
+		</ort>
+		<ort id="10301717-1">
+			<place>Perdingesleibin</place>
+			<reference>Pferdingsleben</reference>
+		</ort>
+		<ort id="10301718-1">
+			<place>Pereya</place>
+			<reference>Parey</reference>
+		</ort>
+		<ort id="10301719-1">
+			<place>Periber</place>
+			<reference>Piber</reference>
+		</ort>
+		<ort id="10301722-1">
+			<place>Pertersgaden</place>
+			<reference>Berchtesgaden</reference>
+		</ort>
+		<ort id="10301724-1">
+			<place>Pesznig</place>
+			<reference>Pössneck</reference>
+		</ort>
+		<ort id="10301726-1">
+			<place>Petershausen</place>
+			<reference>Konstanz</reference>
+		</ort>
+		<ort id="10301729-1">
+			<place>Peylenstayn</place>
+			<reference>Peilenstein</reference>
+		</ort>
+		<ort id="10301730-1">
+			<place>Peyne</place>
+			<reference>Peine</reference>
+		</ort>
+		<ort id="10301731-1">
+			<place>Peyerreut</place>
+			<reference>Bayreuth</reference>
+		</ort>
+		<ort id="10301742-1">
+			<place>Phaffenhouen</place>
+			<reference>Pfaffenhofen</reference>
+		</ort>
+		<ort id="10301743-1">
+			<place>Phaffenslag</place>
+			<reference>Pfaffenschlag</reference>
+		</ort>
+		<ort id="10301744-1">
+			<place>Pharkirchen</place>
+			<reference>Pfarrkirchen</reference>
+		</ort>
+		<ort id="10301745-1">
+			<place>Pheffing</place>
+			<reference>Pfäffing</reference>
+		</ort>
+		<ort id="10301746-1">
+			<place>Phiin</place>
+			<reference>Pfin</reference>
+		</ort>
+		<ort id="10301750-1">
+			<place>Pingwen.</place>
+			<reference>Bingen</reference>
+		</ort>
+		<ort id="10301754-1">
+			<place>Pirimons</place>
+			<reference>Pyhrn</reference>
+		</ort>
+		<ort id="10301756-1">
+			<place>Piseri</place>
+			<reference>Peisern</reference>
+		</ort>
+		<ort id="10301759-1">
+			<place>Placentin.</place>
+			<reference>Piacenza</reference>
+		</ort>
+		<ort id="10301760-1">
+			<place>Plaga</place>
+			<reference>Schlägl</reference>
+		</ort>
+		<ort id="10301775-1">
+			<place>Porrentmy</place>
+			<reference>Miseraoh</reference>
+		</ort>
+		<ort id="10301776-1">
+			<place>Porta</place>
+			<reference>Pforta</reference>
+		</ort>
+		<ort id="10301777-1">
+			<place>Portaceli</place>
+			<reference>Himmelsforte</reference>
+		</ort>
+		<ort id="10301780-1">
+			<place>Posow</place>
+			<reference>Bosau</reference>
+		</ort>
+		<ort id="10301782-1">
+			<place>Potzkow</place>
+			<reference>Patschkau</reference>
+		</ort>
+		<ort id="10301783-1">
+			<place>Pourramtrum</place>
+			<reference>Miserach</reference>
+		</ort>
+		<ort id="10301784-1">
+			<place>Poznan.</place>
+			<reference>Posen</reference>
+		</ort>
+		<ort id="10301786-1">
+			<place>Pramberg</place>
+			<reference>Bramberg</reference>
+		</ort>
+		<ort id="10301790-1">
+			<place>Prenestin.</place>
+			<reference>Palestrina</reference>
+		</ort>
+		<ort id="10301792-1">
+			<place>Pretz</place>
+			<reference>Preetz</reference>
+		</ort>
+		<ort id="10301795-1">
+			<place>Prigantina silua</place>
+			<reference>Schwarzenberg</reference>
+		</ort>
+		<ort id="10301797-1">
+			<place>Prugk</place>
+			<reference>Bruck</reference>
+		</ort>
+		<ort id="10301800-1">
+			<place>Prumheim</place>
+			<reference>Praunheim</reference>
+		</ort>
+		<ort id="10301801-1">
+			<place>Pruntrut</place>
+			<reference>Miseras</reference>
+		</ort>
+		<ort id="10301802-1">
+			<place>Prusia</place>
+			<reference>Preussen</reference>
+		</ort>
+		<ort id="10301803-1">
+			<place>Przemanth</place>
+			<reference>Priment</reference>
+		</ort>
+		<ort id="10301804-1">
+			<place>Pucchel</place>
+			<reference>Büchel</reference>
+		</ort>
+		<ort id="10301805-1">
+			<place>Puch</place>
+			<reference>Buch</reference>
+		</ort>
+		<ort id="10301806-1">
+			<place>Puchkirchen</place>
+			<reference>Buchkirchen</reference>
+		</ort>
+		<ort id="10301807-1">
+			<place>Pucinaw</place>
+			<reference>Pinkau</reference>
+		</ort>
+		<ort id="10301808-1">
+			<place>Purgstall</place>
+			<reference>Burgstall</reference>
+		</ort>
+		<ort id="10301809-1">
+			<place>Pusendorff</place>
+			<reference>Busendorf</reference>
+		</ort>
+		<ort id="10301811-1">
+			<place>Pyber</place>
+			<reference>Piber</reference>
+		</ort>
+		<ort id="10301813-1">
+			<place>Pyzdry</place>
+			<reference>Peisern</reference>
+		</ort>
+	</index>
+	<index type="orte" char="q">
+		<ort id="10301816-1">
+			<place>Queron.</place>
+			<reference>Curland</reference>
+		</ort>
+		<ort id="10301817-1">
+			<place>Quinqueecclesien</place>
+			<reference>Fünfkirchen</reference>
+		</ort>
+	</index>
+	<index type="orte" char="r">
+		<ort id="10301820-1">
+			<place>Raczach</place>
+			<reference>St. Ägyden b. Steinbrück</reference>
+		</ort>
+		<ort id="10301829-1">
+			<place>Randena</place>
+			<reference>S. Vigilio</reference>
+		</ort>
+		<ort id="10301830-1">
+			<place>Rangleibin</place>
+			<reference>Ringleben</reference>
+		</ort>
+		<ort id="10301832-1">
+			<place>Rassacen.</place>
+			<reference>Rosazzo</reference>
+		</ort>
+		<ort id="10301835-1">
+			<place>Ratisponen.</place>
+			<reference>Regensburg</reference>
+		</ort>
+		<ort id="10301843-1">
+			<place>Regalislutter</place>
+			<reference>Königslutter</reference>
+		</ort>
+		<ort id="10301858-1">
+			<place>Reinsdorp</place>
+			<reference>Rheindorf</reference>
+		</ort>
+		<ort id="10301860-1">
+			<place>Reitnau</place>
+			<reference>Unter-Reitnau</reference>
+		</ort>
+		<ort id="10301861-1">
+			<place>Rellinchusen</place>
+			<reference>Recklinghausen</reference>
+		</ort>
+		<ort id="10301862-1">
+			<place>Remen.</place>
+			<reference>Reims</reference>
+		</ort>
+		<ort id="10301864-1">
+			<place>Reminghem</place>
+			<reference>Egmond</reference>
+		</ort>
+		<ort id="10301866-1">
+			<place>Rempsdorp</place>
+			<reference>Rengsdorf</reference>
+		</ort>
+		<ort id="10301868-1">
+			<place>Rendena-Tal</place>
+			<reference>S. Vigilio</reference>
+		</ort>
+		<ort id="10301869-1">
+			<place>Rene</place>
+			<reference>Rheine</reference>
+		</ort>
+		<ort id="10301872-1">
+			<place>Renus</place>
+			<reference>Rhein</reference>
+		</ort>
+		<ort id="10301873-1">
+			<place>Ret</place>
+			<reference>Ried</reference>
+		</ort>
+		<ort id="10301874-1">
+			<place>Reussingen</place>
+			<reference>Reissing</reference>
+		</ort>
+		<ort id="10301877-1">
+			<place>Reyferscheit</place>
+			<reference>Reifferscheid</reference>
+		</ort>
+		<ort id="10301878-1">
+			<place>Reynborch</place>
+			<place>Reynsburch</place>
+			<reference>Rijnsburg</reference>
+		</ort>
+		<ort id="10301879-1">
+			<place>Reynebeke</place>
+			<reference>Reinbeck</reference>
+		</ort>
+		<ort id="10301880-1">
+			<place>Reyneuelde</place>
+			<reference>Reinfeld</reference>
+		</ort>
+		<ort id="10301881-1">
+			<place>Reyssen.</place>
+			<reference>Rees</reference>
+		</ort>
+		<ort id="10301889-1">
+			<place>Richenbach</place>
+			<reference>Reichenbach</reference>
+		</ort>
+		<ort id="10301896-1">
+			<place>Rinhem</place>
+			<reference>Rheinheim</reference>
+		</ort>
+		<ort id="10301900-1">
+			<place>Rizessotharzow</place>
+			<reference>Rzerzotarzow</reference>
+		</ort>
+		<ort id="10301901-1">
+			<place>Rochatz</place>
+			<reference>Rohitsch</reference>
+		</ort>
+		<ort id="10301902-1">
+			<place>Roden.</place>
+			<reference>Odenrode</reference>
+		</ort>
+		<ort id="10301904-1">
+			<place>Rodolfftorff</place>
+			<reference>Ruhldorf</reference>
+		</ort>
+		<ort id="10301905-1">
+			<place>Rodus</place>
+			<reference>Rhodos</reference>
+		</ort>
+		<ort id="10301914-1">
+			<place>Romsow</place>
+			<reference>Ramsau</reference>
+		</ort>
+		<ort id="10301915-1">
+			<place>Rorbach</place>
+			<place>Rorenbach</place>
+			<reference>Rohrbach</reference>
+		</ort>
+		<ort id="10301916-1">
+			<place>Rordorf</place>
+			<reference>Rohrdorf</reference>
+		</ort>
+		<ort id="10301918-1">
+			<place>Roskild.</place>
+			<reference>Roeskilde</reference>
+		</ort>
+		<ort id="10301920-1">
+			<place>Rosseueld</place>
+			<place>Rosuelde</place>
+			<reference>Harsefeld</reference>
+		</ort>
+		<ort id="10301929-1">
+			<place>Rubiacum</place>
+			<reference>Ruffach</reference>
+		</ort>
+		<ort id="10301930-1">
+			<place>Ruboch</place>
+			<reference>Raubach</reference>
+		</ort>
+		<ort id="10301933-1">
+			<place>Rudlingna</place>
+			<reference>Reutlingen</reference>
+		</ort>
+		<ort id="10301938-1">
+			<place>Ruiti</place>
+			<reference>Rüti</reference>
+		</ort>
+		<ort id="10301939-1">
+			<place>Runa</place>
+			<reference>Rein</reference>
+		</ort>
+		<ort id="10301940-1">
+			<place>Runcoda</place>
+			<reference>Brixen</reference>
+		</ort>
+		<ort id="10301943-1">
+			<place>Ruremunden.</place>
+			<reference>Roermund</reference>
+		</ort>
+		<ort id="10301947-1">
+			<place>Rustorf</place>
+			<reference>Rossdorf</reference>
+		</ort>
+		<ort id="10301949-1">
+			<place>Rutlingen</place>
+			<reference>Reutlingen</reference>
+		</ort>
+		<ort id="10301950-1">
+			<place>Rutten</place>
+			<reference>Ruette</reference>
+		</ort>
+		<ort id="10301952-1">
+			<place>Ruwenheim</place>
+			<reference>Raunheim</reference>
+		</ort>
+		<ort id="10301953-1">
+			<place>Ryet</place>
+			<reference>Ried</reference>
+		</ort>
+		<ort id="10301954-1">
+			<place>Ryneren</place>
+			<reference>Rhynern</reference>
+		</ort>
+		<ort id="10301955-1">
+			<place>Ryual</place>
+			<reference>Reval</reference>
+		</ort>
+	</index>
+	<index type="orte" char="t">
+		<ort id="10302188-1">
+			<place>Taldorf</place>
+			<reference>Thaldorf</reference>
+		</ort>
+		<ort id="10302189-1">
+			<place>Talkerchen</place>
+			<place>Talkirchen</place>
+			<reference>Bergheim</reference>
+		</ort>
+		<ort id="10302192-1">
+			<place>Tarbaten.</place>
+			<reference>Dorpat</reference>
+		</ort>
+		<ort id="10302193-1">
+			<place>Tassulum</place>
+			<reference>Nonsberg</reference>
+		</ort>
+		<ort id="10302200-1">
+			<place>Tengernheim</place>
+			<reference>Tegernheim</reference>
+		</ort>
+		<ort id="10302202-1">
+			<place>Tenwangen</place>
+			<reference>Dewang</reference>
+		</ort>
+		<ort id="10302203-1">
+			<place>Termopolen.</place>
+			<reference>Thermopyle</reference>
+		</ort>
+		<ort id="10302208-1">
+			<place>Teuerstadt</place>
+			<place>Tewrstat</place>
+			<reference>Bamberg</reference>
+		</ort>
+		<ort id="10302213-1">
+			<place>Thekenneborch</place>
+			<reference>Tecklenburg</reference>
+		</ort>
+		<ort id="10302214-1">
+			<place>Themswig</place>
+			<place>Thengwig</place>
+			<reference>Tamsweg</reference>
+		</ort>
+		<ort id="10302215-1">
+			<place>Thenuangen</place>
+			<reference>Dewang</reference>
+		</ort>
+		<ort id="10302216-1">
+			<place>Theonisuilla</place>
+			<reference>Diedenhofen</reference>
+		</ort>
+		<ort id="10302217-1">
+			<place>Therheynrixkinder</place>
+			<reference>s’Heerhendrikskinder</reference>
+		</ort>
+		<ort id="10302221-1">
+			<place>Thimoni(s)uilla</place>
+			<reference>Diedenhofen</reference>
+		</ort>
+		<ort id="10302226-1">
+			<place>Thurck</place>
+			<reference>Turck</reference>
+		</ort>
+		<ort id="10302227-1">
+			<place>Thuricen.</place>
+			<reference>Zürich</reference>
+		</ort>
+		<ort id="10302229-1">
+			<place>Tichern</place>
+			<reference>Tüchern</reference>
+		</ort>
+		<ort id="10302230-1">
+			<place>Tierstein</place>
+			<reference>Thierstein</reference>
+		</ort>
+		<ort id="10302231-1">
+			<place>Tietlingen</place>
+			<reference>Dietlingen</reference>
+		</ort>
+		<ort id="10302232-1">
+			<place>Tiner</place>
+			<reference>Tyner</reference>
+		</ort>
+		<ort id="10302236-1">
+			<place>Tolne</place>
+			<reference>Tholen</reference>
+		</ort>
+		<ort id="10302237-1">
+			<place>Tolosan.</place>
+			<reference>Toulouse</reference>
+		</ort>
+		<ort id="10302240-1">
+			<place>Tornacen.</place>
+			<reference>Tournay</reference>
+		</ort>
+		<ort id="10302245-1">
+			<place>Traiecten.</place>
+			<reference>Maastricht</reference>
+			<reference>Utrecht</reference>
+		</ort>
+		<ort id="10302251-1">
+			<place>Traysenmawr</place>
+			<reference>Traismauer</reference>
+		</ort>
+		<ort id="10302252-1">
+			<place>Trealli</place>
+			<reference>Tirol</reference>
+		</ort>
+		<ort id="10302253-1">
+			<place>Trebere</place>
+			<place>Trebra</place>
+			<reference>Nieder-Trebra</reference>
+		</ort>
+		<ort id="10302255-1">
+			<place>Tremonia</place>
+			<reference>Dortmund</reference>
+		</ort>
+		<ort id="10302258-1">
+			<place>Treveren.</place>
+			<reference>Trier</reference>
+		</ort>
+		<ort id="10302264-1">
+			<place>Tronstat</place>
+			<reference>Trunstadt</reference>
+		</ort>
+		<ort id="10302269-1">
+			<place>Tuicien.</place>
+			<reference>Deutz</reference>
+		</ort>
+		<ort id="10302271-1">
+			<place>Tumstorff</place>
+			<reference>Dunsdorf</reference>
+		</ort>
+		<ort id="10302272-1">
+			<place>Tullen.</place>
+			<reference>Toul</reference>
+		</ort>
+		<ort id="10302273-1">
+			<place>Tunauweschingen</place>
+			<reference>Donaueschingen</reference>
+		</ort>
+		<ort id="10302275-1">
+			<place>Tungental</place>
+			<reference>Thüngenthal</reference>
+		</ort>
+		<ort id="10302277-1">
+			<place>Turnten</place>
+			<reference>Dürnten</reference>
+		</ort>
+		<ort id="10302278-1">
+			<place>Turonen.</place>
+			<reference>Tour</reference>
+		</ort>
+		<ort id="10302279-1">
+			<place>Tusculan.</place>
+			<reference>Frascati</reference>
+		</ort>
+		<ort id="10302282-1">
+			<place>Tysens</place>
+			<place>Tysana</place>
+			<reference>Tisens</reference>
+		</ort>
+		<ort id="10302283-1">
+			<place>Tzerstede</place>
+			<reference>Sarstedt</reference>
+		</ort>
+		<ort id="10302284-1">
+			<place>Tzeuana</place>
+			<reference>Zeven</reference>
+		</ort>
+	</index>
+	<index type="orte" char="v">
+		<ort id="10302287-1">
+			<place>Vezleuben</place>
+			<reference>Ützleben</reference>
+		</ort>
+		<ort id="10302288-1">
+			<place>Vffderambach</place>
+			<reference>Rambach</reference>
+		</ort>
+		<ort id="10302296-1">
+			<place>Vpdengrauen</place>
+			<reference>Bislich</reference>
+		</ort>
+		<ort id="10302298-1">
+			<place>Vrbs</place>
+			<reference>Rom</reference>
+		</ort>
+		<ort id="10302301-1">
+			<place>Vrs</place>
+			<reference>Irschen</reference>
+		</ort>
+		<ort id="10302303-1">
+			<place>Vtinen.</place>
+			<reference>Udine</reference>
+		</ort>
+		<ort id="10302306-1">
+			<place>Val di Non</place>
+			<reference>Nonsberg</reference>
+		</ort>
+		<ort id="10302307-1">
+			<place>Val di Sole</place>
+			<reference>Sulzberg</reference>
+		</ort>
+		<ort id="10302308-1">
+			<place>Val de Villè</place>
+			<reference>Weilerthal</reference>
+		</ort>
+		<ort id="10302310-1">
+			<place>Valkinreid</place>
+			<reference>Walkenried</reference>
+		</ort>
+		<ort id="10302312-1">
+			<place>Valleshausen</place>
+			<reference>Walleshausen</reference>
+		</ort>
+		<ort id="10302313-1">
+			<place>Vallessarnar.</place>
+			<reference>Vaux-de-Cernay</reference>
+		</ort>
+		<ort id="10302314-1">
+			<place>Valhs Ananie</place>
+			<reference>Nonsberg</reference>
+		</ort>
+		<ort id="10302315-1">
+			<place>Vallisandelache</place>
+			<reference>Andlau</reference>
+		</ort>
+		<ort id="10302316-1">
+			<place>Vallis Claronen.</place>
+			<reference>Glarus</reference>
+		</ort>
+		<ort id="10302317-1">
+			<place>Valliscomitis</place>
+			<reference>Gräfenthal</reference>
+		</ort>
+		<ort id="10302318-1">
+			<place>Vallis Dei</place>
+			<reference>Gottesthal</reference>
+		</ort>
+		<ort id="10302319-1">
+			<place>Valhsleodri</place>
+			<reference>Valle di Ledro</reference>
+		</ort>
+		<ort id="10302320-1">
+			<place>Valhsmasonis</place>
+			<reference>Masmünster</reference>
+		</ort>
+		<ort id="10302321-1">
+			<place>Valhssanctigeorgii</place>
+			<reference>Georgenthal</reference>
+		</ort>
+		<ort id="10302322-1">
+			<place>VaUissanctemarie</place>
+			<reference>Marienstern</reference>
+		</ort>
+		<ort id="10302323-1">
+			<place>Valhssolis</place>
+			<place>Valsunna</place>
+			<reference>Sulzberg</reference>
+		</ort>
+		<ort id="10302324-1">
+			<place>Vanstorff</place>
+			<reference>Fonsdorf</reference>
+		</ort>
+		<ort id="10302325-1">
+			<place>Vapincen.</place>
+			<reference>Gap</reference>
+		</ort>
+		<ort id="10302327-1">
+			<place>Varemonasterium</place>
+			<reference>Fahr</reference>
+		</ort>
+		<ort id="10302329-1">
+			<place>Vauren.</place>
+			<reference>Lavour</reference>
+		</ort>
+		<ort id="10302337-1">
+			<place>Vekingen</place>
+			<reference>Vechingen</reference>
+		</ort>
+		<ort id="10302338-1">
+			<place>Velen</place>
+			<reference>Filehne</reference>
+		</ort>
+		<ort id="10302339-1">
+			<place>Vels</place>
+			<reference>Weutsch</reference>
+		</ort>
+		<ort id="10302342-1">
+			<place>Verchetin.</place>
+			<reference>Virchenzin</reference>
+		</ort>
+		<ort id="10302346-1">
+			<place>Vesprimen.</place>
+			<reference>Wesprim</reference>
+		</ort>
+		<ort id="10302347-1">
+			<place>Vesterzuborch</place>
+			<reference>West-Zouburg</reference>
+		</ort>
+		<ort id="10302348-1">
+			<place>Veylstorff</place>
+			<reference>Veilsdorf</reference>
+		</ort>
+		<ort id="10302349-1">
+			<place>Vggeldorp</place>
+			<reference>Vogelsdorf</reference>
+		</ort>
+		<ort id="10302354-1">
+			<place>Vilhaute</place>
+			<reference>Ville-Haute</reference>
+		</ort>
+		<ort id="10302356-1">
+			<place>Villacapelle</place>
+			<place>Villakeppel</place>
+			<reference>Kappel</reference>
+		</ort>
+		<ort id="10302360-1">
+			<place>Viller</place>
+			<reference>Weiler</reference>
+		</ort>
+		<ort id="10302362-1">
+			<place>Vilmeringhen</place>
+			<reference>Vollmaringen</reference>
+		</ort>
+		<ort id="10302366-1">
+			<place>Virdunen.</place>
+			<reference>Verdun</reference>
+		</ort>
+		<ort id="10302368-1">
+			<place>Vischpachaw</place>
+			<reference>Fischbachau</reference>
+		</ort>
+		<ort id="10302369-1">
+			<place>Vischusen</place>
+			<reference>Fischhausen</reference>
+		</ort>
+		<ort id="10302370-1">
+			<place>Vislicien.</place>
+			<reference>Wislica</reference>
+		</ort>
+		<ort id="10302374-1">
+			<place>Vlechtorp</place>
+			<reference>Flechtdorf</reference>
+		</ort>
+		<ort id="10302375-1">
+			<place>Vlensborch</place>
+			<reference>Flensburg</reference>
+		</ort>
+		<ort id="10302378-1">
+			<place>Vochburg</place>
+			<reference>Vohburg</reference>
+		</ort>
+		<ort id="10302380-1">
+			<place>Voerhaut</place>
+			<reference>Voorhout</reference>
+		</ort>
+		<ort id="10302394-1">
+			<place>Vorcheim</place>
+			<reference>Forchheim</reference>
+		</ort>
+		<ort id="10302395-1">
+			<place>Voring</place>
+			<reference>Föring</reference>
+		</ort>
+		<ort id="10302396-1">
+			<place>Vorne</place>
+			<reference>Voorne</reference>
+		</ort>
+		<ort id="10302397-1">
+			<place>Voyczperg</place>
+			<reference>Voitsberg</reference>
+		</ort>
+		<ort id="10302398-1">
+			<place>Vralinchusen</place>
+			<reference>Frehlinghausen</reference>
+		</ort>
+		<ort id="10302399-1">
+			<place>Vrannen</place>
+			<reference>Uri</reference>
+		</ort>
+		<ort id="10302403-1">
+			<place>Vritzlarien.</place>
+			<reference>Fritzlar</reference>
+		</ort>
+		<ort id="10302404-1">
+			<place>Vrunebec</place>
+			<reference>Grünberg</reference>
+		</ort>
+		<ort id="10302406-1">
+			<place>Vulfelbotel</place>
+			<reference>Wolfenbüttel</reference>
+		</ort>
+		<ort id="10302407-1">
+			<place>Vulterranen.</place>
+			<reference>Volterra</reference>
+		</ort>
+		<ort id="10302408-1">
+			<place>Vunstorp</place>
+			<reference>Wunstorf</reference>
+		</ort>
+		<ort id="10302409-1">
+			<place>Vyanen</place>
+			<reference>Vianen</reference>
+		</ort>
+	</index>
+	<index type="orte" char="w">
+		<ort id="10302411-1">
+			<place>Wahingen</place>
+			<reference>Wehingen</reference>
+		</ort>
+		<ort id="10302423-1">
+			<place>Wallacria</place>
+			<reference>Walchern</reference>
+		</ort>
+		<ort id="10302428-1">
+			<place>Walsse</place>
+			<reference>Waldsee</reference>
+		</ort>
+		<ort id="10302429-1">
+			<place>Waltbuht</place>
+			<reference>Waltfeucht</reference>
+		</ort>
+		<ort id="10302433-1">
+			<place>Walthilbersheim</place>
+			<reference>Waldhilbersheim</reference>
+		</ort>
+		<ort id="10302434-1">
+			<place>Walthusen</place>
+			<reference>Waldhausen</reference>
+		</ort>
+		<ort id="10302435-1">
+			<place>Waltsachsen</place>
+			<reference>Waldsassen</reference>
+		</ort>
+		<ort id="10302439-1">
+			<place>Warengeuilla</place>
+			<reference>Varangéville</reference>
+		</ort>
+		<ort id="10302441-1">
+			<place>Warmien.</place>
+			<reference>Ermland</reference>
+		</ort>
+		<ort id="10302444-1">
+			<place>Wartberg</place>
+			<place>Wartemberg</place>
+			<reference>Warburg</reference>
+		</ort>
+		<ort id="10302446-1">
+			<place>Waydehouen</place>
+			<reference>Waidhofen</reference>
+		</ort>
+		<ort id="10302448-1">
+			<place>Weddingen</place>
+			<reference>Langen-Weddingen</reference>
+		</ort>
+		<ort id="10302449-1">
+			<place>Wegklapruck</place>
+			<reference>Vöcklabruck</reference>
+		</ort>
+		<ort id="10302450-1">
+			<place>Weglastorf</place>
+			<reference>Pfaffing</reference>
+		</ort>
+		<ort id="10302464-1">
+			<place>Welmeldingen</place>
+			<reference>Wemeldingen</reference>
+		</ort>
+		<ort id="10302468-1">
+			<place>Wengen</place>
+			<reference>Ulm</reference>
+		</ort>
+		<ort id="10302469-1">
+			<place>Wenige Czaken</place>
+			<reference>(Kl.) Zacken</reference>
+		</ort>
+		<ort id="10302472-1">
+			<place>Werinuillerium</place>
+			<reference>Werschweiler</reference>
+		</ort>
+		<ort id="10302477-1">
+			<place>Wesalien.</place>
+			<reference>Oberwesel</reference>
+		</ort>
+		<ort id="10302480-1">
+			<place>Westmunster</place>
+			<reference>Middelburg</reference>
+		</ort>
+		<ort id="10302486-1">
+			<place>Weyden</place>
+			<reference>Neunkirchen</reference>
+		</ort>
+		<ort id="10302487-1">
+			<place>Weypstad</place>
+			<reference>Waibstadt</reference>
+		</ort>
+		<ort id="10302488-1">
+			<place>Weyr</place>
+			<reference>Weiarn</reference>
+		</ort>
+		<ort id="10302491-1">
+			<place>Wichtmunden</place>
+			<reference>Wittmund</reference>
+		</ort>
+		<ort id="10302492-1">
+			<place>Wickersheim</place>
+			<reference>Ill-Wickersheim</reference>
+		</ort>
+		<ort id="10302499-1">
+			<place>Wigmerinchusen</place>
+			<reference>Wiemeringhausen</reference>
+		</ort>
+		<ort id="10302502-1">
+			<place>Wiir</place>
+			<reference>Wiry</reference>
+		</ort>
+		<ort id="10302505-1">
+			<place>Wileburg</place>
+			<reference>Weilburg</reference>
+		</ort>
+		<ort id="10302507-1">
+			<place>Wilrtal</place>
+			<reference>Weilerthal</reference>
+		</ort>
+		<ort id="10302508-1">
+			<place>Wilshofen</place>
+			<reference>Vilshofen</reference>
+		</ort>
+		<ort id="10302513-1">
+			<place>Wingarten.</place>
+			<reference>Weingarten</reference>
+		</ort>
+		<ort id="10302519-1">
+			<place>Wirtenberg</place>
+			<reference>Württemberg</reference>
+		</ort>
+		<ort id="10302522-1">
+			<place>Wischow</place>
+			<reference>Treptow</reference>
+		</ort>
+		<ort id="10302523-1">
+			<place>Wiselburg</place>
+			<reference>Wieselburg</reference>
+		</ort>
+		<ort id="10302524-1">
+			<place>Wisenpfelt</place>
+			<reference>Wiesenfeld</reference>
+		</ort>
+		<ort id="10302525-1">
+			<place>Wisenstaig</place>
+			<reference>Wiesensteig</reference>
+		</ort>
+		<ort id="10302526-1">
+			<place>Wiskow</place>
+			<reference>Treptow</reference>
+		</ort>
+		<ort id="10302529-1">
+			<place>Wissegraden</place>
+			<reference>Wischehrad</reference>
+		</ort>
+		<ort id="10302530-1">
+			<place>Wissenhorn</place>
+			<reference>Weissenhorn</reference>
+		</ort>
+		<ort id="10302531-1">
+			<place>Withmunden</place>
+			<reference>Wittmund</reference>
+		</ort>
+		<ort id="10302537-1">
+			<place>Witzenheim</place>
+			<reference>Wintzenheim</reference>
+		</ort>
+		<ort id="10302538-1">
+			<place>Wladislauien.</place>
+			<reference>Leslau</reference>
+			<reference>Loslau</reference>
+		</ort>
+		<ort id="10302539-1">
+			<place>Wlfrastorf</place>
+			<reference>Wulfersdorf</reference>
+		</ort>
+		<ort id="10302540-1">
+			<place>Wlinghusen</place>
+			<reference>Wülﬁnghusen</reference>
+		</ort>
+		<ort id="10302542-1">
+			<place>Woghedeshagen</place>
+			<reference>Voigtshagen</reference>
+		</ort>
+		<ort id="10302546-1">
+			<place>Woldenbrucge</place>
+			<reference>Wallenbrück</reference>
+		</ort>
+		<ort id="10302552-1">
+			<place>Wolkenderode</place>
+			<reference>Volkerode</reference>
+		</ort>
+		<ort id="10302559-1">
+			<place>Wormpach</place>
+			<reference>Formbach</reference>
+		</ort>
+		<ort id="10302561-1">
+			<place>Worselden</place>
+			<reference>Wurselde</reference>
+		</ort>
+		<ort id="10302562-1">
+			<place>Woyborcz</place>
+			<reference>Wolborz</reference>
+		</ort>
+		<ort id="10302563-1">
+			<place>Wratislauien.</place>
+			<reference>Breslau</reference>
+		</ort>
+		<ort id="10302566-1">
+			<place>Wunghesesz</place>
+			<reference>Wonsees</reference>
+		</ort>
+		<ort id="10302567-1">
+			<place>Wunnaw</place>
+			<reference>Wynau</reference>
+		</ort>
+		<ort id="10302575-1">
+			<place>Wydenburg</place>
+			<reference>Wiedenbrück</reference>
+		</ort>
+		<ort id="10302576-1">
+			<place>Wyler</place>
+			<reference>Weiler</reference>
+		</ort>
+		<ort id="10302577-1">
+			<place>Wynheym</place>
+			<reference>Weinheim</reference>
+		</ort>
+		<ort id="10302578-1">
+			<place>Wynsem</place>
+			<reference>Winsen</reference>
+		</ort>
+		<ort id="10302580-1">
+			<place>Wyr</place>
+			<reference>Wiry</reference>
+		</ort>
+		<ort id="10302581-1">
+			<place>Wysenpfelt</place>
+			<reference>Wiesenfeld</reference>
+		</ort>
+		<ort id="10302582-1">
+			<place>Wyskirchen</place>
+			<reference>Weisskirchen</reference>
+		</ort>
+		<ort id="10302583-1">
+			<place>Wytchenaw</place>
+			<reference>Wittichenau</reference>
+		</ort>
+	</index>
+	<index type="orte" char="y">
+		<ort id="10302587-1">
+			<place>Ylergoye</place>
+			<reference>Illergau</reference>
+		</ort>
+		<ort id="10302588-1">
+			<place>Ymestat</place>
+			<reference>Immenstaad</reference>
+		</ort>
+		<ort id="10302589-1">
+			<place>Ymmenhusen</place>
+			<reference>Immenhusen</reference>
+		</ort>
+		<ort id="10302590-1">
+			<place>Yogkrim.</place>
+			<reference>Stolpe</reference>
+		</ort>
+		<ort id="10302591-1">
+			<place>Yponen.</place>
+			<reference>Hippo</reference>
+		</ort>
+		<ort id="10302592-1">
+			<place>Ysen</place>
+			<reference>Isen</reference>
+		</ort>
+		<ort id="10302593-1">
+			<place>Yselsteyn</place>
+			<reference>Isselstein</reference>
+		</ort>
+		<ort id="10302594-1">
+			<place>Ysenhem</place>
+			<reference>Isenheim</reference>
+		</ort>
+		<ort id="10302595-1">
+			<place>YsonTIUS</place>
+			<reference>ISONZO</reference>
+		</ort>
+		<ort id="10302597-1">
+			<place>Yuodien.</place>
+			<reference>Ivoix-Carignan</reference>
+		</ort>
+	</index>
+	<index type="orte" char="z">
+		<ort id="10302600-1">
+			<place>Zabulum</place>
+			<reference>Brüssel</reference>
+		</ort>
+		<ort id="10302602-1">
+			<place>Zagrabien.</place>
+			<reference>Agram</reference>
+		</ort>
+		<ort id="10302603-1">
+			<place>Zallandia</place>
+			<reference>Seeland</reference>
+		</ort>
+		<ort id="10302605-1">
+			<place>Zarow</place>
+			<reference>Sarau</reference>
+		</ort>
+		<ort id="10302606-1">
+			<place>Zeflicen.</place>
+			<reference>Zyfflich</reference>
+		</ort>
+		<ort id="10302609-1">
+			<place>Zelandia</place>
+			<reference>Seeland</reference>
+		</ort>
+		<ort id="10302610-1">
+			<place>Zelente</place>
+			<reference>Selent</reference>
+		</ort>
+		<ort id="10302616-1">
+			<place>Zimbria</place>
+			<reference>Cembra</reference>
+		</ort>
+		<ort id="10302617-1">
+			<place>Zinnich</place>
+			<reference>Sinnich</reference>
+		</ort>
+		<ort id="10302619-1">
+			<place>Zitterden.</place>
+			<reference>Sittard</reference>
+		</ort>
+		<ort id="10302623-1">
+			<place>Zollaer</place>
+			<reference>Mecheln</reference>
+		</ort>
+		<ort id="10302625-1">
+			<place>Zosserim</place>
+			<reference>Sossmar</reference>
+		</ort>
+		<ort id="10302628-1">
+			<place>Zusandmarein</place>
+			<reference>St. Marein</reference>
+		</ort>
+		<ort id="10302630-1">
+			<place>Zwarzach</place>
+			<reference>Schwarzach</reference>
+		</ort>
+		<ort id="10302631-1">
+			<place>Zwena</place>
+			<reference>Znin</reference>
+		</ort>
+		<ort id="10302633-1">
+			<place>Zwerin.</place>
+			<reference>Schwerin</reference>
+		</ort>
+		<ort id="10302635-1">
+			<place>Zwetzko</place>
+			<reference>Schwetz</reference>
+		</ort>
+		<ort id="10302640-1">
+			<place>Zynsich</place>
+			<reference>Sinzig</reference>
+		</ort>
+	</index>
+</ortsverzeichnis>

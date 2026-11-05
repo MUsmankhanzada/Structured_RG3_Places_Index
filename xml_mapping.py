@@ -124,11 +124,32 @@ def parse_custom_xml_file(xml_path):
     return substantive_entries, cross_references
 
 
+def extract_cross_reference_aliases(raw_name):
+    """Returns a cross-reference's primary alias and rendered milestone variants."""
+    raw_alias = re.split(
+        r"\bv\.(?:\s+|$)", raw_name, maxsplit=1, flags=re.IGNORECASE
+    )[0].strip()
+    primary_alias = re.split(
+        r"<ka\s*/?>", raw_alias, maxsplit=1, flags=re.IGNORECASE
+    )[0]
+    primary_alias = re.sub(r"<[^>]+>", "", primary_alias).strip().rstrip(".")
+
+    rendered_alias = re.sub(r"<ka\s*/?>", "(", raw_alias, flags=re.IGNORECASE)
+    rendered_alias = re.sub(r"<kz\s*/?>", ")", rendered_alias, flags=re.IGNORECASE)
+    rendered_alias = re.sub(r"<[^>]+>", "", rendered_alias).strip().rstrip(".")
+    return primary_alias, rendered_alias
+
+
 def map_and_audit_all_letters(
     csv_path="ortsverzeichnis_vol3_no_references.csv",
     xml_dir="xml_files",
     output_mapped_csv="ortsverzeichnis_vol3_no_references_mapped.csv",
     output_audit_csv="audit_extra_in_xml.csv",
+    references_csv_path="ortsverzeichnis_vol3_references_only.csv",
+    references_output_mapped_csv="ortsverzeichnis_vol3_references_only_mapped.csv",
+    references_audit_csv="audit_references_discrepancies_remaining.csv",
+    reviewed_references_csv_path="ortsverzeichnis_vol3_references_only_mapped_fixed.csv",
+    xml_corrections_csv="xml_spelling_corrections.csv",
 ):
     target_letters = [ch for ch in string.ascii_uppercase if ch != "J"]
 
@@ -136,6 +157,7 @@ def map_and_audit_all_letters(
     # 1. PARSE ALL DISCOVERED XML FILES
     # --------------------------------------------------------------------------
     all_substantive_xml = []
+    all_cross_references = []
     total_refs_dropped = 0
     available_sections = []
 
@@ -155,6 +177,7 @@ def map_and_audit_all_letters(
         for entry in sub_list:
             entry["section"] = section
         all_substantive_xml.extend(sub_list)
+        all_cross_references.extend(ref_list)
         total_refs_dropped += len(ref_list)
 
         print(
@@ -291,6 +314,164 @@ def map_and_audit_all_letters(
     mapped_count = (df_mapped["ort_id"].fillna("").astype(str).str.strip() != "").sum()
     print(f"Total Rows with Matched 'ort_id' : {mapped_count} / {len(df_mapped)}")
     print(f"Saved complete mapped dataset to : '{output_mapped_csv}'")
+
+    # Map reference aliases to the IDs of their XML cross-reference entries.
+    reference_xml_records = []
+    reference_key_to_id = {}
+    for entry in all_cross_references:
+        primary_alias, alias = extract_cross_reference_aliases(entry["raw_text"])
+        norm_key = normalize_headword(alias)
+        for alias_key in {norm_key, normalize_headword(primary_alias)}:
+            if alias_key:
+                reference_key_to_id[alias_key] = entry["ort_id"]
+        reference_xml_records.append({
+            "xml_alias": alias,
+            "xml_raw_name": entry["raw_text"],
+            "xml_ort_id": entry["ort_id"],
+            "norm_key": norm_key,
+        })
+
+    reference_input_path = (
+        reviewed_references_csv_path
+        if os.path.exists(reviewed_references_csv_path)
+        else references_csv_path
+    )
+    if not os.path.exists(reference_input_path):
+        raise FileNotFoundError(f"Could not find CSV file: '{reference_input_path}'")
+
+    df_references = pd.read_csv(
+        reference_input_path,
+        encoding="utf-8-sig",
+        dtype=str,
+        keep_default_na=False,
+    )
+    print(f"Loaded references-only CSV '{reference_input_path}' with {len(df_references)} rows.")
+    df_references["Place_Clean"] = (
+        df_references["Place"].fillna("").astype(str).str.strip()
+    )
+
+    # Compare unique normalized aliases while retaining their original spellings.
+    df_reference_csv_keys = pd.DataFrame({
+        "csv_place": df_references["Place_Clean"],
+        "norm_key": df_references["Place_Clean"].apply(normalize_headword),
+        "csv_ort_id": df_references.get(
+            "ort_id", pd.Series("", index=df_references.index)
+        ).fillna("").astype(str),
+    })
+    df_reference_csv_keys = df_reference_csv_keys[
+        df_reference_csv_keys["norm_key"] != ""
+    ].drop_duplicates(subset=["norm_key"])
+    df_reference_xml_keys = pd.DataFrame(
+        reference_xml_records,
+        columns=["xml_alias", "xml_raw_name", "xml_ort_id", "norm_key"],
+    )
+    df_reference_xml_keys = df_reference_xml_keys[
+        df_reference_xml_keys["norm_key"] != ""
+    ].drop_duplicates(subset=["norm_key"])
+    reference_comparison = pd.merge(
+        df_reference_csv_keys,
+        df_reference_xml_keys,
+        on="norm_key",
+        how="outer",
+        indicator=True,
+    )
+    discrepancy_rows = reference_comparison[reference_comparison["_merge"] != "both"].copy()
+    if os.path.exists(xml_corrections_csv):
+        df_xml_corrections = pd.read_csv(
+            xml_corrections_csv, encoding="utf-8-sig", dtype=str
+        ).fillna("")
+        if {"ort_id", "XML spelling", "Correct spelling"}.issubset(df_xml_corrections.columns):
+            corrected_ids = set(df_xml_corrections["ort_id"].str.strip())
+            corrected_keys = set(
+                df_xml_corrections["XML spelling"].apply(normalize_headword)
+            ) | set(df_xml_corrections["Correct spelling"].apply(normalize_headword))
+            csv_ids = discrepancy_rows.get(
+                "csv_ort_id", pd.Series("", index=discrepancy_rows.index)
+            ).fillna("").astype(str).str.strip()
+            xml_ids = discrepancy_rows.get(
+                "xml_ort_id", pd.Series("", index=discrepancy_rows.index)
+            ).fillna("").astype(str).str.strip()
+            known_csv_corrections = (
+                (discrepancy_rows["_merge"] == "left_only")
+                & (
+                    discrepancy_rows["norm_key"].isin(corrected_keys)
+                    | csv_ids.isin(corrected_ids)
+                )
+            )
+            known_xml_corrections = (
+                (discrepancy_rows["_merge"] == "right_only")
+                & (
+                    discrepancy_rows["norm_key"].isin(corrected_keys)
+                    | xml_ids.isin(corrected_ids)
+                )
+            )
+            discrepancy_rows = discrepancy_rows[
+                ~(known_csv_corrections | known_xml_corrections)
+            ]
+
+    reference_discrepancies = []
+    for _, row in discrepancy_rows.iterrows():
+        reference_discrepancies.append({
+            "Discrepancy": "Missing in XML" if row["_merge"] == "left_only" else "Missing in CSV",
+            "CSV Place": row.get("csv_place", ""),
+            "XML Alias": row.get("xml_alias", ""),
+            "XML Raw Name": row.get("xml_raw_name", ""),
+            "XML ort_id": row.get("xml_ort_id", ""),
+            "Normalized Key": row["norm_key"],
+        })
+    df_reference_discrepancies = pd.DataFrame(
+        reference_discrepancies,
+        columns=[
+            "Discrepancy",
+            "CSV Place",
+            "XML Alias",
+            "XML Raw Name",
+            "XML ort_id",
+            "Normalized Key",
+        ],
+    )
+    df_reference_discrepancies.to_csv(
+        references_audit_csv, index=False, encoding="utf-8-sig"
+    )
+    missing_in_xml_count = (df_reference_discrepancies["Discrepancy"] == "Missing in XML").sum()
+    missing_in_csv_count = (df_reference_discrepancies["Discrepancy"] == "Missing in CSV").sum()
+    print(
+        f"References-only discrepancies: {missing_in_xml_count} missing in XML, "
+        f"{missing_in_csv_count} missing in CSV -> '{references_audit_csv}'"
+    )
+
+    if "ort_id" in df_references.columns:
+        df_references["ort_id"] = df_references.apply(
+            lambda row: row["ort_id"]
+            if pd.notna(row["ort_id"]) and str(row["ort_id"]).strip() != ""
+            else reference_key_to_id.get(normalize_headword(row["Place_Clean"]), ""),
+            axis=1,
+        )
+    else:
+        df_references["ort_id"] = df_references["Place_Clean"].apply(
+            lambda place: reference_key_to_id.get(normalize_headword(place), "")
+        )
+
+    reference_cols = [
+        "ort_id"
+    ] + [
+        column
+        for column in df_references.columns
+        if column not in ("ort_id", "Place_Clean")
+    ]
+    df_references_mapped = df_references[reference_cols]
+    df_references_mapped.to_csv(
+        references_output_mapped_csv, index=False, encoding="utf-8-sig"
+    )
+
+    references_mapped_count = (
+        df_references_mapped["ort_id"].fillna("").astype(str).str.strip() != ""
+    ).sum()
+    print(
+        f"References-only rows with matched 'ort_id': "
+        f"{references_mapped_count} / {len(df_references_mapped)}"
+    )
+    print(f"Saved mapped references-only dataset to : '{references_output_mapped_csv}'")
     print("=" * 80)
 
 

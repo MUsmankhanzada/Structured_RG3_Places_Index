@@ -54,8 +54,11 @@ Run the pipeline scripts in the exact sequence outlined below.
 | 2 | `fix_llm_output.py` | `ortsverzeichnis_vol3_raw_final_fixed.csv` |
 | 3 | `extract_and_structure.py` | structured / no_references / references_only |
 | 4 | `fix_reference.py` | `..._references_only_cleaned.csv` |
-| 5 | `audit_pipeline.py` | audit flags |
-| 6 | `xml_mapping.py` → `fix_spellings.py` → `xml_mapping.py` | authority-aligned dataset |
+| 5 | `audit.py` | audit flags |
+| 6 | `xml_mapping.py` | mapped datasets and spelling-discrepancy audits |
+| 7 | `fix_spelliings.py` and `fix_reference_spellings.py` | reviewed substantive and reference spelling fixes |
+| 8 | `xml_mapping.py` | refreshed mappings and remaining discrepancies |
+| 9 | `propose_xml.py` | proposed XML for substantive and reference entries |
 
 ---
 
@@ -193,7 +196,7 @@ python fix_reference.py
 ### Step 5: Substantive Data Audit
 Performs final quality control on the substantive file (`ortsverzeichnis_vol3_no_references.csv`). This step serves as the definitive verification pass to make sure that no text columns (`Place`, `Name Variant`, `Office`) contain misplaced numbers and that every single entry has its corresponding `Column_num` citation properly associated with it. Any remaining anomalies are flagged and saved for inspection.
 ```bash
-python audit_pipeline.py
+python audit.py
 ```
 
 #### Invariants Checked
@@ -216,33 +219,64 @@ python audit_pipeline.py
 
 ---
 
-### Step 6: Headword Alignment & Spelling Normalization
-
-To benchmark our extracted dataset against authority gazetteer records, we cross-referenced `ortsverzeichnis_vol3_no_references.csv` against digital place index XML files (`orte_rg3_<letter>.xml`, sections A–Z, excluding J) created by an external authority project.
-
-First, we executed the initial XML mapping audit script to scan all letter sections and surface headword mismatches between the datasets:
+### Step 6: Authority Mapping & Discrepancy Audits
+Maps the substantive and references-only CSVs to authority records in `xml_files/` (A–Z, excluding J).
 
 ```bash
 python xml_mapping.py
 ```
-Running this preliminary string matching revealed that minor OCR/LLM spelling variations prevented matching against canonical XML headwords. Every mismatch was cross-checked directly against the physical hard-copy volume (Repertorium Germanicum, Vol. 3) to verify historical accuracy and determine whether the CSV or the XML retained the true spelling.
 
-Identified instances where OCR/LLM extraction misread historical characters or spellings, including:
+- **Substantive outputs:** `ortsverzeichnis_vol3_no_references_mapped.csv` and `audit_extra_in_xml.csv`
+- **Reference outputs:** `ortsverzeichnis_vol3_references_only_mapped.csv` and `audit_references_discrepancies_remaining.csv`
 
-- `Crailheim` → `Crailsheim`
-- `Patschau` → `Patschkau`
-- `Belley` → `Bellelay`
-- `Katzenelnbogen` → `Katzenellnbogen`
+If `ortsverzeichnis_vol3_references_only_mapped_fixed.csv` exists, the mapper uses it as the reference input so reviewed spellings and manually assigned IDs survive reruns. Otherwise, it starts from `ortsverzeichnis_vol3_references_only.csv`. XML spelling errors recorded in `xml_spelling_corrections.csv` are excluded from the remaining-discrepancy audit.
 
-Once the true historical spellings were established, the verified headword alignments were applied directly to the substantive CSV using:
+### Step 7: Review & Fix Spellings
+Review mismatches against the printed volume. `fix_spelliings.py` applies substantive-place corrections directly to `ortsverzeichnis_vol3_no_references.csv`. `fix_reference_spellings.py` applies reviewed reference corrections to a separate output:
+
 ```bash
-python fix_spellings.py
+python fix_spelliings.py
+python fix_reference_spellings.py
 ```
-Finally, we re-ran the XML mapping pipeline to produce the completed, verified dataset with all aligned authority IDs populated:
+
+- **Reference input:** `ortsverzeichnis_vol3_references_only_mapped.csv`
+- **Corrected reference output:** `ortsverzeichnis_vol3_references_only_mapped_fixed.csv`
+- **XML correction ledger:** `xml_spelling_corrections.csv` (`ort_id`, XML spelling, correct spelling)
+
+The reference fixer reads `audit_references_discrepancies_remaining.csv`, pairs likely CSV/XML spelling variants, and applies the XML `ort_id` and target after `v.` when the match is clear. Review any skipped cases manually. Add verified XML-side spelling errors to `XML_SPELLING_CORRECTIONS` in `fix_reference_spellings.py`; those known errors will then be omitted from later mismatch reports. The reviewed incorrect `Duurstede` row is removed by the fixer.
+
+### Step 8: Refresh Mappings
+After spelling corrections, rerun the mapper. It prefers the fixed reference CSV, preserves existing `ort_id` values, and compares XML aliases with inline `<ka/>`/`<kz/>` variants:
+
 ```bash
 python xml_mapping.py
 ```
 
-> **Ordering matters.** `fix_spellings.py` must run *between* the two `xml_mapping.py` passes. Skipping it costs roughly 40 alignments, because unnormalized headwords — `Belley`, `Crailheim`, `Bönsell`, `Berghem`, `Cittá di Castello` — no longer match their authority entries. The symptom is a sudden drop in populated `ort_id` with no change in row count.
+The current mismatch report is `audit_references_discrepancies_remaining.csv`. The older `audit_references_discrepancies.csv` is retained as a historical report. Close CSVs in spreadsheet applications before rerunning, because open files may be locked against writing.
+
+### Step 9: Propose XML
+The default mode proposes XML for substantive entries:
+
+```bash
+python propose_xml.py
+python propose_xml.py --preview 5
+```
+
+- **Input:** `ortsverzeichnis_vol3_no_references_mapped.csv`
+- **Output:** `ortsverzeichnis_vol3.xml`
+- **Unmapped-ID report:** `ortsverzeichnis_vol3_unmapped.csv`
+
+Use `--references` for the reviewed references-only dataset:
+
+```bash
+python propose_xml.py --references
+python propose_xml.py --references --preview 5
+```
+
+- **Input:** `ortsverzeichnis_vol3_references_only_mapped_fixed.csv`
+- **Output:** `ortsverzeichnis_vol3_references.xml`
+- **Unmapped-ID report:** `ortsverzeichnis_vol3_references_unmapped.csv`
+
+Each reference CSV row becomes one `<ort>`. Comma-separated place spellings become repeated `<place>` elements, and comma-separated targets become repeated `<reference>` elements. Missing reference IDs are assigned from the reserved `10391001` block, separate from the substantive proposal's `10390001` block, and marked `id_source="assigned"`. The script validates row counts, tag counts, and ID uniqueness after writing.
 
 ---
