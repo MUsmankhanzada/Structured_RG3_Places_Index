@@ -1,0 +1,65 @@
+﻿old_id,new_id,place,dioc,name_variant,source,note
+10300047-1,10300046-1,Altdorf,Argent. dioc.,,main,split from shared id
+10300047-2,10300047-1,Altdorf,Ratisp. dioc.,Altdorff al. Engenpach,main,"kept id, renumbered"
+10300115-1,10300114-1,Au,Const. dioc.,Ow,main,split from shared id
+10300115-2,10300115-1,Au,Frising. dioc.,Aw,main,"kept id, renumbered"
+10300268-1,10300267-1,Born,Colon. dioc.,,main,split from shared id
+10300268-2,10300268-1,Born,Magunt. dioc.,,main,"kept id, renumbered"
+10300564-1,10300563-1,Ebersbach,Bamberg. dioc.,Eberspach,main,split from shared id
+10300564-2,10300563-2,Ebersbach,Bamberg. dioc.,Eberspach,main,split from shared id
+10300564-3,10300564-1,Ebersbach,Misn. dioc.,Eberspach,main,"kept id, renumbered"
+10300729-1,10300728-1,St. Gallen,Const. dioc.,de Sanctogallo,main,split from shared id
+10300729-2,10300728-2,St. Gallen,Const. dioc.,de Sanctogallo,main,split from shared id
+10300729-3,10300728-3,St. Gallen,Const. dioc.,de Sanctogallo,main,split from shared id
+10300729-4,10300728-4,St. Gallen,Const. dioc.,de Sanctogallo,main,split from shared id
+10300729-5,10300728-5,St. Gallen,Const. dioc.,de Sanctogallo,main,split from shared id
+10300729-6,10300729-1,St. Gallen,Salzb. dioc.,,main,"kept id, renumbered"
+10300733-1,10300732-1,Gand,Salzb. dioc.,? Ghan,main,split from shared id
+10300733-2,10300733-1,Gand,Tornac. dioc.,Ganden.,main,"kept id, renumbered"
+10300764-1,10300763-1,Gernrode,Halberst. dioc.,Gherenrode,main,split from shared id
+10300764-2,10300764-1,Gernrode,Hildesem. dioc.,Gherenrode,main,"kept id, renumbered"
+10300882-1,10300880-1,Güstrow,Camin. dioc.,Gustrowen.,main,split from shared id
+10300882-2,10300880-2,Güstrow,Camin. dioc.,Gustrowen.,main,split from shared id
+10300882-3,10300880-3,Güstrow,Camin. dioc.,Gustrowen.,main,split from shared id
+10300882-4,10300881-1,Güstrow,Zwerin. dioc.,Gustrow,main,split from shared id
+10300882-5,10300882-1,Güstrow,,Gustrowe,main,"kept id, renumbered"
+10300888-1,10300887-1,Haag,Frising. dioc.,Hag,main,split from shared id
+10300888-2,10300888-1,Haag,Traiect. dioc.,Hagha,main,"kept id, renumbered"
+10300888-3,10300888-2,Haag,Traiect. dioc.,Hagha,main,"kept id, renumbered"
+10300919-1,10300918-1,Hanau,Argent. dioc.,Hanow,main,split from shared id
+10300919-2,10300919-1,Hanau,Magunt. dioc.,Haenow,main,"kept id, renumbered"
+10301121-1,10301120-1,Kappel,Argent. dioc.,"Capella, Villacapelle",main,split from shared id
+10301121-2,10301121-1,Kappel,Traiect. dioc.,Villakeppel,main,"kept id, renumbered"
+10301135-1,10301134-1,Kempen,Colon. dioc.,,main,split from shared id
+10301135-2,10301134-2,Kempen,Colon. dioc.,,main,split from shared id
+10301135-3,10301134-3,Kempen,Colon. dioc.,,main,split from shared id
+10301135-4,10301135-1,Kempen,Leod. dioc.,Campinia,main,"kept id, renumbered"
+10301152-1,10301151-1,Kirchheim,August. dioc.,Kirchen,main,split from shared id
+10301152-2,10301152-1,Kirchheim,Herbipol. dioc.,Kirchen,main,"kept id, renumbered"
+10301371-1,10301370-1,Marbach,Basil. dioc.,Marpach,main,split from shared id
+10301371-2,10301371-1,Marbach,Const. dioc.,Marpach,main,"kept id, renumbered"
+10301550-1,10301549-1,Neukirchen,Bremen. dioc.,Nyenkerken,main,split from shared id
+10301550-2,10301550-1,Neukirchen,Frising. dioc.,Newnkirchen,main,"kept id, renumbered"
+10301558-1,10301557-1,Neustadt,Lubic. dioc.,Nygenstad,main,split from shared id
+10301558-2,10301558-1,Neustadt,Salzb. dioc.,Nouacuiitas,main,"kept id, renumbered"
+10301558-3,10301558-2,Neustadt,Salzb. dioc.,Nouacuiitas,main,"kept id, renumbered"
+10301625-1,10301624-1,Obernburg,Aquil. dioc.,Obremburg,main,split from shared id
+10301625-2,10301624-2,Obernburg,Aquil. dioc.,Obremburg,main,split from shared id
+10301625-3,10301624-3,Obernburg,Aquil. dioc.,Obremburg,main,split from shared id
+10301625-4,10301625-1,Obernburg,Magunt. dioc.,,main,"kept id, renumbered"
+10301664-1,10301662-1,Ortenberg,Argent. dioc.,,main,split from shared id
+10301664-2,10301663-1,Ortenberg,Magunt. dioc.,,main,split from shared id
+10301664-3,10301664-1,Ortenberg,Salzb. dioc.,,main,"kept id, renumbered"
+10301819-1,10301818-1,Raab,Patav. dioc.,Rab,main,split from shared id
+10301819-2,10301819-1,Raab,Salzb. dioc.,Rab,main,"kept id, renumbered"
+10301849-1,10301847-1,Reichenbach,Magunt. dioc.,Richenbach,main,split from shared id
+10301849-2,10301848-1,Reichenbach,Misn. dioc.,Richenbach,main,split from shared id
+10301849-3,10301849-1,Reichenbach,Ratisp. dioc.,,main,"kept id, renumbered"
+10301849-4,10301849-2,Reichenbach,Ratisp. dioc.,,main,"kept id, renumbered"
+10302135-1,10302134-1,Stein,Aquil. dioc.,Stain,main,split from shared id
+10302135-2,10302135-1,Stein,Patav. dioc.,"Stayn, Stain",main,"kept id, renumbered"
+10302149-1,10302148-1,Stolpe,Camin. dioc.,Stolp,main,split from shared id
+10302149-2,10302148-2,Stolpe,Camin. dioc.,Stolp,main,split from shared id
+10302149-3,10302149-1,Stolpe,Misn. dioc.,"Stolpen., Yogkrim",main,"kept id, renumbered"
+10302149-4,10302149-2,Stolpe,Misn. dioc.,"Stolpen., Yogkrim",main,"kept id, renumbered"
+10302149-5,10302149-3,Stolpe,Misn. dioc.,"Stolpen., Yogkrim",main,"kept id, renumbered"

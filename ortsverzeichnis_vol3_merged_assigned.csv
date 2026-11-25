@@ -1,0 +1,23 @@
+﻿assigned_id,place,rows,source,sort_key,after_id,after_place,before_id,before_place,unused_numbers_in_slot,id_suggested,note
+10390001,zum Bruche,1,main,bruche,10300316,Bruberg,10300318,Bruck,10300317,10300317,unused number in the slot
+10390002,Flandern,1,main,flandern,10300669,Fischlingen,10300671,Flechtdorf,10300670,10300670,unused number in the slot
+10390003,Frauenchiemsee,2,main,frauenchiemsee,10300694,Frauenaurach,10300696,Frehlinghausen,10300695,10300695,unused number in the slot
+10390004,(Gross-) Enzersdorf,1,main,grossenzersdorf,10300855,Gross-Behringen,10300857,Gross-Erich,10300856,10300856,unused number in the slot
+10390005,Halicz,2,main,halicz,10300904,Haldelene,10300906,Halle,10300905,10300905,unused number in the slot
+10390006,s’Heerhendrikskinderen,1,main,heerhendrikskinderen,10300949,Heelsprunna,10300951,Heesbeen,10300950,10300950,unused number in the slot
+10390007,Klein-Fischlingen,1,main,kleinfischlingen,10301155,Klarenthal,10301157,Klein-Lafferde,10301156,10301156,unused number in the slot
+10390008,Kulmbach,2,main,kulmbach,10301194,Kulm,10301196,Kungsdorff,10301195,10301195,unused number in the slot
+10390009,Lobeda,1,main,lobeda,10301293,Löbau,10301295,Löben,10301294,10301294,unused number in the slot
+10390010,Nicopolis,1,main,nicopolis,10301563,Newnkirchen,10301565,Nidrosien.,10301564,,2 assigned place(s) for 1 unused number(s) here - check the volume
+10391001,Niderratenaw,1,references,niderratenaw,10301563,Newnkirchen,10301565,Nidrosien.,10301564,,2 assigned place(s) for 1 unused number(s) here - check the volume
+10391002,Sanctogallo,1,references,sanctogallo,10301978,de Sanctofloriano,10301980,de Sanctolamberto,10301979,10301979,unused number in the slot
+10390011,Solothurn,2,main,solothurn,10302106,in Solio,10302107,Sömmerda,,,no unused number between the neighbours - check the volume
+10391003,Stain(a)kirchen,1,references,stainakirchen,10302125,Stain,10302126,Stalburg,,,no unused number between the neighbours - check the volume
+10390012,(Unter-)Steinach,1,main,steinach,10302135,Stein,10302137,Steinfeld,10302136,10302136,unused number in the slot
+10390013,"Sulzberg, Val di Sole",1,main,sulzbergvaldisole,10302156,Sulzbach,10302158,Sunbronnen,10302157,10302157,unused number in the slot
+10390014,Tegernheim,1,main,tegernheim,10302195,Tecklenburg,10302197,Telfs,10302196,10302196,unused number in the slot
+10390015,Tongern,2,main,tongern,10302237,Tolosan.,10302239,Torgau,10302238,10302238,unused number in the slot
+10390016,Vilich,2,main,vilich,10302354,Vilhaute,10302356,Villacapelle,10302355,10302355,unused number in the slot
+10390017,Villingen,3,main,villingen,10302360,Viller,10302362,Vilmeringhen,10302361,10302361,unused number in the slot
+10390018,Warnow,1,main,warnow,10302441,Warmien.,10302443,Warschau,10302442,10302442,unused number in the slot
+10390019,(Kl.) Zacken,1,main,zacken,10302600,Zabulum,10302602,Zagrabien.,10302601,10302601,unused number in the slot

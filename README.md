@@ -2,7 +2,7 @@
 
 An end-to-end processing pipeline to extract, repair, standardize, and audit historical gazetteer entries from double-column scans using multimodal LLM vision extraction and rule-based parsing.
 
-**Current output:** 3,543 substantive rows, 3,516 aligned to authority `ort_id`.
+**Current output:** 3,543 substantive rows, 3,516 aligned to authority `ort_id`; merged with 930 reference rows into a single XML of 4,473 `<ort>` entries in printed order (`ortsverzeichnis_vol3_merged.xml`).
 
 ---
 
@@ -59,6 +59,7 @@ Run the pipeline scripts in the exact sequence outlined below.
 | 7 | `fix_spelliings.py` and `fix_reference_spellings.py` | reviewed substantive and reference spelling fixes |
 | 8 | `xml_mapping.py` | refreshed mappings and remaining discrepancies |
 | 9 | `propose_xml.py` | proposed XML for substantive and reference entries |
+| 10 | `merge_xml.py` | `ortsverzeichnis_vol3_merged.xml` + placement/split reports |
 
 ---
 
@@ -278,5 +279,40 @@ python propose_xml.py --references --preview 5
 - **Unmapped-ID report:** `ortsverzeichnis_vol3_references_unmapped.csv`
 
 Each reference CSV row becomes one `<ort>`. Comma-separated place spellings become repeated `<place>` elements, and comma-separated targets become repeated `<reference>` elements. Missing reference IDs are assigned from the reserved `10391001` block, separate from the substantive proposal's `10390001` block, and marked `id_source="assigned"`. The script validates row counts, tag counts, and ID uniqueness after writing.
+
+---
+
+### Step 10: Merge into One XML in Printed Order
+Recombines the substantive XML and the references XML into a single file that follows the order of the printed index.
+
+```bash
+python merge_xml.py
+python merge_xml.py --out merged.xml --report merged_assigned.csv
+python merge_xml.py --no-suggest        # don't write id_suggested attributes
+python merge_xml.py --no-lemma-prefix   # keep <lemma_id> as plain column numbers
+```
+
+- **Inputs:** `ortsverzeichnis_vol3.xml`, `ortsverzeichnis_vol3_references.xml`
+- **Output:** `ortsverzeichnis_vol3_merged.xml` (4,473 `<ort>`, 25 `<index char>` letter groups)
+- **Placement report:** `ortsverzeichnis_vol3_merged_assigned.csv` (where each `id_source="assigned"` entry was placed, with its neighbours)
+- **Split report:** `ortsverzeichnis_vol3_merged_split.csv` (ids that were split between same-named places)
+
+#### How the merge works
+
+* **Ordering by id.** An id such as `10300317-2` encodes the volume (`103`), the headword's running number in the printed index (`00317`, 1–2640, shared across both input files), and the row within the headword (`-2`). Sorting on (running number, row) restores the printed order. The `<index char>` grouping of the input files is ignored for ordering, since it was built from the first letter as written (`St. Gallen` under S, while the volume files it under G).
+* **Splitting shared ids.** The id mapping matched on place name only, so consecutive same-named places (e.g. *Altdorf*, Argent. dioc. / *Altdorf*, Ratisp. dioc.) ended up on one id, leaving the number below it unused. Rows are treated as the same place when `place` and `dioc` match (`name_variant` decides only when a diocese is missing). If an id holds *k* places and the *k*−1 numbers directly below it are free, the earlier places take those numbers and row suffixes restart at 1. Every change is listed in the split report.
+* **Placing assigned entries.** Entries with a reserved id (`1039xxxx`) are placed by name using a sort key learned from the printed index: leading particles ignored (`St.`, `S.`, `de`, `zum`, `s'` …), umlauts/accents folded to the base letter, `ß` → `ss`, I and J treated as one letter, punctuation and spaces ignored, and bracketed prefixes like `(Gross-)` tried both with and without. A slot whose neighbours leave an unused running number is preferred; when a slot has exactly as many free numbers as assigned places, that number is written as `id_suggested="…"`. The reserved id itself is kept.
+* **Lemma ids.** Column numbers in `<lemma_id>` become 8-digit ids (`10300000` + number, e.g. `107` → `10300107`); separators and brackets are kept, so `(233 345)` → `(10300233 10300345)`.
+* **Letter groups.** A new `<index char>` starts only when the next three entries agree on the new letter, so a single out-of-line headword doesn't split a group.
+* **Checks.** The merged file is re-read and compared with the inputs: same `<ort>` count, every id present exactly once, same number of `<place>`, `<reference>` and column numbers, every lemma id equal to its column number + `10300000`, and no letter group split in two.
+
+#### Current results & manual review
+
+22 assigned headwords (30 rows) were placed; 18 received an `id_suggested`. Four still need checking against the volume (note `check the volume` in the placement report):
+
+| Place | Reason |
+|---|---|
+| Nicopolis, Niderratenaw | two assigned places for one unused number (`10301564`) |
+| Solothurn, Stain(a)kirchen | no unused number between the neighbours |
 
 ---
